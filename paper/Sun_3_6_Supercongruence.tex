@@ -1,0 +1,1472 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,array}
+\usepackage[hidelinks]{hyperref}
+\ifdefined\pdfinfoomitdate\pdfinfoomitdate=1\fi
+\ifdefined\pdftrailerid\pdftrailerid{}\fi
+\ifdefined\pdfsuppressptexinfo\pdfsuppressptexinfo=15\fi
+\hypersetup{pdftitle={Sun's supercongruence for two Apery-like binomial sums},
+ pdfauthor={Oleksiy Babanskyy},
+ pdfsubject={A binomial supercongruence, finite differential invariants and modular periods},
+ pdfkeywords={supercongruences, Apery-like sequences, Franel numbers, modular forms, complex multiplication}}
+\pagestyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Z}{\mathbb Z}\newcommand{\Q}{\mathbb Q}
+\newcommand{\C}{\mathbb C}\newcommand{\Fp}{\mathbb F_p}
+\newcommand{\HH}{\mathfrak H}\newcommand{\dd}{\partial}
+\newcommand{\Tp}{\mathcal T_p}
+\newcommand{\leg}[2]{\left(\frac{#1}{#2}\right)}
+\newcommand{\smat}[4]{\begin{pmatrix}#1&#2\\#3&#4\end{pmatrix}}
+\DeclareMathOperator{\ord}{ord}
+\setlength{\emergencystretch}{2em}
+\allowdisplaybreaks
+\title{Sun's supercongruence for two Ap\'ery-like binomial sums}
+\author{Oleksiy Babanskyy}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+Let $f_n=\sum_{j=0}^n\binom nj^3$ and
+$Q_n=\sum_{k=0}^n\binom nk(-8)^{n-k}f_k$.
+We prove that, for every odd prime $p$, the two sums
+$\sum_{n=0}^{p-1}\binom{2n}n Q_n/(-32)^n$ and
+$\sum_{n=0}^{p-1}\binom{2n}n Q_n/64^n$
+are congruent modulo $p^2$ to $4x^2-2p$ when
+$p=x^2+2y^2\equiv1,3\pmod8$, and to zero when
+$p\equiv5,7\pmod8$.
+For inert primes a finite quadratic differential invariant gives ordinary
+and singular lifting results, including a formula for the defect at a
+simple singularity. For split primes we certify the modular period by
+identities of weight eight, construct an integral Hecke polynomial with
+an explicit degree bound, and specialize a finite polynomial identity
+at two complex multiplication points. The coefficient at degree $p$,
+both classes of complex multiplication matrices, and the primes $3$ and
+$5$ are treated explicitly.
+\end{abstract}
+
+\section{The supercongruence and the proof strategy}\label{sec:intro}
+For $n\ge0$ define
+\begin{equation}\label{eq:sequences}
+ f_n=\sum_{j=0}^n\binom nj^3,\qquad
+ Q_n=\sum_{k=0}^n\binom nk(-8)^{n-k}f_k,\qquad
+ g_n=\binom{2n}n Q_n.
+\end{equation}
+The numbers $f_n$ are the Franel numbers. Write
+\begin{equation}\label{eq:series-sums}
+ G(t)=\sum_{n\ge0}g_nt^n,\qquad
+ G_p(t)=\sum_{n=0}^{p-1}g_nt^n,\qquad
+ S_-(p)=G_p(-1/32),\quad S_+(p)=G_p(1/64).
+\end{equation}
+The denominators are units for every odd prime. Congruences between
+$p$-integral rational numbers are interpreted in $\Z_p$.
+The subscript $p$ always denotes truncation at $p-1$.
+
+\begin{theorem}\label{thm:main}
+For every odd prime $p$,
+\begin{equation}\label{eq:main}
+ S_-(p)\equiv S_+(p)\equiv
+ \begin{cases}
+ 4x^2-2p,&p=x^2+2y^2\equiv1,3\pmod8,\\
+ 0,&p\equiv5,7\pmod8
+ \end{cases}
+ \pmod{p^2}.
+\end{equation}
+\end{theorem}
+
+This is Conjecture~3.6 of Zhi-Hong Sun
+\cite[p.~2742]{sun}. The representation by $x^2+2y^2$ is unique up to
+the signs of $x,y$, which do not affect $4x^2-2p$.
+Its existence for $p\equiv1,3\pmod8$ follows from the norm-Euclidean
+ring $\Z[\sqrt{-2}]$ and quadratic reciprocity.
+Indeed, rounding both coordinates gives an error of norm at most
+$1/4+2/4<1$, so this ring is Euclidean. For these primes a root of
+$X^2+2$ modulo $p$ gives a proper nontrivial factor of $(p)$, and a
+generator of that factor has norm $p$.
+
+The sequence in \eqref{eq:sequences} satisfies the integral recurrence
+\begin{equation}\label{eq:Q-recurrence}
+ (n+1)^2Q_{n+1}=(-17n(n+1)-6)Q_n-72n^2Q_{n-1},
+ \qquad Q_0=1,\quad Q_1=-6,
+\end{equation}
+as recorded in \cite[pp.~2729--2730]{sun}.
+Sun's Theorem~3.7 on p.~2740 supplies the input
+\begin{equation}\label{eq:Sun-input}
+ S_-(p)\equiv S_+(p)\equiv0\pmod p
+ \qquad(p>5,\ p\equiv5,7\pmod8).
+\end{equation}
+Although its printed statement includes $p>3$, the proof uses a sum
+with denominator $100^n$. We use it only for $p>5$ and supply an
+autonomous argument for $p=5$ in Section~\ref{sec:inert}.
+
+Section~\ref{sec:invariant} proves the differential invariant and the
+local lifting results. Section~\ref{sec:inert} completes the inert branch.
+The endpoint congruence in Section~\ref{sec:endpoint} concerns individual
+coefficients and is independent of the sums in \eqref{eq:main}.
+Sections~\ref{sec:period} and~\ref{sec:geometry} certify the period,
+its character, its divisors and the two complex multiplication values.
+Section~\ref{sec:Hecke} proves the Hecke orbit and the integral polynomial
+construction, following \cite[Lemma~3.7 and Section~5]{beukers}.
+Section~\ref{sec:finite} derives the finite specialization, with the
+degree-$p$ coefficient included. Section~\ref{sec:split} gives the
+three required matrix constructions and completes the proof.
+All uses of finite modular certificates are accompanied by the
+holomorphy and valence argument that makes them sufficient.
+
+\section{The finite differential invariant and local lifting}
+\label{sec:invariant}
+We first work with an integral sequence $u_n$, parameters $a,b,c\in\Z$,
+and recurrence
+\begin{equation}\label{eq:general-recurrence}
+ u_0=1,\quad u_1=b,\qquad
+ (n+1)^2u_{n+1}=(an(n+1)+b)u_n-cn^2u_{n-1}\quad(n\ge1).
+\end{equation}
+Let $v_n=\binom{2n}n u_n$, $V(t)=\sum_{n\ge0}v_nt^n$ and
+$\theta=t\,d/dt$. The ratios of consecutive central binomial
+coefficients give
+\begin{equation}\label{eq:central-recurrence}
+ n^3v_n=2(2n-1)(an(n-1)+b)v_{n-1}
+ -4c(n-1)(2n-3)(2n-1)v_{n-2}\quad(n\ge1),
+\end{equation}
+where $v_{-1}=0$. Thus $LV=0$, with
+\begin{equation}\label{eq:L}
+ L=\theta^3-2t(2\theta+1)(a\theta^2+a\theta+b)
+       +4ct^2(\theta+1)(2\theta+1)(2\theta+3).
+\end{equation}
+Put $D(t)=1-4at+16ct^2$. With coefficients on the left,
+\begin{align}\label{eq:L-expanded}
+ L={}&D\theta^3+(-6at+48ct^2)\theta^2\notag\\
+ &+(-2(a+2b)t+44ct^2)\theta-2bt+12ct^2.
+\end{align}
+For a polynomial or formal series $Y$, define
+\begin{equation}\label{eq:invariant}
+ I(Y)=D\bigl(2Y\theta^2Y-(\theta Y)^2\bigr)
+       +(\theta D)Y\theta Y+4t(-b+3ct)Y^2.
+\end{equation}
+
+\begin{lemma}\label{lem:Leibniz}
+For every $Y$,
+\begin{equation}\label{eq:Leibniz}
+ \theta I(Y)=2YLY.
+\end{equation}
+In particular $I(V)=0$ in $\Q[[t]]$.
+\end{lemma}
+\begin{proof}
+Set $E=4t(-b+3ct)$. The product rule gives
+\[
+ \theta I(Y)=2DY\theta^3Y+3(\theta D)Y\theta^2Y
+ +(\theta^2D+2E)Y\theta Y+(\theta E)Y^2.
+\]
+The coefficients agree with $2YLY$ in \eqref{eq:L-expanded}.
+Since $LV=0$, $I(V)$ is constant in characteristic zero, and its
+constant term is zero.
+\end{proof}
+
+\begin{proposition}\label{prop:finite-invariant}
+Under \eqref{eq:general-recurrence}, suppose all $u_n$ are integers.
+For every prime $p>3$, the polynomial
+$U(t)=\sum_{n=0}^{p-1}v_nt^n$ satisfies
+\begin{equation}\label{eq:finite-invariant}
+ I(U)\equiv0\pmod{p^2}\quad\text{in }\Z[t],
+ \qquad \deg(U\bmod p)\le\frac{p-1}{2}.
+\end{equation}
+\end{proposition}
+\begin{proof}
+The exact residual of the truncation, from \eqref{eq:central-recurrence}, is
+\begin{equation}\label{eq:LU}
+ LU=-p^3v_pt^p+4cp(2p-1)(2p+1)v_{p-1}t^{p+1}.
+\end{equation}
+The omitted $v_p$ supplies the first term, and the highest remaining
+degree is $p+1$. Since $p\mid\binom{2p-2}{p-1}$ and $u_{p-1}$ is
+integral, $p\mid v_{p-1}$. Hence $LU\equiv0\pmod{p^2}$, and
+\eqref{eq:Leibniz} gives $\theta I(U)\equiv0\pmod{p^2}$.
+
+Here $\deg I(U)\le2p$ and $[t^0]I(U)=0$. For positive degrees other
+than $p,2p$, division by the degree is division by a unit modulo $p^2$.
+The two remaining coefficients must be computed before reduction.
+As $V-U=v_pt^p+O(t^{p+1})$ and $I(V)=0$,
+\begin{equation}\label{eq:resonance-p}
+ [t^p]I(U)=-2p^2v_p.
+\end{equation}
+At this degree the only contribution of the omitted term pairs
+$V(0)=1$ with $\theta^2(v_pt^p)$ in $2V\theta^2V$; all other terms
+have an extra $t$ or a derivative of the constant.
+At degree $2p$, only the highest coefficient of each factor $U$
+contributes. Its scalar multiplier is
+\[
+ 16c(p-1)^2+32c(p-1)+12c=4c(2p-1)(2p+1),
+\]
+so
+\begin{equation}\label{eq:resonance-2p}
+ [t^{2p}]I(U)=4c(2p-1)(2p+1)v_{p-1}^2.
+\end{equation}
+Both coefficients are divisible by $p^2$. This proves the polynomial
+congruence in every degree.
+Finally, $p\mid\binom{2n}n$ for $(p-1)/2<n<p$, proving the degree bound
+after reduction modulo $p$.
+\end{proof}
+
+\begin{remark}\label{rem:upper-indices}
+The half-degree bound in \eqref{eq:finite-invariant} holds modulo $p$.
+The polynomial $U$ in the congruence modulo $p^2$ still includes every
+index $0\le n<p$; its upper coefficients have not been discarded.
+\end{remark}
+
+\begin{lemma}\label{lem:multiplicities}
+Let $\overline U\in\Fp[t]$ be the reduction of $U$ in
+Proposition~\ref{prop:finite-invariant}, and let
+$r\in\overline{\Fp}^{\times}$ be a zero of $\overline U$.
+If $D(r)\ne0$, its multiplicity is exactly two.
+If $D(r)=0$ and $D'(r)\ne0$, its multiplicity is exactly one.
+\end{lemma}
+\begin{proof}
+At an ordinary zero the invariant modulo $p$ implies
+$\theta\overline U(r)=0$, so the multiplicity is at least two.
+The coefficients of the third and second ordinary derivatives in $L$ are
+\begin{equation}\label{eq:ordinary-L-leading}
+ A_3=t^3D,\qquad A_2=3t^2D+\tfrac32t^3D'.
+\end{equation}
+If the multiplicity were $3\le m<p$, write the leading local term as
+$u(t-r)^m$, $u\ne0$. At degree $m-3$, the term $LU$ would have
+coefficient $u r^3D(r)m(m-1)(m-2)\ne0$; the other derivatives
+start in higher degrees. This contradicts $LU\equiv0\pmod p$.
+The nonzero polynomial $\overline U$ has degree less than $p$, so
+larger multiplicities cannot occur.
+
+At a simple zero of $D$, suppose $m\ge2$. By the half-degree bound,
+$m\le(p-1)/2$. In degree $m-2$, the combined leading coefficient
+of the third and second derivatives is
+\[
+ u r^3D'(r)m(m-1)(m-\tfrac12).
+\]
+All remaining terms start at degree at least $m-1$.
+This coefficient is nonzero: the bound excludes the resonance
+$m=(p+1)/2$ as well as $m=0,1$. Hence the zero is simple.
+\end{proof}
+
+\begin{theorem}[Ordinary lifting]\label{thm:ordinary-lift}
+In Proposition~\ref{prop:finite-invariant}, let $t_0\in\Z_p$ with
+$t_0D(t_0)\in\Z_p^\times$. Then
+\[
+ U(t_0)\equiv0\pmod p\quad\Longrightarrow\quad
+ U(t_0)\equiv0\pmod{p^2}.
+\]
+The conclusion holds for every $p$-integral lift of the same residue class.
+\end{theorem}
+\begin{proof}
+Lemma~\ref{lem:multiplicities} shows that the reduced zero is exactly
+double. Therefore $\theta U(t_0)\in p\Z_p$ and
+$\theta^2U(t_0)\in\Z_p^\times$.
+In \eqref{eq:finite-invariant}, all terms at $t_0$ except
+$2D(t_0)U(t_0)\theta^2U(t_0)$ are divisible by $p^2$.
+Its coefficient of $U(t_0)$ is a unit, proving the result.
+The argument applies to every lift of the residue class.
+\end{proof}
+
+\begin{theorem}[Lifting at an exact simple singularity]
+\label{thm:exact-singular-lift}
+In Proposition~\ref{prop:finite-invariant}, let $t_0\in\Z_p^\times$
+with $D(t_0)=0$ exactly and $D'(t_0)\in\Z_p^\times$. Then
+$U(t_0)\equiv0\pmod p$ implies $U(t_0)\equiv0\pmod{p^2}$.
+\end{theorem}
+\begin{proof}
+Lemma~\ref{lem:multiplicities} gives $U'(t_0)\in\Z_p^\times$.
+Since $D(t_0)=0$, the invariant specializes to
+\[
+ U(t_0)\bigl[(\theta D)(t_0)\theta U(t_0)
+              +4t_0(-b+3ct_0)U(t_0)\bigr]\equiv0\pmod{p^2}.
+\]
+The bracket is a unit: its first term is a unit and the second is
+divisible by $p$. Division by this bracket proves the conclusion.
+\end{proof}
+
+\begin{theorem}[The defect at a simple singularity]\label{thm:defect}
+In Proposition~\ref{prop:finite-invariant}, suppose $t_0\in\Z_p^\times$,
+$D(t_0)\equiv U(t_0)\equiv0\pmod p$, and
+$D'(t_0)\in\Z_p^\times$. Then $U'(t_0)$ is a unit and
+\begin{equation}\label{eq:defect}
+ U(t_0)\equiv D(t_0)\frac{U'(t_0)}{D'(t_0)}\pmod{p^2}.
+\end{equation}
+Consequently $U(t_0)\equiv0\pmod{p^2}$ if and only if
+$D(t_0)\equiv0\pmod{p^2}$.
+\end{theorem}
+\begin{proof}
+The unit assertion follows from Lemma~\ref{lem:multiplicities}.
+The terms containing $D(t_0)U(t_0)$ or $U(t_0)^2$ vanish modulo $p^2$
+in the invariant. Thus
+\[
+ -D(t_0)(\theta U(t_0))^2
+ +(\theta D(t_0))U(t_0)\theta U(t_0)\equiv0\pmod{p^2}.
+\]
+Both $\theta U(t_0)=t_0U'(t_0)$ and
+$\theta D(t_0)=t_0D'(t_0)$ are units. Dividing by them gives
+\eqref{eq:defect}. The quotient $U'(t_0)/D'(t_0)$ is a unit, giving
+the equivalence.
+\end{proof}
+
+\begin{corollary}\label{cor:root-discs}
+For a zero $r\in\Fp^\times$ of $\overline U$, if $D(r)\ne0$, all
+$p$ lifts modulo $p^2$ are zeros of $U$ modulo $p^2$.
+If $D(r)=0$ and $D'(r)\ne0$, there is exactly one such lift; it is
+the unique zero of $D$ modulo $p^2$ above $r$.
+\end{corollary}
+\begin{proof}
+The ordinary assertion is Theorem~\ref{thm:ordinary-lift}.
+In the singular case, Theorem~\ref{thm:defect} identifies the two sets
+of zeros. For any lift $\widetilde r$, the congruence
+\[
+ D(\widetilde r+ps)\equiv D(\widetilde r)+psD'(\widetilde r)
+ \pmod{p^2}
+\]
+has exactly one solution $s\in\Fp$.
+\end{proof}
+
+\section{The inert primes, including the prime five}\label{sec:inert}
+For the recurrence \eqref{eq:Q-recurrence}, the parameters are
+$(a,b,c)=(-17,-6,72)$, and
+\begin{equation}\label{eq:D-Q}
+ D(t)=1+68t+1152t^2=(1+32t)(1+36t).
+\end{equation}
+At $t_-=-1/32$, one has $D(t_-)=0$ exactly and
+$t_-D'(t_-)=1/8$.
+Theorem~\ref{thm:exact-singular-lift} applies for every $p>3$.
+At $t_+=1/64$,
+\begin{equation}\label{eq:D-plus}
+ D(t_+)=75/32,\qquad D'(t_+)=104.
+\end{equation}
+For $p>5$ this is an ordinary point, so
+Theorem~\ref{thm:ordinary-lift} applies.
+The input \eqref{eq:Sun-input} therefore gives
+$S_-(p)\equiv S_+(p)\equiv0\pmod{p^2}$ for all inert $p>5$.
+
+For $p=5$, the first three original coefficients are
+$Q_0=1,Q_1=-6,Q_2=42$. The half-degree bound gives, directly,
+\begin{equation}\label{eq:p5-polynomial}
+ G_5(t)\equiv1-12t+252t^2\equiv1+3t+2t^2\pmod5.
+\end{equation}
+This vanishes at $-1/32\equiv2$ and $1/64\equiv4\pmod5$.
+The first point is handled by the exact singular lifting theorem.
+For the second, \eqref{eq:D-plus} gives
+$D(t_+)\equiv0\pmod{25}$ and $D'(t_+)\not\equiv0\pmod5$;
+Theorem~\ref{thm:defect} gives $G_5(1/64)\equiv0\pmod{25}$.
+Equivalently,
+\[
+ \frac1{64}-\left(-\frac1{36}\right)=\frac{25}{576}
+\]
+identifies this point modulo $25$ with the other exact singularity.
+This calculation supplies the initial residue at five without using
+the denominator-$100$ step in the proof of Sun's theorem.
+
+\begin{remark}\label{rem:singular-shift}
+Exact singular lifting need not persist under arbitrary shifts by $p$.
+For example, direct evaluation at $p=7$, $t_-=-1/32$, gives
+\[
+ G_7(t_-)\equiv0\pmod{49},\qquad
+ \theta G_7(t_-)\equiv5\pmod7,\qquad
+ G_7(t_-+7)\equiv7\pmod{49}.
+\]
+The defect formula \eqref{eq:defect} describes the dependence on the lift.
+\end{remark}
+
+\section{The coefficient at degree \texorpdfstring{$p$}{p}}
+\label{sec:endpoint}
+The modular truncation will require $g_p\equiv g_1\pmod{p^2}$.
+This is a congruence for individual coefficients, separate from
+Theorem~\ref{thm:main}.
+
+\begin{lemma}\label{lem:endpoint}
+For every odd prime $p$,
+\begin{equation}\label{eq:endpoint}
+ Q_p\equiv-6\pmod{p^2},\qquad g_p\equiv-12=g_1\pmod{p^2}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+The positive sequence F in Straub's notation is
+\[
+ A_F(n)=\sum_{k=0}^n(-1)^k8^{n-k}\binom nk f_k=(-1)^nQ_n.
+\]
+Straub \cite[p.~5, (10), Theorem~3.2]{straub} proves
+$A_F(p^rn)\equiv A_F(p^{r-1}n)\pmod{p^{2r}}$ for
+$p\ge3$ and $n,r\ge1$. Setting $n=r=1$ gives
+$Q_p=-A_F(p)\equiv-A_F(1)=-6\pmod{p^2}$.
+Also
+\[
+ \binom{2p}p=2\prod_{k=1}^{p-1}(1+p/k)\equiv2\pmod{p^2},
+\]
+because $\sum_{k=1}^{p-1}k^{-1}=0\pmod p$ for every odd prime.
+Multiplication gives the second congruence.
+\end{proof}
+
+The required case can also be seen directly from the exact
+representation of Gorodetsky \cite[p.~4, Proposition~1.2, (1.8)]{gorodetsky}:
+\begin{equation}\label{eq:Gorodetsky}
+ A_F(n)=\sum_{(\mathbf a,\mathbf b,\mathbf c,\mathbf d,\mathbf e)\in T(n)}
+ (-1)^{a_1+b_2+c_3}
+ \binom n{\mathbf a}\binom n{\mathbf b}\binom n{\mathbf c}
+ \binom n{\mathbf d}\binom n{\mathbf e}.
+\end{equation}
+Here each of the five rows is a nonnegative triple of sum $n$, and
+the three columns satisfy
+\[
+ a_i+b_i+c_i+d_i+2e_i=2n\qquad(i=1,2,3).
+\]
+At $n=p$, call a row pure if it is a permutation of $(p,0,0)$.
+Every non-pure row has its multinomial divisible by $p$ and has a
+coordinate nonzero modulo $p$. If it were the only non-pure row,
+the corresponding column equation modulo $p$ would be impossible:
+the pure rows contribute zero and the weight of this coordinate is
+$1$ or $2$, both invertible. Therefore every term with a non-pure
+row has at least two such rows and is divisible by $p^2$.
+
+For the all-pure terms, division of every coordinate by $p$ gives
+a bijection with $T(1)$. Their multinomials are $1$, and their signs
+are preserved since $p$ is odd. Their sum is $A_F(1)=6$.
+Thus \eqref{eq:Gorodetsky} proves the necessary endpoint as well.
+Straub's proof uses this representation; these are two presentations
+of the arithmetic step, with the representation itself attributed
+to Gorodetsky. Neither presentation uses a value of $S_-(p)$ or $S_+(p)$.
+
+\section{An exact modular period}\label{sec:period}
+\subsection{Eta products, divisors and the cusp constants}
+Let $q=e^{2\pi i\tau}$, $\eta_d=\eta(d\tau)$ and
+$\dd=q\,d/dq=(2\pi i)^{-1}d/d\tau$. Define
+\begin{gather}
+ h=\frac{\eta_2\eta_6^5}{\eta_1^5\eta_3},\qquad
+ z=\frac{\eta_1^6\eta_6}{\eta_2^3\eta_3^2},\qquad
+ U_\eta=z^2,\qquad V_\eta=h^2z^2,\notag\\
+ \Theta=U_\eta-72V_\eta=(1-72h^2)z^2,\qquad
+ J=(\eta_1\eta_2\eta_3\eta_6)^2,\notag\\
+ R=\frac{\eta_2^{12}\eta_3^{12}}{\eta_1^{12}\eta_6^{12}},\qquad
+ H_2=\frac{\eta_2^{24}}{\eta_1^{24}}.\label{eq:eta-products}
+\end{gather}
+The subscript in $U_\eta$ distinguishes it from the finite polynomial $U$.
+
+We use the eta-quotient criterion and cusp-order formula in
+\cite[p.~2]{rousewebb}. For an exponent vector $(r_d)_{d\mid6}$,
+the weight is $k=\frac12\sum r_d$. The congruences
+\[
+ \sum_{d\mid6}d r_d\equiv\sum_{d\mid6}(6/d)r_d\equiv0\pmod{24}
+\]
+and the condition that $\prod d^{r_d}$ is a rational square give
+trivial character here, since every weight in the table is even.
+For a cusp with denominator $c\mid6$, its local order is
+\begin{equation}\label{eq:Ligozat}
+ \frac{6}{24\gcd(c^2,6)}
+ \sum_{d\mid6}\frac{\gcd(c,d)^2}{d}r_d.
+\end{equation}
+The cusp representatives are $0,1/2,1/3,\infty$, of widths
+$6,3,2,1$, respectively. The resulting data are
+\begin{center}\small
+\begin{tabular}{c rrrr c c}
+\toprule
+ & $r_1$ & $r_2$ & $r_3$ & $r_6$ & weight & cusp orders\\
+\midrule
+$h$ & $-5$ & $1$ & $-1$ & $5$ & $0$ & $(-1,0,0,1)$\\
+$R$ & $-12$ & $12$ & $12$ & $-12$ & $0$ & $(-1,1,1,-1)$\\
+$H_2$ & $-24$ & $24$ & $0$ & $0$ & $0$ & $(-3,3,-1,1)$\\
+$U_\eta$ & $12$ & $-6$ & $-4$ & $2$ & $2$ & $(2,0,0,0)$\\
+$V_\eta$ & $2$ & $-4$ & $-6$ & $12$ & $2$ & $(0,0,0,2)$\\
+$J$ & $2$ & $2$ & $2$ & $2$ & $4$ & $(1,1,1,1)$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The nonnegative orders show that $U_\eta,V_\eta,J$ are holomorphic
+modular forms. The other products are meromorphic modular functions.
+Eta has no zeros on $\HH$. Thus $h$ has precisely one pole, simple,
+on the compact curve $X_0(6)$, so it is a global coordinate on that
+curve. This also establishes genus zero directly.
+
+The exact phases, derived from the Dedekind transformation law in
+Appendix~\ref{app:cusps}, give
+\begin{equation}\label{eq:cusp-values}
+ h(0)=\infty,\qquad h(1/2)=-1/9,\qquad
+ h(1/3)=-1/8,\qquad h(\infty)=0.
+\end{equation}
+These agree with the data in \cite[Section~8.10]{beukers}.
+
+\begin{lemma}\label{lem:eta-identities}
+The following identities hold:
+\begin{align}
+ R&=h^{-1}+17+72h=\frac{(1+8h)(1+9h)}h,\label{eq:R}\\
+ H_2&=\frac{h(1+9h)^3}{1+8h},\label{eq:H2}\\
+ \Theta&=-\dd\log R.\label{eq:logR}
+\end{align}
+Moreover, $\Theta$ is holomorphic of weight two with trivial
+character on $\Gamma_0(6)$, and is nonzero at every cusp.
+\end{lemma}
+\begin{proof}
+In the coordinate $h$, $R$ has only simple poles at $0$ and $\infty$.
+Consequently it has the form $a/h+b+ch$. The exact expansions
+\[
+ h=q+5q^2+19q^3+O(q^4),\qquad
+ R=q^{-1}+12+78q+O(q^2)
+\]
+determine $a=1,b=17,c=72$. The three-dimensional rational function
+space justifies the sufficiency of this comparison.
+
+By \eqref{eq:cusp-values}, the right side of \eqref{eq:H2} has
+the same divisor as $H_2$: its orders are $(-3,3,-1,1)$.
+There are no other zeros or poles, and both functions have leading
+term $q$ at infinity. Their quotient is a holomorphic nonvanishing
+function on a compact curve, so it is the constant $1$.
+
+The logarithmic derivative $\dd\log R$ is modular of weight two
+on the base group. In the interior it is holomorphic since $R$
+has no zeros or poles there. At a cusp of width $w$, the transformed
+function has expansion $Q^r(c_0+O(Q))$, with
+$Q=e^{2\pi i\tau/w}$, $r=\pm1$ and $c_0\ne0$.
+Its logarithmic derivative has constant term $r/w$ and no negative
+powers. Hence $\Theta+\dd\log R\in M_2(\Gamma_0(6))$.
+The first three coefficients vanish, because both sides of
+\eqref{eq:logR} begin $1-12q-12q^2$.
+
+The index $[\mathrm{SL}_2(\Z):\Gamma_0(6)]=12$ gives valence bound
+$2$ in weight two. A nonzero holomorphic form cannot have order
+greater than $2$ at infinity; see
+\cite[p.~2, Theorem~1.1(1)]{craig} for this classical bound.
+The difference has order at least $3$ and is therefore zero.
+At each cusp the constant term of $\Theta$ is $-r/w\ne0$.
+This proves its nonvanishing without assuming that the two summands
+$U_\eta$ and $72V_\eta$ cannot cancel.
+\end{proof}
+
+\subsection{Two identities of weight eight}
+\begin{lemma}\label{lem:weight8}
+Put $W=\Theta\dd\log J-2\dd\Theta$. Then
+\begin{align}
+ W^2-\Theta^4-68J\Theta^2-1152J^2&=0,\label{eq:P1}\\
+ 2\Theta\dd^2\Theta-3(\dd\Theta)^2+24J\Theta^2+864J^2&=0.
+ \label{eq:P2}
+\end{align}
+\end{lemma}
+\begin{proof}
+For $M=\smat abcd\in\Gamma_0(6)$, set
+$j=c\tau+d$ and $s=c/(2\pi i)$. The chain rule gives
+\begin{align*}
+ (\dd\Theta)(M\tau)&=j^4\dd\Theta+2sj^3\Theta,\\
+ (\dd^2\Theta)(M\tau)&=j^6\dd^2\Theta
+                   +6sj^5\dd\Theta+6s^2j^4\Theta,\\
+ (\dd\log J)(M\tau)&=j^2\dd\log J+4sj.
+\end{align*}
+Therefore $W$ has weight four, and
+$2\Theta\dd^2\Theta-3(\dd\Theta)^2$ has weight eight.
+All derivative anomalies cancel exactly.
+
+These covariant expressions are also holomorphic at the cusps.
+For a cusp matrix $\sigma$, the same chain-rule computation
+expresses their transforms in terms of the holomorphic expansions
+of $\Theta|_2\sigma$ and $J|_4\sigma$. Derivatives introduce no
+negative powers. The logarithmic derivative of $J|_4\sigma$ is
+holomorphic there, since its expansion begins with a nonzero
+constant times a power of the local parameter.
+In the interior $J$ has no zeros. Thus both residuals really belong
+to $M_8(\Gamma_0(6))$ before any coefficient comparison is made.
+
+Appendix~\ref{app:certificates} gives the exact expansions and
+an integer-product algorithm for the coefficients from $q^0$ to
+$q^8$ of both residuals. All eighteen coefficients are zero.
+The valence bound in weight eight is $8\cdot12/12=8$;
+each residual has order at least $9$, so both vanish identically.
+Only the classical holomorphic-form bound is used.
+\end{proof}
+
+\begin{proposition}\label{prop:period}
+Let
+\[
+ P(h)=h(1+8h)(1+9h),\qquad K(h)=(1-72h^2)^2.
+\]
+Then
+\begin{equation}\label{eq:parameter}
+ t=\frac{J}{\Theta^2}=\frac{P(h)}{K(h)}
+   \in q+q^2\Z[[q]],\qquad G(t(q))=\Theta(q).
+\end{equation}
+\end{proposition}
+\begin{proof}
+Comparison of eta exponents gives $J=h^2Rz^4$.
+Equations~\eqref{eq:R} and \eqref{eq:eta-products} give the rational
+expression for $t$. The products have integral expansions and
+$\Theta(0)=1$, so $t\in q+q^2\Z[[q]]$.
+This series has an integral formal inverse $q=q(t)$.
+
+Let $e=\dd\log t=W/\Theta$, a unit formal series.
+The first certificate implies
+\[
+ e^2=D(t)\Theta^2,\qquad D(t)=1+68t+1152t^2.
+\]
+Regard $Y(t)=\Theta(q(t))$ as a series in $t$.
+Then $\dd=e\theta$, and logarithmic differentiation of the last
+identity gives
+\[
+ 2\frac{\theta e}{e}=\frac{\theta D}{D}
+                       +2\frac{\theta Y}{Y}.
+\]
+Substituting $\dd=e\theta$ into \eqref{eq:P2}, dividing by $e^2$,
+and using $J=tY^2$, gives
+\[
+ D\bigl(2Y\theta^2Y-(\theta Y)^2\bigr)
+ +(\theta D)Y\theta Y+(24t+864t^2)Y^2=0.
+\]
+This is $I(Y)=0$ for $(a,b,c)=(-17,-6,72)$.
+By \eqref{eq:Leibniz} and the fact that $Y$ is a unit,
+$LY=0$ in characteristic zero.
+The recurrence \eqref{eq:Q-recurrence} gives $LG=0$ for the same
+operator. At each degree $n\ge1$, the equation determines the new
+coefficient with multiplier $n^3\ne0$. The constant term $1$
+therefore determines a unique formal solution, proving $Y=G$.
+\end{proof}
+
+The period also corresponds to the level-$6$ parametrization of
+Chan--Cooper \cite{chancooper}. In their convention the recurrence
+parameter is $c=-72$, the negative of the $c=72$ in
+\eqref{eq:general-recurrence}. The proof above certifies the period
+directly and does not require that parametrization as an input.
+
+\section{Character, quotient geometry and complex multiplication values}
+\label{sec:geometry}
+For a matrix $M=\smat abcd$ of positive determinant, use
+\begin{equation}\label{eq:slash}
+ (Y|_2M)(\tau)=\det(M)(c\tau+d)^{-2}Y(M\tau).
+\end{equation}
+Scalar matrices act trivially in this convention.
+Set
+\begin{equation}\label{eq:AL-matrices}
+ W_2=\smat{2}{-1}{6}{-2},\qquad
+ W_6=\smat{0}{-1}{6}{0},\qquad
+ \Gamma=\Gamma_0(6)+\langle2,6\rangle.
+\end{equation}
+We regard this full Atkin--Lehner extension projectively.
+The normalizer action on $X_0(6)$ has a quotient of order four.
+For completeness, the conjugation formulas in
+Section~\ref{sec:Hecke} show that both $W_2,W_6$ normalize the base
+group. Also $W_2^2=-2I$, $W_6^2=-6I$ and
+\begin{equation}\label{eq:commutator}
+ W_2W_6(W_6W_2)^{-1}=\smat{5}{2}{12}{5}\in\Gamma_0(6).
+\end{equation}
+Thus the projective quotient has at most four elements.
+The determinant classes modulo squares in $\Q^\times$ are
+$1,2,3,6$, so these four cosets are distinct.
+This is the standard extension used in \cite[Section~3]{beukers}.
+
+\begin{lemma}\label{lem:character}
+The actions on $h$ are
+\begin{equation}\label{eq:AL-actions}
+ \phi_2(h)=-\frac{1+8h}{8(1+9h)},\qquad
+ \phi_6(h)=\frac1{72h}.
+\end{equation}
+The form $\Theta$ has trivial character on $\Gamma_0(6)$ and
+\[
+ \Theta|_2W_2=-\Theta,\qquad \Theta|_2W_6=\Theta.
+\]
+The parameter $t$ is invariant under $\Gamma$.
+\end{lemma}
+\begin{proof}
+Since $h$ is a global coordinate, an automorphism acts on it by a
+M\"obius transformation. Direct action on the cusp fractions shows
+that $W_2$ exchanges $\infty\leftrightarrow1/3$ and
+$0\leftrightarrow1/2$, while $W_6$ exchanges
+$\infty\leftrightarrow0$ and $1/2\leftrightarrow1/3$.
+The four values in \eqref{eq:cusp-values} determine the two
+transformations in \eqref{eq:AL-actions}; three values suffice in each case.
+Exact rational substitution gives
+\[
+ R(\phi_2(h))=R(h)^{-1},\qquad R(\phi_6(h))=R(h),
+ \qquad t(\phi_2(h))=t(\phi_6(h))=t(h).
+\]
+If $R(M\tau)=R(\tau)^\varepsilon$, the chain rule and
+$d(M\tau)/d\tau=\det(M)/(c\tau+d)^2$ imply
+\[
+ (-\dd\log R)|_2M=\varepsilon(-\dd\log R).
+\]
+Equation~\eqref{eq:logR} proves the character assertions.
+The signs follow from the transformation law of $R$.
+\end{proof}
+
+\begin{proposition}\label{prop:geometry}
+The function $t$ is a Hauptmodul for $\Gamma$.
+On $X_0(6)$ its two poles are double, and the zeros of $\Theta$
+in the interior are simple and lie precisely above these poles.
+The form $\Theta$ has no zeros at the cusps.
+An invariant function with at most $m$ factors $\Theta^{-1}$ in
+its denominator, holomorphic numerators and no other poles is a
+polynomial in $t$ of degree at most $\lfloor m/2\rfloor$.
+\end{proposition}
+\begin{proof}
+The polynomials $P$ and $K$ are coprime, and $P/K$ has degree four
+as a map in the base coordinate $h$.
+Its invariance under the quotient of order four makes its degree
+on the quotient curve equal to one, proving the Hauptmodul assertion.
+Its base poles are $h=\pm1/\sqrt{72}$, both double and both away
+from the cusps. The formula $\Theta=(1-72h^2)z^2$, with $z$
+nonzero in the interior, gives simple zeros precisely there.
+The base group has no elliptic torsion: trace zero is impossible
+modulo $3$, and trace $\pm1$ is impossible modulo $2$ for matrices
+of determinant one with lower-left entry divisible by $6$.
+Thus $h$ is an ordinary local coordinate at these points.
+Nonvanishing at the cusps was proved in
+Lemma~\ref{lem:eta-identities}.
+
+The invariant function in the final assertion has no poles on the
+quotient except at $t=\infty$, so it is a polynomial in $t$.
+On the base curve its pole order is at most $m$.
+A polynomial of degree $d$ in $t$ has pole order $2d$ there.
+Hence $2d\le m$, as claimed. This calculation takes place on the
+base curve and does not require integral local orders on the
+orbifold quotient.
+\end{proof}
+
+\begin{lemma}\label{lem:CM-values}
+For $\delta=\sqrt{-2}$ with positive imaginary part, set
+\begin{equation}\label{eq:CM-points}
+ \beta=\delta/2,\qquad\gamma=(2+\delta)/6.
+\end{equation}
+Then
+\begin{equation}\label{eq:CM-values}
+ t(\beta)=1/64,\qquad t(\gamma)=-1/32,
+ \qquad \Theta(\beta)\Theta(\gamma)\ne0.
+\end{equation}
+\end{lemma}
+\begin{proof}
+Since $2\beta=-1/\beta$, the eta inversion formula
+\cite[Section~23.18]{dlmf} gives
+$H_2(\beta)=(-i\beta)^{12}=1/64$.
+Equation~\eqref{eq:H2} therefore gives
+\[
+ 64h(1+9h)^3-(1+8h)
+ =(72h^2+16h+1)(648h^2+72h-1)=0.
+\]
+All eta factors are positive on the imaginary axis, so $h(\beta)>0$.
+It follows that
+$h(\beta)=(\sqrt6-2)/36$, the positive root of the second factor.
+The identity
+\[
+ 64P(h)-K(h)=-(8h^2-8h-1)(648h^2+72h-1)
+\]
+proves $t(\beta)=1/64$.
+
+The equation $6\gamma^2-4\gamma+1=0$ shows that $W_2\gamma=\gamma$.
+Its action on $h$ gives $72h(\gamma)^2+16h(\gamma)+1=0$.
+Now
+\[
+ 32P(h)+K(h)=(72h^2+16h+1)^2
+\]
+proves $t(\gamma)=-1/32$.
+Neither of the two relevant quadratics has a common root with
+$1-72h^2$. Thus the rational denominators and $\Theta$ are nonzero
+at both points. These values follow from exact algebraic identities.
+\end{proof}
+
+\section{The Hecke orbit and an integral polynomial}\label{sec:Hecke}
+\subsection{The orbit for a general prime}
+The following argument makes explicit the level-$6$ case of
+\cite[Lemma~3.7]{beukers}. It uses the weight-two transformation law
+and the trivial character on the base group.
+For $p>3$, let
+\[
+ \mathcal M(6,p)=\{M\in M_2(\Z):\det M=p,\ 6\mid M_{21}\}.
+\]
+\begin{lemma}\label{lem:orbit}
+The left classes modulo $\Gamma_0(6)$ in $\mathcal M(6,p)$ have representatives
+\begin{equation}\label{eq:Hecke-representatives}
+ D_\infty=\smat p001,\qquad
+ D_k=\smat1k0p\quad(0\le k<p).
+\end{equation}
+The group $\Gamma$ permutes the ratios
+$r_D=(\Theta|_2D)/\Theta$ for these $p+1$ representatives.
+\end{lemma}
+\begin{proof}
+For $M=\smat abcd\in\mathcal M(6,p)$, put $r=\gcd(a,c)>0$.
+Then $r\mid p$, so $r=1$ or $p$, and $6\mid c/r$ because $p\nmid6$.
+Choose $u,v$ with $ua+vc=r$. The matrix
+\[
+ L=\smat uv{-c/r}{a/r}\in\Gamma_0(6)
+ \quad\text{gives}\quad
+ LM=\smat r{b'}0{p/r}.
+\]
+A left translation reduces $b'$ modulo $p/r$.
+This gives $D_\infty$ when $r=p$, and a $D_k$ when $r=1$.
+Unimodular row operations preserve $r$. In the latter case,
+$D_lD_k^{-1}=\smat1{(l-k)/p}01$ is integral if and only if
+$k\equiv l\pmod p$, proving distinctness.
+
+Right multiplication and conjugation by base-group elements preserve
+$\mathcal M(6,p)$. For $M=\smat ab{6c}d$, direct multiplication gives
+\begin{align}\label{eq:Hecke-conjugations}
+ W_2^{-1}MW_2
+ &=\begin{pmatrix}
+ -2a-6b+6c+3d&a+2b-3c-d\\
+ -6a-18b+12c+6d&3a+6b-6c-2d
+ \end{pmatrix},\notag\\
+ W_6^{-1}MW_6&=\smat d{-c}{-6b}a.
+\end{align}
+These matrices are integral with determinant $p$ and lower-left
+entry divisible by $6$. The operations are reversible and hence
+permute the left classes. The same formulas with determinant one
+also verify normalization of $\Gamma_0(6)$ as used above.
+
+For a normalizer element $w$, using the slash convention
+\eqref{eq:slash} and its character $\chi(w)$ gives
+\[
+ r_D(w\tau)
+ =\frac{\Theta|_2Dw}{\Theta|_2w}
+ =\frac{\Theta|_2w(w^{-1}Dw)}{\chi(w)\Theta}
+ =\frac{\Theta|_2(w^{-1}Dw)}{\Theta}.
+\]
+Reduction of $w^{-1}Dw$ to a representative $D_j$ uses a matrix
+on the left in $\Gamma_0(6)$, whose character is trivial.
+Thus these transformations permute the ratios.
+The same computation for the base group completes the assertion
+for the whole extension.
+\end{proof}
+
+\subsection{Polynomiality, degree and integral descent}
+\begin{proposition}\label{prop:Hecke}
+For every prime $p>3$ there is a polynomial
+\[
+ \Tp(X,t)=\sum_{m=0}^{p+1}C_m(t)X^m\in\Z[X,t]
+\]
+such that
+\begin{equation}\label{eq:Hecke-product}
+ \Tp(X,t(\tau))=
+ \left(1-\frac{\Theta(p\tau)}{\Theta(\tau)}X\right)
+ \prod_{k=0}^{p-1}
+ \left(p^2-\frac{\Theta((\tau+k)/p)}{\Theta(\tau)}X\right).
+\end{equation}
+Its coefficients satisfy
+\begin{equation}\label{eq:Hecke-properties}
+ \deg C_m\le\lfloor m/2\rfloor,\qquad
+ \Tp\equiv C_pX^p+C_{p+1}X^{p+1}\pmod{p^2},\qquad
+ C_{p+1}\equiv1\pmod p.
+\end{equation}
+\end{proposition}
+\begin{proof}
+The product in \eqref{eq:Hecke-product} equals
+\[
+ p^{2p}\prod_{[D]}\left(1-\frac{\Theta|_2D}{p\Theta}X\right),
+\]
+since $r_{D_\infty}=p\Theta(p\tau)/\Theta(\tau)$ and
+$r_{D_k}=\Theta((\tau+k)/p)/(p\Theta(\tau))$.
+Lemma~\ref{lem:orbit} proves invariance of its coefficients under $\Gamma$.
+
+The numerators $\Theta|_2D$ are holomorphic in the interior and
+at the cusps. To justify the latter assertion, let
+$\sigma\in\mathrm{SL}_2(\Z)$ represent a cusp, and choose
+$\sigma'\in\mathrm{SL}_2(\Z)$ taking infinity to
+the rational cusp $D\sigma\infty$.
+Then $\sigma'^{-1}D\sigma=\smat ab0d$ with $a/d>0$.
+Up to a nonzero constant, the expansion of
+$(\Theta|_2D)|_2\sigma$ is that of $\Theta|_2\sigma'$
+evaluated at $(a\tau+b)/d$.
+Nonnegative exponents remain nonnegative; possible fractional
+local exponents cause no poles.
+The denominator $\Theta$ has nonzero constant term at every cusp.
+Thus the coefficients have no cusp poles, and their only possible
+interior poles lie above $t=\infty$.
+Proposition~\ref{prop:geometry} makes them polynomials in $t$
+and gives the degree bound $\lfloor m/2\rfloor$.
+
+For integral descent, first work in
+$\Z[\zeta_p][[s]]$, where $s=q^{1/p}$ and $\zeta_p$ is a primitive
+$p$th root of unity. All coefficients of $\Theta$ are integers,
+and its constant term is $1$, so its inverse has integral coefficients.
+The symmetry $s\mapsto\zeta_ps$ of the product eliminates powers
+of $s$ not divisible by $p$. Galois substitutions
+$\zeta_p\mapsto\zeta_p^a$ permute the factors and make the resulting
+coefficients rational. They are also algebraic integers, and hence
+the coefficients lie in $\Z[[q]]$.
+Since $t=q+q^2\Z[[q]]$, successive elimination of the lowest
+coefficient of a polynomial in $t$ gives $C_m\in\Z[t]$.
+More explicitly, the coefficient of $q^j$ after removal of the
+terms of lower $t$-degree is exactly the coefficient of $t^j$,
+and is an integer.
+
+For $m<p$, every term contributing to $X^m$ contains at least
+one constant factor $p^2$ from the $p$ finite factors.
+After division by $p^2$, the same symmetries and integral descent
+still apply. Thus $C_m\in p^2\Z[t]$ for $m<p$.
+
+Since $p+1$ is even, the leading coefficient is
+\begin{equation}\label{eq:leading-Hecke}
+ C_{p+1}=
+ \frac{\Theta(q^p)\prod_{k=0}^{p-1}\Theta(\zeta_p^ks)}
+      {\Theta(q)^{p+1}}.
+\end{equation}
+The finite product in the numerator lies in $\Z[[q]]$.
+Modulo $1-\zeta_p$, it equals $\Theta(s)^p$, which in
+characteristic $p$ equals $\Theta(q)$.
+On its already integral rational coefficients,
+$(1-\zeta_p)\Z[\zeta_p]\cap\Z=p\Z$, so this is a congruence
+modulo $p$ in $\Z[[q]]$.
+Also $\Theta(q^p)\equiv\Theta(q)^p\pmod p$.
+Equation~\eqref{eq:leading-Hecke} gives $C_{p+1}\equiv1$ as a series,
+and triangular elimination gives the same congruence in $\Z[t]$.
+\end{proof}
+
+The ratio of a simple zero of $\Theta$ to a double pole of $t$
+is $1/2$. The proof of Proposition~\ref{prop:Hecke} uses exactly
+this bound and a modulus-$p^2$ product argument. It does not apply
+the general modulus-$p^3$ theorem in \cite[Section~5]{beukers},
+whose relevant stronger hypothesis is not satisfied here.
+
+\section{The finite specialization and its degree boundary}\label{sec:finite}
+\begin{theorem}\label{thm:finite-specialization}
+For every prime $p>3$,
+\begin{equation}\label{eq:finite-polynomial}
+ C_p(t)+C_{p+1}(t)G_p(t)\equiv0\pmod{p^2}
+ \quad\text{in }\Z_p[t].
+\end{equation}
+If $t_0\in\Z_p$ and $\alpha$ is an exact unit root in $\Z_p$
+of $\Tp(X,t_0)$, then
+\begin{equation}\label{eq:unit-specialization}
+ G_p(t_0)\equiv\alpha\pmod{p^2}.
+\end{equation}
+\end{theorem}
+\begin{proof}
+The formal unit $\mathcal Q=\Theta(q)/\Theta(q^p)$ is a root of
+\eqref{eq:Hecke-product}. Work in $\Z_p[[t]]$ using the integral
+inverse $q=q(t)$.
+Reducing by \eqref{eq:Hecke-properties} and dividing by
+$\mathcal Q^p$ gives
+\[
+ C_p+C_{p+1}\mathcal Q\equiv0\pmod{p^2}.
+\]
+Write $C_{p+1}=1+pE$, with $E\in\Z[t]$.
+Then
+\begin{equation}\label{eq:comparison-polynomial}
+ \mathcal Q\equiv-(1-pE)C_p\pmod{p^2},\qquad
+ \deg\bigl((1-pE)C_p\bigr)
+ \le\frac{p+1}{2}+\frac{p-1}{2}=p.
+\end{equation}
+The comparison polynomial can have degree $p$, as in Beukers'
+boundary argument \cite[Theorem~6.1]{beukers} for ratio $1/3$
+modulo $p^3$; here the ratio is $1/2$ modulo $p^2$.
+
+Set $t^\sigma=t(q(t)^p)$.
+The initial term $t(q)=q+O(q^2)$ implies
+$t^\sigma=t^p+O(t^{p+1})$.
+The exact period identity \eqref{eq:parameter} gives
+\begin{equation}\label{eq:boundary-series}
+ \mathcal Q=\frac{G(t)}{G(t^\sigma)}
+ =G_p(t)+(g_p-g_1)t^p+O(t^{p+1}).
+\end{equation}
+Lemma~\ref{lem:endpoint} eliminates $g_p-g_1$ modulo $p^2$.
+The polynomial in \eqref{eq:comparison-polynomial} and $G_p$
+therefore have congruent coefficients at every degree from $0$
+through $p$. Both have degree at most $p$, so they are congruent
+as polynomials. Consequently $\mathcal Q\equiv G_p$ as a formal
+series modulo $p^2$, which gives \eqref{eq:finite-polynomial}.
+
+Now use only polynomials. The exact equation $\Tp(\alpha,t_0)=0$
+and \eqref{eq:Hecke-properties} imply
+\[
+ \alpha^p\bigl(C_p(t_0)+C_{p+1}(t_0)\alpha\bigr)
+ \equiv0\pmod{p^2}.
+\]
+Divide by the unit $\alpha^p$ and subtract
+\eqref{eq:finite-polynomial} evaluated at $t_0$.
+Since $C_{p+1}(t_0)\equiv1\pmod p$, it is a unit and
+\eqref{eq:unit-specialization} follows.
+No infinite series is evaluated at a $p$-adic unit parameter,
+and no division by $G_p(t_0)$ is needed.
+\end{proof}
+
+\section{Complex multiplication matrices and the split primes}
+\label{sec:split}
+Let $p>3$ be split, and write $p=x^2+2y^2$ with $x,y>0$.
+Then $x$ is odd, $\gcd(x,y)=1$, and exactly one of $x,y$ is
+divisible by $3$. Indeed, if both were nonzero modulo $3$, then
+$p\equiv1+2=0\pmod3$, and if both vanished then $9\mid p$.
+Keep $\delta=\sqrt{-2}$ and the points \eqref{eq:CM-points}.
+
+\subsection{The point \texorpdfstring{$\gamma$}{gamma}}
+The integer $x+2y$ is coprime to $6y$: it is odd, is coprime to
+$y$, and is nonzero modulo $3$.
+Choose $A,B\in\Z$ satisfying $A(x+2y)+6By=1$, and put
+\begin{equation}\label{eq:M-gamma}
+ M_\gamma=\smat AB{-6y}{x+2y}\in\Gamma_0(6),
+ \qquad k=B(x-2y)-Ay.
+\end{equation}
+The denominator of $M_\gamma\gamma$ is $x-y\delta$.
+Rationalization gives
+\begin{equation}\label{eq:gamma-image}
+ M_\gamma\gamma=\frac{\gamma+k}{p}.
+\end{equation}
+To check both coordinates, the coefficient of $\delta$ in the
+rationalized numerator is
+$\{A(x+2y)+6By\}/6=1/6$.
+The real part is $A(x-y)/3+Bx=1/3+k$, by the same B\'ezout identity.
+
+The weight-two law has trivial character on the base group, so
+\begin{equation}\label{eq:root-gamma}
+ \alpha_\gamma=p^2\frac{\Theta(\gamma)}{\Theta(M_\gamma\gamma)}
+ =\frac{p^2}{(x-y\delta)^2}=(x+y\delta)^2
+\end{equation}
+is an exact root of $\Tp(X,-1/32)$.
+It comes from the factor indexed by $k\bmod p$ in
+\eqref{eq:Hecke-product}; reduction of $k$ is valid since
+$\Theta(\tau+1)=\Theta(\tau)$.
+
+\subsection{The point \texorpdfstring{$\beta$}{beta} when
+\texorpdfstring{$3\mid y$}{3 divides y}}
+Choose $A,B\in\Z$ satisfying $Ax+2By=1$, and define
+\begin{equation}\label{eq:M-beta-y}
+ M_\beta=\smat AB{-2y}x\in\Gamma_0(6),\qquad k=Bx-Ay.
+\end{equation}
+The denominator is $x-y\delta$, and rationalization gives
+$M_\beta\beta=(\beta+k)/p$.
+For clarity, its real numerator is $Bx-Ay=k$, and its
+$\delta$ coefficient is $Ax/2+By=1/2$.
+Thus
+\begin{equation}\label{eq:root-beta-y}
+ \alpha_\beta=p^2\frac{\Theta(\beta)}{\Theta(M_\beta\beta)}
+ =(x+y\delta)^2
+\end{equation}
+is an exact root of $\Tp(X,1/64)$.
+
+\subsection{The point \texorpdfstring{$\beta$}{beta} when
+\texorpdfstring{$3\mid x$}{3 divides x}}
+Choose $A,B\in\Z$ satisfying $2Ay+Bx=1$, and define
+\begin{equation}\label{eq:M-beta-x}
+ M_\beta=\smat{2A}B{-2x}{2y},\qquad \det M_\beta=2,
+ \qquad k=By-Ax.
+\end{equation}
+One has
+\[
+ M_\beta W_2^{-1}
+ =\smat{-2A-3B}{A+B}{2x-6y}{-x+2y}\in\Gamma_0(6),
+\]
+where the lower-left entry is divisible by $6$ because $3\mid x$.
+Therefore $\chi(M_\beta)=-1$.
+The denominator is $2y-x\delta$, of norm $2p$.
+Rationalizing $(A\delta+B)/(2y-x\delta)$ gives real part
+$By-Ax=k$ and $\delta$ coefficient $(2Ay+Bx)/2=1/2$ after
+division by $p$. Hence again $M_\beta\beta=(\beta+k)/p$.
+
+The transformation convention \eqref{eq:slash} gives
+\[
+ \Theta(M\tau)=\frac{\chi(M)}{\det M}(c\tau+d)^2\Theta(\tau).
+\]
+In this case it yields the exact root
+\begin{equation}\label{eq:root-beta-x}
+ \alpha_\beta=p^2\frac{\Theta(\beta)}{\Theta(M_\beta\beta)}
+ =-\frac{2p^2}{(2y-x\delta)^2}=(x-y\delta)^2
+\end{equation}
+of $\Tp(X,1/64)$.
+The last equality uses $2y-x\delta=-\delta(x+y\delta)$ and
+$\delta^2=-2$. Both the negative character and the determinant
+factor are part of this computation.
+
+\subsection{Separate embeddings and the rational trace}
+Each root in \eqref{eq:root-gamma}, \eqref{eq:root-beta-y} and
+\eqref{eq:root-beta-x} has been constructed exactly in $\Q(\delta)$.
+Its polynomial equation has rational coefficients, so it remains
+valid under either embedding into $\Q_p$.
+Since $\leg{-2}p=1$, there are two such embeddings.
+The two factors $x+y\delta$ and $x-y\delta$ have product $p$;
+they cannot both be divisible by $p$, since their sum is $2x$
+and $p\nmid x$. Thus one is a unit and the other has valuation one.
+Choose the embedding in which the factor occurring in the required
+root is a unit. Its conjugate square is zero modulo $p^2$, and
+\begin{equation}\label{eq:CM-trace}
+ (x+y\delta)^2+(x-y\delta)^2=4x^2-2p
+\end{equation}
+shows that the unit root is congruent to $4x^2-2p\pmod{p^2}$.
+
+When $3\mid x$, the roots constructed at $\gamma$ and $\beta$
+are conjugates. They are not both units in a single embedding.
+For $S_-(p)$ choose the embedding making \eqref{eq:root-gamma}
+a unit; for $S_+(p)$ choose the other embedding making
+\eqref{eq:root-beta-x} a unit.
+The sums are rational $p$-integral numbers, and both embeddings
+give the same rational trace in \eqref{eq:CM-trace}.
+Theorem~\ref{thm:finite-specialization}, applied separately to the
+two polynomial equations, proves
+\[
+ S_-(p)\equiv S_+(p)\equiv4x^2-2p\pmod{p^2}
+ \qquad(p>3,\ p\equiv1,3\pmod8).
+\]
+Unit roots have therefore been obtained from the matrices and the
+norm before applying the congruence for the finite sums.
+
+\subsection{The prime three and completion of the proof}
+For $p=3$, the definitions give $Q_0=1,Q_1=-6,Q_2=42$.
+Both sums have addends $1,6,0$ modulo $9$, and hence both equal
+$7\pmod9$. This is $4-2\cdot3$ for $3=1^2+2\cdot1^2$.
+As an additional direct check at five, the original addends are
+\begin{center}
+\begin{tabular}{c l c}
+\toprule
+sum & addends modulo $25$ & total\\
+\midrule
+$S_-(5)$ & $1,16,23,5,5$ & $0$\\
+$S_+(5)$ & $1,17,12,15,5$ & $0$\\
+\bottomrule
+\end{tabular}
+\end{center}
+Section~\ref{sec:inert} proved the inert case for every $p>3$,
+and the preceding matrix argument proved the split case for $p>3$.
+The direct evaluation at three completes Theorem~\ref{thm:main}.
+
+\section{Further consequences and the precision of the result}
+\label{sec:consequences}
+\subsection{The squarefree part of a finite period}
+\begin{proposition}\label{prop:squarefree}
+Under Proposition~\ref{prop:finite-invariant}, suppose $D\bmod p$
+is separable. There are $S,V\in\Fp[t]$ such that
+\[
+ \overline U=S V^2,\qquad S(0)=V(0)=1,
+ \qquad S\mid D,\qquad \gcd(S,V)=1,
+\]
+where $S$ is squarefree. All ordinary zeros of $\overline U$
+are double, and all its zeros on $D$ are simple.
+\end{proposition}
+\begin{proof}
+Lemma~\ref{lem:multiplicities} determines the multiplicities over
+$\overline\Fp$. Zero is not a root, because $\overline U(0)=1$.
+Let $g=\gcd(\overline U,\overline U')$ be monic in $\Fp[t]$.
+Each double root contributes exactly once to $g$, and a simple
+root contributes nothing. Thus $g(0)\ne0$ and
+$V=g/g(0)$ lies in $\Fp[t]$ with constant term $1$.
+The quotient $S=\overline U/V^2$ is a polynomial with constant
+term $1$, whose roots are precisely the remaining simple roots.
+They are roots of $D$, so $S\mid D$. They are disjoint from the
+roots of $V$, proving the last assertions.
+\end{proof}
+
+For the sequence $Q_n$, $D=(1+32t)(1+36t)$ is separable for $p>3$.
+An explicit form of $S$ uses, in addition, Sun's classical
+\emph{Theorem}~3.5 modulo $p$ \cite[p.~2739]{sun}, which determines
+the vanishing of $G_p(-1/36)$ for $p>5$.
+It is an auxiliary source input for the next corollary, not a
+premise of Theorem~\ref{thm:main}. It is distinct from Sun's
+\emph{Conjecture}~3.5 modulo $p^2$.
+
+\begin{corollary}\label{cor:explicit-squarefree}
+For every prime $p>3$, there is $V_p\in\Fp[t]$, $V_p(0)=1$, such that
+\begin{equation}\label{eq:explicit-squarefree}
+ G_p(t)\equiv
+ (1+32t)^{e_2(p)}(1+36t)^{e_3(p)}V_p(t)^2\pmod p,
+\end{equation}
+where
+\[
+ e_2(p)=\frac{1-\leg{-2}p}{2},\qquad
+ e_3(p)=\frac{1-\leg{-3}p}{2}.
+\]
+\end{corollary}
+\begin{proof}
+For $p>5$, Sun's Theorem~3.7 determines whether $-1/32$ is a
+zero, and Theorem~3.5 determines whether $-1/36$ is a zero.
+In each case the inert residue is zero and the split residue is
+$4x^2$, nonzero modulo $p$, with its corresponding quadratic
+representation. Thus these zeros occur exactly when
+$\leg{-2}p=-1$ and $\leg{-3}p=-1$, respectively.
+Proposition~\ref{prop:squarefree} gives the factorization and its
+normalization at zero. For $p=5$, \eqref{eq:p5-polynomial} equals
+$D(t)$ modulo $5$, and both characters are $-1$; take $V_5=1$.
+\end{proof}
+
+\subsection{An exact Fourier trace and two Hecke coefficients}
+\begin{proposition}\label{prop:Fourier-trace}
+The Fourier expansion of the certified period is
+\begin{equation}\label{eq:Fourier}
+ \Theta(q)=\sum_{n\ge0}c_nq^n,\qquad c_0=1,\qquad
+ c_n=-12\sum_{\substack{d\mid n\\(d,6)=1}}d\quad(n\ge1).
+\end{equation}
+For every prime $p>3$,
+\begin{equation}\label{eq:Fourier-trace}
+ p\Theta(q^p)+\frac1p\sum_{k=0}^{p-1}
+ \Theta(\zeta_p^kq^{1/p})=(p+1)\Theta(q).
+\end{equation}
+For the polynomial normalization in \eqref{eq:Hecke-product},
+\begin{equation}\label{eq:C0-C1}
+ C_0=p^{2p},\qquad C_1=-p^{2p-1}(p+1).
+\end{equation}
+\end{proposition}
+\begin{proof}
+Logarithmic differentiation of the eta product $R$ in
+\eqref{eq:logR} gives
+\[
+ c_n=-12\bigl(\sigma_1(n)-2\sigma_1(n/2)
+                  -3\sigma_1(n/3)+6\sigma_1(n/6)\bigr),
+\]
+with $\sigma_1$ set to zero on nonintegral arguments.
+Writing $n=2^a3^bm$, $(m,6)=1$, and using
+$\sigma_1(2^a)-2\sigma_1(2^{a-1})=1$ and the analogous identity
+for $3$, the bracket equals $\sigma_1(m)$.
+This proves \eqref{eq:Fourier} for every coefficient.
+
+The root-of-unity filter makes the coefficient of $q^n$ on the
+left of \eqref{eq:Fourier-trace} equal to
+$p c_{n/p}+c_{pn}$, with $c_{n/p}=0$ for $p\nmid n$.
+For $n>0$, the geometric sum in the $p$-part of the divisor sum
+gives $p c_{n/p}+c_{pn}=(p+1)c_n$.
+For $n=0$, both sides are $p+1$.
+Finally, the product defining $\Tp$ gives $C_0=p^{2p}$ and
+\[
+ C_1=-p^{2p-2}
+ \frac{p^2\Theta(q^p)+\sum_k\Theta(\zeta_p^kq^{1/p})}{\Theta(q)}.
+\]
+The trace identity evaluates this as the constant in
+\eqref{eq:C0-C1}.
+\end{proof}
+
+This trace gives a second method of generating the period coefficients
+and checks the normalization of the Hecke product.
+The degree bound and the finite specialization still require the
+arguments of Sections~\ref{sec:Hecke} and~\ref{sec:finite}.
+
+\subsection{The modulus cannot be raised uniformly to a cube}
+The corresponding equality and inert vanishing modulo $p^3$ fail
+already at $p=7$. Direct calculation from \eqref{eq:sequences} gives
+\begin{equation}\label{eq:p3-limit}
+ G_7(-1/32)\equiv294,\qquad G_7(1/64)\equiv49\pmod{343}.
+\end{equation}
+Both are zero modulo $49$, as Theorem~\ref{thm:main} asserts;
+neither is zero modulo $343$, and the two residues are distinct.
+This example fixes the scope of the stated supercongruence.
+
+\appendix
+\section{Finite certificates for the modular identities}
+\label{app:certificates}
+The certificate in Lemma~\ref{lem:weight8} is an exact coefficient
+calculation coupled with the holomorphic valence bound.
+Let $\ell_J=\dd\log J$ and let $A_8,B_8$ denote the left sides
+of \eqref{eq:P1} and \eqref{eq:P2}. The necessary coefficients are
+\begin{center}\small
+\begin{tabular}{r r r r r r r}
+\toprule
+$n$ & $[q^n]h$ & $[q^n]\Theta$ & $[q^n]J$ & $[q^n]\ell_J$
+ & $[q^n]A_8$ & $[q^n]B_8$\\
+\midrule
+0 & 0 & 1 & 0 & 1 & 0 & 0\\
+1 & 1 & $-12$ & 1 & $-2$ & 0 & 0\\
+2 & 5 & $-12$ & $-2$ & $-10$ & 0 & 0\\
+3 & 19 & $-12$ & $-3$ & $-14$ & 0 & 0\\
+4 & 61 & $-12$ & 4 & $-26$ & 0 & 0\\
+5 & 174 & $-72$ & 6 & $-12$ & 0 & 0\\
+6 & 455 & $-12$ & 6 & $-70$ & 0 & 0\\
+7 & 1112 & $-96$ & $-16$ & $-16$ & 0 & 0\\
+8 & 2573 & $-12$ & $-8$ & $-58$ & 0 & 0\\
+\bottomrule
+\end{tabular}
+\end{center}
+The weight-two comparison in Lemma~\ref{lem:eta-identities} has
+\begin{center}
+\begin{tabular}{r r r r}
+\toprule
+$n$ & $[q^n]\Theta$ & $[q^n](-\dd\log R)$
+ & $[q^n](\Theta+\dd\log R)$\\
+\midrule
+0 & 1 & 1 & 0\\
+1 & $-12$ & $-12$ & 0\\
+2 & $-12$ & $-12$ & 0\\
+\bottomrule
+\end{tabular}
+\end{center}
+These tables can be recomputed entirely from the eta products.
+For an exponent vector $(r_d)$ write
+\begin{equation}\label{eq:eta-product-algorithm}
+ \prod_{d\mid6}\eta_d^{r_d}
+ =q^{\sum d r_d/24}
+  \prod_{d\mid6}\prod_{m\ge1}(1-q^{dm})^{r_d}.
+\end{equation}
+After accounting for the initial shift, only factors with
+$dm\le K$ can affect coefficients through degree $K$.
+Expand each factor by the integral binomial series and multiply
+with truncation after every product. This is a finite exact algorithm.
+
+Alternatively, put $A(q)=\prod_{d\mid6}\prod_{m\ge1}(1-q^{dm})^{r_d}$,
+$A(0)=1$. Its logarithmic derivative is
+\[
+ \frac{\dd A}{A}=\sum_{n\ge1}\ell_nq^n,
+ \qquad
+ \ell_n=-\sum_{\substack{d\mid6\\d\mid n}}
+              r_d d\,\sigma_1(n/d),
+\]
+so its coefficients obey the exact recursion
+\begin{equation}\label{eq:eta-recurrence-algorithm}
+ n A_n=\sum_{j=1}^n\ell_j A_{n-j}.
+\end{equation}
+For the logarithmic derivative required at degree eight, use directly
+\begin{equation}\label{eq:ell-J}
+ \ell_J=1-2\sum_{n\ge1}
+   \left(\sum_{\substack{d\mid6\\d\mid n}}d\,\sigma_1(n/d)\right)q^n.
+\end{equation}
+In particular, the coefficient of degree eight of $\ell_J$ is not
+inferred from the displayed prefix of $J$ alone.
+Ordinary sums, products and the rule $\dd q^n=nq^n$ now reproduce
+all residual entries. The table supplies the complete eighteen
+coefficients needed at weight eight, while the three weight-two
+coefficients suffice at its smaller bound.
+
+\section{Exact eta phases at the two finite cusps}\label{app:cusps}
+We derive the signs in \eqref{eq:cusp-values} from the Dedekind
+eta law \cite[23.18.5--23.18.7]{dlmf}.
+For $c=2,3$, let $\sigma_c=\smat10c1$.
+For $d=1,2,3,6$, put $g=\gcd(c,d)$, $a=d/g$, $c'=c/g$,
+and choose $e,b\in\Z$ with $ae-bc'=1$.
+The exact matrix decomposition is
+\begin{equation}\label{eq:cusp-factorization}
+ \begin{pmatrix}d&0\\c&1\end{pmatrix}
+ =\begin{pmatrix}a&b\\c'&e\end{pmatrix}
+  \begin{pmatrix}g&-b\\0&a\end{pmatrix}.
+\end{equation}
+Let $s(u,v)$ be the Dedekind sum
+\[
+ s(u,v)=\sum_{j=1}^{v-1}
+  \left(\frac jv-\frac12\right)
+  \left(\left\{\frac{uj}{v}\right\}-\frac12\right)
+ \quad(\gcd(u,v)=1,\ v>0),
+\]
+where the empty sum for $v=1$ is zero.
+All summands here have nonintegral $uj/v$.
+Along $\tau=iY$, $Y\to+\infty$, the eta law and its leading term give
+\begin{equation}\label{eq:cusp-eta-asymptotic}
+ \eta(d\sigma_c\tau)\sim
+ \sqrt{\frac gd}\,\sqrt{-i(c\tau+1)}\,
+ e^{\pi i\lambda_{c,d}}q^{g^2/(24d)},\qquad
+ \lambda_{c,d}=\frac{a+e}{12c'}+s(-e,c')-\frac{b}{12a}.
+\end{equation}
+The roots are principal. The scale $g/d$ is positive, and
+$-i(c\tau+1)$ has positive real part along the stated path,
+so the factorization introduces no extra sign.
+
+For $h$ the exponents are $(r_1,r_2,r_3,r_6)=(-5,1,-1,5)$.
+The common square-root factor cancels because $\sum r_d=0$,
+and the $q$ exponent cancels because both cusp orders are zero.
+The following choices give all eight phases explicitly:
+\begin{center}\small
+\begin{tabular}{r r r r r r r r}
+\toprule
+$c$ & $d$ & $g$ & $a$ & $c'$ & $e$ & $b$ & $\lambda_{c,d}$\\
+\midrule
+2 & 1 & 1 & 1 & 2 & 1 & 0 & $1/12$\\
+2 & 2 & 2 & 1 & 1 & 1 & 0 & $1/6$\\
+2 & 3 & 1 & 3 & 2 & 1 & 1 & $5/36$\\
+2 & 6 & 2 & 3 & 1 & 1 & 2 & $5/18$\\
+3 & 1 & 1 & 1 & 3 & 1 & 0 & $0$\\
+3 & 2 & 1 & 2 & 3 & 2 & 1 & $1/8$\\
+3 & 3 & 3 & 1 & 1 & 1 & 0 & $1/6$\\
+3 & 6 & 3 & 2 & 1 & 1 & 1 & $5/24$\\
+\bottomrule
+\end{tabular}
+\end{center}
+Consequently
+\begin{center}
+\begin{tabular}{c c c}
+\toprule
+$c$ & $\sum_{d\mid6}r_d\lambda_{c,d}$
+ & $\prod_{d\mid6}(\gcd(c,d)/d)^{r_d/2}$\\
+\midrule
+2 & 1 & $1/9$\\
+3 & 1 & $1/8$\\
+\bottomrule
+\end{tabular}
+\end{center}
+In each case the total phase is $e^{\pi i}=-1$.
+Therefore $h(1/2)=-1/9$ and $h(1/3)=-1/8$, including their signs.
+
+\section{Companion computations}\label{app:companion}
+The companion software, version~0.1.0, implements the original
+binomial definitions, finite invariants, local lift checks, eta
+products and modular residual calculations, and exact Hecke
+polynomial reconstruction. It also provides bounded regression
+checks of the sums and the complex multiplication matrices.
+Companion repository:
+\begin{center}\small
+\url{https://github.com/aconsciousfractal/Sun-3-6-Supercongruence}
+\end{center}
+The repository README and \texttt{REPRODUCE.md} give the verification
+and build instructions. The coefficient algorithms in
+Appendix~\ref{app:certificates} and the exact phase tables in
+Appendix~\ref{app:cusps} specify the finite certificates used in
+the proof. Tests over bounded sets of primes serve as regression
+checks; the all-prime conclusion follows from the arguments above.
+The evidence inventory is \texttt{EVIDENCE\_SHA256.txt}; its SHA-256 is
+\begin{center}\footnotesize\ttfamily
+\detokenize{47f214dfbf8133220e57c1a67ade26d09c0343fe17df719e38ad98c26a86f1c8}
+\end{center}
+The inventory identifies companion code, tests, configuration and
+exact evidence, excluding the manuscript and prose that quote the digest.
+
+\begin{thebibliography}{9}
+\bibitem{sun}
+Zhi-Hong Sun,
+\emph{Supercongruences involving Ap\'ery-like numbers and binomial coefficients},
+AIMS Mathematics \textbf{7}(2) (2022), 2729--2781.
+\href{https://doi.org/10.3934/math.2022153}{doi:10.3934/math.2022153}.
+Definitions and recurrence, pp.~2729--2730;
+Theorems~3.5 and~3.7, pp.~2739--2740;
+Conjecture~3.6, p.~2742.
+
+\bibitem{beukers}
+Frits Beukers,
+\emph{Supercongruences using modular forms},
+arXiv:2403.03301v3, 16 June 2025.
+\url{https://arxiv.org/abs/2403.03301v3}.
+Section~3, pp.~16--18, especially Lemma~3.7;
+Section~5, pp.~20--22; Theorem~6.1, p.~24; Section~8.10, p.~28.
+
+\bibitem{straub}
+Armin Straub,
+\emph{Gessel--Lucas congruences for sporadic sequences},
+arXiv:2301.12248v1, 28 January 2023.
+\url{https://arxiv.org/abs/2301.12248v1}.
+Equation~(10) and Theorem~3.2, p.~5; proof, pp.~6--7.
+The positive sequence is $A_F(n)=(-1)^nQ_n$.
+Journal publication: Monatshefte f\"ur Mathematik \textbf{203}
+(2024), 883--898,
+\href{https://doi.org/10.1007/s00605-023-01894-3}{doi:10.1007/s00605-023-01894-3}.
+The proof locators refer to the specified arXiv version.
+
+\bibitem{gorodetsky}
+Ofir Gorodetsky,
+\emph{New representations for all sporadic Ap\'ery-like sequences,
+with applications to congruences},
+arXiv:2102.11839v2, 5 January 2025.
+\url{https://arxiv.org/abs/2102.11839v2}.
+Proposition~1.2, equation~(1.8), p.~4;
+Proposition~3.3 and row F, p.~10; multinomial derivation, p.~12.
+Journal publication: Experimental Mathematics \textbf{32}(4)
+(2023), 641--656,
+\href{https://doi.org/10.1080/10586458.2021.1982080}{doi:10.1080/10586458.2021.1982080}.
+The locators above refer to the specified arXiv version.
+
+\bibitem{rousewebb}
+Jeremy Rouse and John J. Webb,
+\emph{On spaces of modular forms spanned by eta-quotients},
+arXiv:1311.1460v3, 14 November 2014.
+\url{https://arxiv.org/abs/1311.1460v3}.
+Eta-quotient criterion and cusp-order formula, p.~2.
+Journal publication: Advances in Mathematics \textbf{272} (2015), 200--224.
+\href{https://doi.org/10.1016/j.aim.2014.12.002}{doi:10.1016/j.aim.2014.12.002}.
+
+\bibitem{craig}
+William Craig,
+\emph{New Types of Sturm bounds via $p$-adic transfer methods},
+arXiv:2602.10240v1, 10 February 2026.
+\url{https://arxiv.org/abs/2602.10240v1}.
+Only the classical holomorphic-form bound in
+Theorem~1.1(1), p.~2, is used.
+
+\bibitem{dlmf}
+NIST Digital Library of Mathematical Functions,
+Section~23.18, \emph{Modular Transformations},
+equations 23.18.5--23.18.7.
+\url{https://dlmf.nist.gov/23.18}.
+
+\bibitem{chancooper}
+Heng Huat Chan and Shaun Cooper,
+\emph{Rational analogues of Ramanujan's series for $1/\pi$},
+Mathematical Proceedings of the Cambridge Philosophical Society
+\textbf{153}(2) (2012), 361--383.
+\href{https://doi.org/10.1017/S0305004112000254}{doi:10.1017/S0305004112000254}.
+The level-$6$ parametrization is cited for comparison; it is not
+needed for the direct period certification.
+\end{thebibliography}
+\end{document}

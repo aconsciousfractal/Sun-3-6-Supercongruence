@@ -1,0 +1,9598 @@
+{
+  "bound_inclusive": 1999,
+  "cm_matrices": [
+    {
+      "M": [
+        -1,
+        1,
+        -6,
+        5
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 2,
+      "norm": 121,
+      "p": 11,
+      "point": "gamma",
+      "trace": 14,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 1,
+      "z_delta": 6,
+      "z_rational": 7
+    },
+    {
+      "M": [
+        -2,
+        1,
+        -6,
+        2
+      ],
+      "base_matrix": [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 4,
+      "norm": 121,
+      "p": 11,
+      "point": "beta",
+      "trace": 14,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 1,
+      "z_delta": -6,
+      "z_rational": 7
+    },
+    {
+      "M": [
+        -5,
+        3,
+        -12,
+        7
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 7,
+      "norm": 289,
+      "p": 17,
+      "point": "gamma",
+      "trace": 2,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 2,
+      "z_delta": 12,
+      "z_rational": 1
+    },
+    {
+      "M": [
+        2,
+        -1,
+        -6,
+        4
+      ],
+      "base_matrix": [
+        1,
+        0,
+        -6,
+        1
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -5,
+      "norm": 289,
+      "p": 17,
+      "point": "beta",
+      "trace": 2,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 2,
+      "z_delta": -12,
+      "z_rational": 1
+    },
+    {
+      "M": [
+        -5,
+        2,
+        -18,
+        7
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 5,
+      "norm": 361,
+      "p": 19,
+      "point": "gamma",
+      "trace": -34,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 3,
+      "z_delta": 6,
+      "z_rational": -17
+    },
+    {
+      "M": [
+        1,
+        0,
+        -6,
+        1
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -3,
+      "norm": 361,
+      "p": 19,
+      "point": "beta",
+      "trace": -34,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 3,
+      "z_delta": 6,
+      "z_rational": -17
+    },
+    {
+      "M": [
+        11,
+        -5,
+        -24,
+        11
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -19,
+      "norm": 1681,
+      "p": 41,
+      "point": "gamma",
+      "trace": -46,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 4,
+      "z_delta": 24,
+      "z_rational": -23
+    },
+    {
+      "M": [
+        -2,
+        3,
+        -6,
+        8
+      ],
+      "base_matrix": [
+        -7,
+        2,
+        -18,
+        5
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 15,
+      "norm": 1681,
+      "p": 41,
+      "point": "beta",
+      "trace": -46,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 4,
+      "z_delta": -24,
+      "z_rational": -23
+    },
+    {
+      "M": [
+        5,
+        -3,
+        -18,
+        11
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -12,
+      "norm": 1849,
+      "p": 43,
+      "point": "gamma",
+      "trace": 14,
+      "unit_sign": 1,
+      "x": 5,
+      "y": 3,
+      "z_delta": 30,
+      "z_rational": 7
+    },
+    {
+      "M": [
+        -1,
+        1,
+        -6,
+        5
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 8,
+      "norm": 1849,
+      "p": 43,
+      "point": "beta",
+      "trace": 14,
+      "unit_sign": 1,
+      "x": 5,
+      "y": 3,
+      "z_delta": 30,
+      "z_rational": 7
+    },
+    {
+      "M": [
+        7,
+        -3,
+        -30,
+        13
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -14,
+      "norm": 3481,
+      "p": 59,
+      "point": "gamma",
+      "trace": -82,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 5,
+      "z_delta": 30,
+      "z_rational": -41
+    },
+    {
+      "M": [
+        2,
+        -3,
+        -6,
+        10
+      ],
+      "base_matrix": [
+        7,
+        -2,
+        -24,
+        7
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -18,
+      "norm": 3481,
+      "p": 59,
+      "point": "beta",
+      "trace": -82,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 5,
+      "z_delta": -30,
+      "z_rational": -41
+    },
+    {
+      "M": [
+        7,
+        -5,
+        -18,
+        13
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -26,
+      "norm": 4489,
+      "p": 67,
+      "point": "gamma",
+      "trace": 62,
+      "unit_sign": 1,
+      "x": 7,
+      "y": 3,
+      "z_delta": 42,
+      "z_rational": 31
+    },
+    {
+      "M": [
+        1,
+        -1,
+        -6,
+        7
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -10,
+      "norm": 4489,
+      "p": 67,
+      "point": "beta",
+      "trace": 62,
+      "unit_sign": 1,
+      "x": 7,
+      "y": 3,
+      "z_delta": 42,
+      "z_rational": 31
+    },
+    {
+      "M": [
+        -11,
+        4,
+        -36,
+        13
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 22,
+      "norm": 5329,
+      "p": 73,
+      "point": "gamma",
+      "trace": -142,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 6,
+      "z_delta": 12,
+      "z_rational": -71
+    },
+    {
+      "M": [
+        1,
+        0,
+        -12,
+        1
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -6,
+      "norm": 5329,
+      "p": 73,
+      "point": "beta",
+      "trace": -142,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 6,
+      "z_delta": 12,
+      "z_rational": -71
+    },
+    {
+      "M": [
+        -1,
+        2,
+        -6,
+        11
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 15,
+      "norm": 6889,
+      "p": 83,
+      "point": "gamma",
+      "trace": 158,
+      "unit_sign": 1,
+      "x": 9,
+      "y": 1,
+      "z_delta": 18,
+      "z_rational": 79
+    },
+    {
+      "M": [
+        -8,
+        1,
+        -18,
+        2
+      ],
+      "base_matrix": [
+        5,
+        -3,
+        12,
+        -7
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 37,
+      "norm": 6889,
+      "p": 83,
+      "point": "beta",
+      "trace": 158,
+      "unit_sign": -1,
+      "x": 9,
+      "y": 1,
+      "z_delta": -18,
+      "z_rational": 79
+    },
+    {
+      "M": [
+        1,
+        -1,
+        -12,
+        13
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -7,
+      "norm": 7921,
+      "p": 89,
+      "point": "gamma",
+      "trace": 146,
+      "unit_sign": 1,
+      "x": 9,
+      "y": 2,
+      "z_delta": 36,
+      "z_rational": 73
+    },
+    {
+      "M": [
+        -4,
+        1,
+        -18,
+        4
+      ],
+      "base_matrix": [
+        1,
+        -1,
+        6,
+        -5
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 20,
+      "norm": 7921,
+      "p": 89,
+      "point": "beta",
+      "trace": 146,
+      "unit_sign": -1,
+      "x": 9,
+      "y": 2,
+      "z_delta": -36,
+      "z_rational": 73
+    },
+    {
+      "M": [
+        17,
+        -8,
+        -36,
+        17
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -46,
+      "norm": 9409,
+      "p": 97,
+      "point": "gamma",
+      "trace": -94,
+      "unit_sign": 1,
+      "x": 5,
+      "y": 6,
+      "z_delta": 60,
+      "z_rational": -47
+    },
+    {
+      "M": [
+        5,
+        -2,
+        -12,
+        5
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -40,
+      "norm": 9409,
+      "p": 97,
+      "point": "beta",
+      "trace": -94,
+      "unit_sign": 1,
+      "x": 5,
+      "y": 6,
+      "z_delta": 60,
+      "z_rational": -47
+    },
+    {
+      "M": [
+        5,
+        -2,
+        -42,
+        17
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -13,
+      "norm": 11449,
+      "p": 107,
+      "point": "gamma",
+      "trace": -178,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 7,
+      "z_delta": 42,
+      "z_rational": -89
+    },
+    {
+      "M": [
+        -2,
+        5,
+        -6,
+        14
+      ],
+      "base_matrix": [
+        -13,
+        4,
+        -36,
+        11
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 38,
+      "norm": 11449,
+      "p": 107,
+      "point": "beta",
+      "trace": -178,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 7,
+      "z_delta": -42,
+      "z_rational": -89
+    },
+    {
+      "M": [
+        -7,
+        5,
+        -24,
+        17
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 33,
+      "norm": 12769,
+      "p": 113,
+      "point": "gamma",
+      "trace": 98,
+      "unit_sign": 1,
+      "x": 9,
+      "y": 4,
+      "z_delta": 72,
+      "z_rational": 49
+    },
+    {
+      "M": [
+        -2,
+        1,
+        -18,
+        8
+      ],
+      "base_matrix": [
+        -1,
+        0,
+        -6,
+        -1
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 13,
+      "norm": 12769,
+      "p": 113,
+      "point": "beta",
+      "trace": 98,
+      "unit_sign": -1,
+      "x": 9,
+      "y": 4,
+      "z_delta": -72,
+      "z_rational": 49
+    },
+    {
+      "M": [
+        -11,
+        7,
+        -30,
+        19
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 48,
+      "norm": 17161,
+      "p": 131,
+      "point": "gamma",
+      "trace": 62,
+      "unit_sign": 1,
+      "x": 9,
+      "y": 5,
+      "z_delta": 90,
+      "z_rational": 31
+    },
+    {
+      "M": [
+        2,
+        -1,
+        -18,
+        10
+      ],
+      "base_matrix": [
+        1,
+        0,
+        -12,
+        1
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -14,
+      "norm": 17161,
+      "p": 131,
+      "point": "beta",
+      "trace": 62,
+      "unit_sign": -1,
+      "x": 9,
+      "y": 5,
+      "z_delta": -90,
+      "z_rational": 31
+    },
+    {
+      "M": [
+        -5,
+        2,
+        -48,
+        19
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 14,
+      "norm": 18769,
+      "p": 137,
+      "point": "gamma",
+      "trace": -238,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 8,
+      "z_delta": 48,
+      "z_rational": -119
+    },
+    {
+      "M": [
+        2,
+        -5,
+        -6,
+        16
+      ],
+      "base_matrix": [
+        13,
+        -4,
+        -42,
+        13
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -43,
+      "norm": 18769,
+      "p": 137,
+      "point": "beta",
+      "trace": -238,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 8,
+      "z_delta": -48,
+      "z_rational": -119
+    },
+    {
+      "M": [
+        -1,
+        1,
+        -18,
+        17
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 8,
+      "norm": 19321,
+      "p": 139,
+      "point": "gamma",
+      "trace": 206,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 3,
+      "z_delta": 66,
+      "z_rational": 103
+    },
+    {
+      "M": [
+        -1,
+        2,
+        -6,
+        11
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 25,
+      "norm": 19321,
+      "p": 139,
+      "point": "beta",
+      "trace": 206,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 3,
+      "z_delta": 66,
+      "z_rational": 103
+    },
+    {
+      "M": [
+        -17,
+        6,
+        -54,
+        19
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 51,
+      "norm": 26569,
+      "p": 163,
+      "point": "gamma",
+      "trace": -322,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 9,
+      "z_delta": 18,
+      "z_rational": -161
+    },
+    {
+      "M": [
+        1,
+        0,
+        -18,
+        1
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -9,
+      "norm": 26569,
+      "p": 163,
+      "point": "beta",
+      "trace": -322,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 9,
+      "z_delta": 18,
+      "z_rational": -161
+    },
+    {
+      "M": [
+        11,
+        -6,
+        -42,
+        23
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -47,
+      "norm": 32041,
+      "p": 179,
+      "point": "gamma",
+      "trace": -34,
+      "unit_sign": 1,
+      "x": 9,
+      "y": 7,
+      "z_delta": 126,
+      "z_rational": -17
+    },
+    {
+      "M": [
+        4,
+        -3,
+        -18,
+        14
+      ],
+      "base_matrix": [
+        5,
+        -1,
+        -24,
+        5
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -39,
+      "norm": 32041,
+      "p": 179,
+      "point": "beta",
+      "trace": -34,
+      "unit_sign": -1,
+      "x": 9,
+      "y": 7,
+      "z_delta": -126,
+      "z_rational": -17
+    },
+    {
+      "M": [
+        11,
+        -7,
+        -36,
+        23
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -59,
+      "norm": 37249,
+      "p": 193,
+      "point": "gamma",
+      "trace": 98,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 6,
+      "z_delta": 132,
+      "z_rational": 49
+    },
+    {
+      "M": [
+        -1,
+        1,
+        -12,
+        11
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 17,
+      "norm": 37249,
+      "p": 193,
+      "point": "beta",
+      "trace": 98,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 6,
+      "z_delta": 132,
+      "z_rational": 49
+    },
+    {
+      "M": [
+        13,
+        -6,
+        -54,
+        25
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -51,
+      "norm": 44521,
+      "p": 211,
+      "point": "gamma",
+      "trace": -226,
+      "unit_sign": 1,
+      "x": 7,
+      "y": 9,
+      "z_delta": 126,
+      "z_rational": -113
+    },
+    {
+      "M": [
+        -5,
+        2,
+        -18,
+        7
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 59,
+      "norm": 44521,
+      "p": 211,
+      "point": "beta",
+      "trace": -226,
+      "unit_sign": 1,
+      "x": 7,
+      "y": 9,
+      "z_delta": 126,
+      "z_rational": -113
+    },
+    {
+      "M": [
+        -1,
+        3,
+        -6,
+        17
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 40,
+      "norm": 51529,
+      "p": 227,
+      "point": "gamma",
+      "trace": 446,
+      "unit_sign": 1,
+      "x": 15,
+      "y": 1,
+      "z_delta": 30,
+      "z_rational": 223
+    },
+    {
+      "M": [
+        -14,
+        1,
+        -30,
+        2
+      ],
+      "base_matrix": [
+        11,
+        -6,
+        24,
+        -13
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 106,
+      "norm": 51529,
+      "p": 227,
+      "point": "beta",
+      "trace": 446,
+      "unit_sign": -1,
+      "x": 15,
+      "y": 1,
+      "z_delta": -30,
+      "z_rational": 223
+    },
+    {
+      "M": [
+        -5,
+        8,
+        -12,
+        19
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 98,
+      "norm": 54289,
+      "p": 233,
+      "point": "gamma",
+      "trace": 434,
+      "unit_sign": 1,
+      "x": 15,
+      "y": 2,
+      "z_delta": 60,
+      "z_rational": 217
+    },
+    {
+      "M": [
+        8,
+        -1,
+        -30,
+        4
+      ],
+      "base_matrix": [
+        -5,
+        3,
+        18,
+        -11
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -62,
+      "norm": 54289,
+      "p": 233,
+      "point": "beta",
+      "trace": 434,
+      "unit_sign": -1,
+      "x": 15,
+      "y": 2,
+      "z_delta": -60,
+      "z_rational": 217
+    },
+    {
+      "M": [
+        13,
+        -9,
+        -36,
+        25
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -87,
+      "norm": 58081,
+      "p": 241,
+      "point": "gamma",
+      "trace": 194,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 6,
+      "z_delta": 156,
+      "z_rational": 97
+    },
+    {
+      "M": [
+        1,
+        -1,
+        -12,
+        13
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -19,
+      "norm": 58081,
+      "p": 241,
+      "point": "beta",
+      "trace": 194,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 6,
+      "z_delta": 156,
+      "z_rational": 97
+    },
+    {
+      "M": [
+        -29,
+        11,
+        -66,
+        25
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 110,
+      "norm": 63001,
+      "p": 251,
+      "point": "gamma",
+      "trace": -466,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 11,
+      "z_delta": 66,
+      "z_rational": -233
+    },
+    {
+      "M": [
+        2,
+        -7,
+        -6,
+        22
+      ],
+      "base_matrix": [
+        19,
+        -6,
+        -60,
+        19
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -80,
+      "norm": 63001,
+      "p": 251,
+      "point": "beta",
+      "trace": -466,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 11,
+      "z_delta": -66,
+      "z_rational": -233
+    },
+    {
+      "M": [
+        -1,
+        1,
+        -24,
+        23
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 11,
+      "norm": 66049,
+      "p": 257,
+      "point": "gamma",
+      "trace": 386,
+      "unit_sign": 1,
+      "x": 15,
+      "y": 4,
+      "z_delta": 120,
+      "z_rational": 193
+    },
+    {
+      "M": [
+        4,
+        -1,
+        -30,
+        8
+      ],
+      "base_matrix": [
+        -1,
+        1,
+        6,
+        -7
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -34,
+      "norm": 66049,
+      "p": 257,
+      "point": "beta",
+      "trace": 386,
+      "unit_sign": -1,
+      "x": 15,
+      "y": 4,
+      "z_delta": -120,
+      "z_rational": 193
+    },
+    {
+      "M": [
+        29,
+        -14,
+        -60,
+        29
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -136,
+      "norm": 78961,
+      "p": 281,
+      "point": "gamma",
+      "trace": -238,
+      "unit_sign": 1,
+      "x": 9,
+      "y": 10,
+      "z_delta": 180,
+      "z_rational": -119
+    },
+    {
+      "M": [
+        -8,
+        9,
+        -18,
+        20
+      ],
+      "base_matrix": [
+        -19,
+        5,
+        -42,
+        11
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 126,
+      "norm": 78961,
+      "p": 281,
+      "point": "beta",
+      "trace": -238,
+      "unit_sign": -1,
+      "x": 9,
+      "y": 10,
+      "z_delta": -180,
+      "z_rational": -119
+    },
+    {
+      "M": [
+        -13,
+        7,
+        -54,
+        29
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 68,
+      "norm": 80089,
+      "p": 283,
+      "point": "gamma",
+      "trace": -82,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 9,
+      "z_delta": 198,
+      "z_rational": -41
+    },
+    {
+      "M": [
+        5,
+        -3,
+        -18,
+        11
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -78,
+      "norm": 80089,
+      "p": 283,
+      "point": "beta",
+      "trace": -82,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 9,
+      "z_delta": 198,
+      "z_rational": -41
+    },
+    {
+      "M": [
+        -7,
+        9,
+        -18,
+        23
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 120,
+      "norm": 94249,
+      "p": 307,
+      "point": "gamma",
+      "trace": 542,
+      "unit_sign": 1,
+      "x": 17,
+      "y": 3,
+      "z_delta": 102,
+      "z_rational": 271
+    },
+    {
+      "M": [
+        -1,
+        3,
+        -6,
+        17
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 54,
+      "norm": 94249,
+      "p": 307,
+      "point": "beta",
+      "trace": 542,
+      "unit_sign": 1,
+      "x": 17,
+      "y": 3,
+      "z_delta": 102,
+      "z_rational": 271
+    },
+    {
+      "M": [
+        5,
+        -2,
+        -72,
+        29
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -22,
+      "norm": 97969,
+      "p": 313,
+      "point": "gamma",
+      "trace": -526,
+      "unit_sign": 1,
+      "x": 5,
+      "y": 12,
+      "z_delta": 120,
+      "z_rational": -263
+    },
+    {
+      "M": [
+        5,
+        -1,
+        -24,
+        5
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -65,
+      "norm": 97969,
+      "p": 313,
+      "point": "beta",
+      "trace": -526,
+      "unit_sign": 1,
+      "x": 5,
+      "y": 12,
+      "z_delta": 120,
+      "z_rational": -263
+    },
+    {
+      "M": [
+        7,
+        -4,
+        -54,
+        31
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -43,
+      "norm": 109561,
+      "p": 331,
+      "point": "gamma",
+      "trace": 14,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 9,
+      "z_delta": 234,
+      "z_rational": 7
+    },
+    {
+      "M": [
+        7,
+        -5,
+        -18,
+        13
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -128,
+      "norm": 109561,
+      "p": 331,
+      "point": "beta",
+      "trace": 14,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 9,
+      "z_delta": 234,
+      "z_rational": 7
+    },
+    {
+      "M": [
+        7,
+        -3,
+        -72,
+        31
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -33,
+      "norm": 113569,
+      "p": 337,
+      "point": "gamma",
+      "trace": -478,
+      "unit_sign": 1,
+      "x": 7,
+      "y": 12,
+      "z_delta": 168,
+      "z_rational": -239
+    },
+    {
+      "M": [
+        7,
+        -2,
+        -24,
+        7
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -98,
+      "norm": 113569,
+      "p": 337,
+      "point": "beta",
+      "trace": -478,
+      "unit_sign": 1,
+      "x": 7,
+      "y": 12,
+      "z_delta": 168,
+      "z_rational": -239
+    },
+    {
+      "M": [
+        35,
+        -13,
+        -78,
+        29
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -156,
+      "norm": 120409,
+      "p": 347,
+      "point": "gamma",
+      "trace": -658,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 13,
+      "z_delta": 78,
+      "z_rational": -329
+    },
+    {
+      "M": [
+        -2,
+        9,
+        -6,
+        26
+      ],
+      "base_matrix": [
+        -25,
+        8,
+        -72,
+        23
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 120,
+      "norm": 120409,
+      "p": 347,
+      "point": "beta",
+      "trace": -658,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 13,
+      "z_delta": -78,
+      "z_rational": -329
+    },
+    {
+      "M": [
+        -17,
+        11,
+        -48,
+        31
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 125,
+      "norm": 124609,
+      "p": 353,
+      "point": "gamma",
+      "trace": 194,
+      "unit_sign": 1,
+      "x": 15,
+      "y": 8,
+      "z_delta": 240,
+      "z_rational": 97
+    },
+    {
+      "M": [
+        2,
+        -1,
+        -30,
+        16
+      ],
+      "base_matrix": [
+        1,
+        0,
+        -18,
+        1
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -23,
+      "norm": 124609,
+      "p": 353,
+      "point": "beta",
+      "trace": 194,
+      "unit_sign": -1,
+      "x": 15,
+      "y": 8,
+      "z_delta": -240,
+      "z_rational": 97
+    },
+    {
+      "M": [
+        -5,
+        7,
+        -18,
+        25
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 106,
+      "norm": 143641,
+      "p": 379,
+      "point": "gamma",
+      "trace": 686,
+      "unit_sign": 1,
+      "x": 19,
+      "y": 3,
+      "z_delta": 114,
+      "z_rational": 343
+    },
+    {
+      "M": [
+        1,
+        -3,
+        -6,
+        19
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -60,
+      "norm": 143641,
+      "p": 379,
+      "point": "beta",
+      "trace": 686,
+      "unit_sign": 1,
+      "x": 19,
+      "y": 3,
+      "z_delta": 114,
+      "z_rational": 343
+    },
+    {
+      "M": [
+        19,
+        -7,
+        -84,
+        31
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -91,
+      "norm": 160801,
+      "p": 401,
+      "point": "gamma",
+      "trace": -766,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 14,
+      "z_delta": 84,
+      "z_rational": -383
+    },
+    {
+      "M": [
+        2,
+        -9,
+        -6,
+        28
+      ],
+      "base_matrix": [
+        25,
+        -8,
+        -78,
+        25
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -129,
+      "norm": 160801,
+      "p": 401,
+      "point": "beta",
+      "trace": -766,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 14,
+      "z_delta": -84,
+      "z_rational": -383
+    },
+    {
+      "M": [
+        35,
+        -17,
+        -72,
+        35
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -199,
+      "norm": 167281,
+      "p": 409,
+      "point": "gamma",
+      "trace": -334,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 12,
+      "z_delta": 264,
+      "z_rational": -167
+    },
+    {
+      "M": [
+        11,
+        -5,
+        -24,
+        11
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -187,
+      "norm": 167281,
+      "p": 409,
+      "point": "beta",
+      "trace": -334,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 12,
+      "z_delta": 264,
+      "z_rational": -167
+    },
+    {
+      "M": [
+        29,
+        -13,
+        -78,
+        35
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -156,
+      "norm": 175561,
+      "p": 419,
+      "point": "gamma",
+      "trace": -514,
+      "unit_sign": 1,
+      "x": 9,
+      "y": 13,
+      "z_delta": 234,
+      "z_rational": -257
+    },
+    {
+      "M": [
+        -2,
+        3,
+        -18,
+        26
+      ],
+      "base_matrix": [
+        -7,
+        2,
+        -60,
+        17
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 48,
+      "norm": 175561,
+      "p": 419,
+      "point": "beta",
+      "trace": -514,
+      "unit_sign": -1,
+      "x": 9,
+      "y": 13,
+      "z_delta": -234,
+      "z_rational": -257
+    },
+    {
+      "M": [
+        7,
+        -6,
+        -36,
+        31
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -84,
+      "norm": 187489,
+      "p": 433,
+      "point": "gamma",
+      "trace": 578,
+      "unit_sign": 1,
+      "x": 19,
+      "y": 6,
+      "z_delta": 228,
+      "z_rational": 289
+    },
+    {
+      "M": [
+        -5,
+        8,
+        -12,
+        19
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 182,
+      "norm": 187489,
+      "p": 433,
+      "point": "beta",
+      "trace": 578,
+      "unit_sign": 1,
+      "x": 19,
+      "y": 6,
+      "z_delta": 228,
+      "z_rational": 289
+    },
+    {
+      "M": [
+        -1,
+        4,
+        -6,
+        23
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 77,
+      "norm": 196249,
+      "p": 443,
+      "point": "gamma",
+      "trace": 878,
+      "unit_sign": 1,
+      "x": 21,
+      "y": 1,
+      "z_delta": 42,
+      "z_rational": 439
+    },
+    {
+      "M": [
+        -20,
+        1,
+        -42,
+        2
+      ],
+      "base_matrix": [
+        17,
+        -9,
+        36,
+        -19
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 211,
+      "norm": 196249,
+      "p": 443,
+      "point": "beta",
+      "trace": 878,
+      "unit_sign": -1,
+      "x": 21,
+      "y": 1,
+      "z_delta": -42,
+      "z_rational": 439
+    },
+    {
+      "M": [
+        1,
+        -2,
+        -12,
+        25
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -36,
+      "norm": 201601,
+      "p": 449,
+      "point": "gamma",
+      "trace": 866,
+      "unit_sign": 1,
+      "x": 21,
+      "y": 2,
+      "z_delta": 84,
+      "z_rational": 433
+    },
+    {
+      "M": [
+        -10,
+        1,
+        -42,
+        4
+      ],
+      "base_matrix": [
+        7,
+        -4,
+        30,
+        -17
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 107,
+      "norm": 201601,
+      "p": 449,
+      "point": "beta",
+      "trace": 866,
+      "unit_sign": -1,
+      "x": 21,
+      "y": 2,
+      "z_delta": -84,
+      "z_rational": 433
+    },
+    {
+      "M": [
+        -35,
+        18,
+        -72,
+        37
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 222,
+      "norm": 208849,
+      "p": 457,
+      "point": "gamma",
+      "trace": -238,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 12,
+      "z_delta": 312,
+      "z_rational": -119
+    },
+    {
+      "M": [
+        -11,
+        6,
+        -24,
+        13
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 210,
+      "norm": 208849,
+      "p": 457,
+      "point": "beta",
+      "trace": -238,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 12,
+      "z_delta": 312,
+      "z_rational": -119
+    },
+    {
+      "M": [
+        25,
+        -14,
+        -66,
+        37
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -177,
+      "norm": 218089,
+      "p": 467,
+      "point": "gamma",
+      "trace": -34,
+      "unit_sign": 1,
+      "x": 15,
+      "y": 11,
+      "z_delta": 330,
+      "z_rational": -17
+    },
+    {
+      "M": [
+        -4,
+        3,
+        -30,
+        22
+      ],
+      "base_matrix": [
+        -5,
+        1,
+        -36,
+        7
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 63,
+      "norm": 218089,
+      "p": 467,
+      "point": "beta",
+      "trace": -34,
+      "unit_sign": -1,
+      "x": 15,
+      "y": 11,
+      "z_delta": -330,
+      "z_rational": -17
+    },
+    {
+      "M": [
+        1,
+        -1,
+        -30,
+        31
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -16,
+      "norm": 241081,
+      "p": 491,
+      "point": "gamma",
+      "trace": 782,
+      "unit_sign": 1,
+      "x": 21,
+      "y": 5,
+      "z_delta": 210,
+      "z_rational": 391
+    },
+    {
+      "M": [
+        -4,
+        1,
+        -42,
+        10
+      ],
+      "base_matrix": [
+        1,
+        -1,
+        12,
+        -11
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 47,
+      "norm": 241081,
+      "p": 491,
+      "point": "beta",
+      "trace": 782,
+      "unit_sign": -1,
+      "x": 21,
+      "y": 5,
+      "z_delta": -210,
+      "z_rational": 391
+    },
+    {
+      "M": [
+        -17,
+        7,
+        -90,
+        37
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 94,
+      "norm": 249001,
+      "p": 499,
+      "point": "gamma",
+      "trace": -802,
+      "unit_sign": 1,
+      "x": 7,
+      "y": 15,
+      "z_delta": 210,
+      "z_rational": -401
+    },
+    {
+      "M": [
+        13,
+        -3,
+        -30,
+        7
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -216,
+      "norm": 249001,
+      "p": 499,
+      "point": "beta",
+      "trace": -802,
+      "unit_sign": 1,
+      "x": 7,
+      "y": 15,
+      "z_delta": 210,
+      "z_rational": -401
+    },
+    {
+      "M": [
+        11,
+        -4,
+        -96,
+        35
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -60,
+      "norm": 271441,
+      "p": 521,
+      "point": "gamma",
+      "trace": -1006,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 16,
+      "z_delta": 96,
+      "z_rational": -503
+    },
+    {
+      "M": [
+        -2,
+        11,
+        -6,
+        32
+      ],
+      "base_matrix": [
+        -31,
+        10,
+        -90,
+        29
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 179,
+      "norm": 271441,
+      "p": 521,
+      "point": "beta",
+      "trace": -1006,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 16,
+      "z_delta": -96,
+      "z_rational": -503
+    },
+    {
+      "M": [
+        19,
+        -13,
+        -54,
+        37
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -184,
+      "norm": 273529,
+      "p": 523,
+      "point": "gamma",
+      "trace": 398,
+      "unit_sign": 1,
+      "x": 19,
+      "y": 9,
+      "z_delta": 342,
+      "z_rational": 199
+    },
+    {
+      "M": [
+        1,
+        -1,
+        -18,
+        19
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -28,
+      "norm": 273529,
+      "p": 523,
+      "point": "beta",
+      "trace": 398,
+      "unit_sign": 1,
+      "x": 19,
+      "y": 9,
+      "z_delta": 342,
+      "z_rational": 199
+    },
+    {
+      "M": [
+        5,
+        -8,
+        -18,
+        29
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -151,
+      "norm": 299209,
+      "p": 547,
+      "point": "gamma",
+      "trace": 1022,
+      "unit_sign": 1,
+      "x": 23,
+      "y": 3,
+      "z_delta": 138,
+      "z_rational": 511
+    },
+    {
+      "M": [
+        -1,
+        4,
+        -6,
+        23
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 95,
+      "norm": 299209,
+      "p": 547,
+      "point": "beta",
+      "trace": 1022,
+      "unit_sign": 1,
+      "x": 23,
+      "y": 3,
+      "z_delta": 138,
+      "z_rational": 511
+    },
+    {
+      "M": [
+        -19,
+        10,
+        -78,
+        41
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 137,
+      "norm": 316969,
+      "p": 563,
+      "point": "gamma",
+      "trace": -226,
+      "unit_sign": 1,
+      "x": 15,
+      "y": 13,
+      "z_delta": 390,
+      "z_rational": -113
+    },
+    {
+      "M": [
+        -8,
+        7,
+        -30,
+        26
+      ],
+      "base_matrix": [
+        -13,
+        3,
+        -48,
+        11
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 151,
+      "norm": 316969,
+      "p": 563,
+      "point": "beta",
+      "trace": -226,
+      "unit_sign": -1,
+      "x": 15,
+      "y": 13,
+      "z_delta": -390,
+      "z_rational": -113
+    },
+    {
+      "M": [
+        13,
+        -10,
+        -48,
+        37
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -154,
+      "norm": 323761,
+      "p": 569,
+      "point": "gamma",
+      "trace": 626,
+      "unit_sign": 1,
+      "x": 21,
+      "y": 8,
+      "z_delta": 336,
+      "z_rational": 313
+    },
+    {
+      "M": [
+        8,
+        -3,
+        -42,
+        16
+      ],
+      "base_matrix": [
+        1,
+        1,
+        -6,
+        -5
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -108,
+      "norm": 323761,
+      "p": 569,
+      "point": "beta",
+      "trace": 626,
+      "unit_sign": -1,
+      "x": 21,
+      "y": 8,
+      "z_delta": -336,
+      "z_rational": 313
+    },
+    {
+      "M": [
+        11,
+        -5,
+        -90,
+        41
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -70,
+      "norm": 326041,
+      "p": 571,
+      "point": "gamma",
+      "trace": -658,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 15,
+      "z_delta": 330,
+      "z_rational": -329
+    },
+    {
+      "M": [
+        11,
+        -4,
+        -30,
+        11
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -209,
+      "norm": 326041,
+      "p": 571,
+      "point": "beta",
+      "trace": -658,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 15,
+      "z_delta": 330,
+      "z_rational": -329
+    },
+    {
+      "M": [
+        -7,
+        4,
+        -72,
+        41
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 56,
+      "norm": 332929,
+      "p": 577,
+      "point": "gamma",
+      "trace": 2,
+      "unit_sign": 1,
+      "x": 17,
+      "y": 12,
+      "z_delta": 408,
+      "z_rational": 1
+    },
+    {
+      "M": [
+        -7,
+        5,
+        -24,
+        17
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 169,
+      "norm": 332929,
+      "p": 577,
+      "point": "beta",
+      "trace": 2,
+      "unit_sign": 1,
+      "x": 17,
+      "y": 12,
+      "z_delta": 408,
+      "z_rational": 1
+    },
+    {
+      "M": [
+        -11,
+        4,
+        -102,
+        37
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 63,
+      "norm": 344569,
+      "p": 587,
+      "point": "gamma",
+      "trace": -1138,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 17,
+      "z_delta": 102,
+      "z_rational": -569
+    },
+    {
+      "M": [
+        2,
+        -11,
+        -6,
+        34
+      ],
+      "base_matrix": [
+        31,
+        -10,
+        -96,
+        31
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -190,
+      "norm": 344569,
+      "p": 587,
+      "point": "beta",
+      "trace": -1138,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 17,
+      "z_delta": -102,
+      "z_rational": -569
+    },
+    {
+      "M": [
+        -7,
+        3,
+        -96,
+        41
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 43,
+      "norm": 351649,
+      "p": 593,
+      "point": "gamma",
+      "trace": -862,
+      "unit_sign": 1,
+      "x": 9,
+      "y": 16,
+      "z_delta": 288,
+      "z_rational": -431
+    },
+    {
+      "M": [
+        4,
+        -7,
+        -18,
+        32
+      ],
+      "base_matrix": [
+        17,
+        -5,
+        -78,
+        23
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -130,
+      "norm": 351649,
+      "p": 593,
+      "point": "beta",
+      "trace": -862,
+      "unit_sign": -1,
+      "x": 9,
+      "y": 16,
+      "z_delta": -288,
+      "z_rational": -431
+    },
+    {
+      "M": [
+        -1,
+        1,
+        -36,
+        35
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 17,
+      "norm": 361201,
+      "p": 601,
+      "point": "gamma",
+      "trace": 914,
+      "unit_sign": 1,
+      "x": 23,
+      "y": 6,
+      "z_delta": 276,
+      "z_rational": 457
+    },
+    {
+      "M": [
+        -1,
+        2,
+        -12,
+        23
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 52,
+      "norm": 361201,
+      "p": 601,
+      "point": "beta",
+      "trace": 914,
+      "unit_sign": 1,
+      "x": 23,
+      "y": 6,
+      "z_delta": 276,
+      "z_rational": 457
+    },
+    {
+      "M": [
+        -41,
+        21,
+        -84,
+        43
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 301,
+      "norm": 380689,
+      "p": 617,
+      "point": "gamma",
+      "trace": -334,
+      "unit_sign": 1,
+      "x": 15,
+      "y": 14,
+      "z_delta": 420,
+      "z_rational": -167
+    },
+    {
+      "M": [
+        14,
+        -13,
+        -30,
+        28
+      ],
+      "base_matrix": [
+        25,
+        -6,
+        -54,
+        13
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -287,
+      "norm": 380689,
+      "p": 617,
+      "point": "beta",
+      "trace": -334,
+      "unit_sign": -1,
+      "x": 15,
+      "y": 14,
+      "z_delta": -420,
+      "z_rational": -167
+    },
+    {
+      "M": [
+        -23,
+        11,
+        -90,
+        43
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 158,
+      "norm": 383161,
+      "p": 619,
+      "point": "gamma",
+      "trace": -562,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 15,
+      "z_delta": 390,
+      "z_rational": -281
+    },
+    {
+      "M": [
+        7,
+        -3,
+        -30,
+        13
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -144,
+      "norm": 383161,
+      "p": 619,
+      "point": "beta",
+      "trace": -562,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 15,
+      "z_delta": 390,
+      "z_rational": -281
+    },
+    {
+      "M": [
+        -19,
+        13,
+        -60,
+        41
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 203,
+      "norm": 410881,
+      "p": 641,
+      "point": "gamma",
+      "trace": 482,
+      "unit_sign": 1,
+      "x": 21,
+      "y": 10,
+      "z_delta": 420,
+      "z_rational": 241
+    },
+    {
+      "M": [
+        -2,
+        1,
+        -42,
+        20
+      ],
+      "base_matrix": [
+        -1,
+        0,
+        -18,
+        -1
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 31,
+      "norm": 410881,
+      "p": 641,
+      "point": "beta",
+      "trace": 482,
+      "unit_sign": -1,
+      "x": 21,
+      "y": 10,
+      "z_delta": -420,
+      "z_rational": 241
+    },
+    {
+      "M": [
+        7,
+        -12,
+        -18,
+        31
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -249,
+      "norm": 413449,
+      "p": 643,
+      "point": "gamma",
+      "trace": 1214,
+      "unit_sign": 1,
+      "x": 25,
+      "y": 3,
+      "z_delta": 150,
+      "z_rational": 607
+    },
+    {
+      "M": [
+        1,
+        -4,
+        -6,
+        25
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -103,
+      "norm": 413449,
+      "p": 643,
+      "point": "beta",
+      "trace": 1214,
+      "unit_sign": 1,
+      "x": 25,
+      "y": 3,
+      "z_delta": 150,
+      "z_rational": 607
+    },
+    {
+      "M": [
+        19,
+        -8,
+        -102,
+        43
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -123,
+      "norm": 434281,
+      "p": 659,
+      "point": "gamma",
+      "trace": -994,
+      "unit_sign": 1,
+      "x": 9,
+      "y": 17,
+      "z_delta": 306,
+      "z_rational": -497
+    },
+    {
+      "M": [
+        8,
+        -15,
+        -18,
+        34
+      ],
+      "base_matrix": [
+        37,
+        -11,
+        -84,
+        25
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -291,
+      "norm": 434281,
+      "p": 659,
+      "point": "beta",
+      "trace": -994,
+      "unit_sign": -1,
+      "x": 9,
+      "y": 17,
+      "z_delta": -306,
+      "z_rational": -497
+    },
+    {
+      "M": [
+        29,
+        -11,
+        -108,
+        41
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -181,
+      "norm": 452929,
+      "p": 673,
+      "point": "gamma",
+      "trace": -1246,
+      "unit_sign": 1,
+      "x": 5,
+      "y": 18,
+      "z_delta": 180,
+      "z_rational": -623
+    },
+    {
+      "M": [
+        -7,
+        1,
+        -36,
+        5
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 131,
+      "norm": 452929,
+      "p": 673,
+      "point": "beta",
+      "trace": -1246,
+      "unit_sign": 1,
+      "x": 5,
+      "y": 18,
+      "z_delta": 180,
+      "z_rational": -623
+    },
+    {
+      "M": [
+        -23,
+        15,
+        -66,
+        43
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 238,
+      "norm": 466489,
+      "p": 683,
+      "point": "gamma",
+      "trace": 398,
+      "unit_sign": 1,
+      "x": 21,
+      "y": 11,
+      "z_delta": 462,
+      "z_rational": 199
+    },
+    {
+      "M": [
+        2,
+        -1,
+        -42,
+        22
+      ],
+      "base_matrix": [
+        1,
+        0,
+        -24,
+        1
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -32,
+      "norm": 466489,
+      "p": 683,
+      "point": "beta",
+      "trace": 398,
+      "unit_sign": -1,
+      "x": 21,
+      "y": 11,
+      "z_delta": -462,
+      "z_rational": 199
+    },
+    {
+      "M": [
+        -25,
+        19,
+        -54,
+        41
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 320,
+      "norm": 477481,
+      "p": 691,
+      "point": "gamma",
+      "trace": 734,
+      "unit_sign": 1,
+      "x": 23,
+      "y": 9,
+      "z_delta": 414,
+      "z_rational": 367
+    },
+    {
+      "M": [
+        -7,
+        9,
+        -18,
+        23
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 270,
+      "norm": 477481,
+      "p": 691,
+      "point": "beta",
+      "trace": 734,
+      "unit_sign": 1,
+      "x": 23,
+      "y": 9,
+      "z_delta": 414,
+      "z_rational": 367
+    },
+    {
+      "M": [
+        23,
+        -12,
+        -90,
+        47
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -189,
+      "norm": 546121,
+      "p": 739,
+      "point": "gamma",
+      "trace": -322,
+      "unit_sign": 1,
+      "x": 17,
+      "y": 15,
+      "z_delta": 510,
+      "z_rational": -161
+    },
+    {
+      "M": [
+        -7,
+        4,
+        -30,
+        17
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 173,
+      "norm": 546121,
+      "p": 739,
+      "point": "beta",
+      "trace": -322,
+      "unit_sign": 1,
+      "x": 17,
+      "y": 15,
+      "z_delta": 510,
+      "z_rational": -161
+    },
+    {
+      "M": [
+        11,
+        -16,
+        -24,
+        35
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -348,
+      "norm": 579121,
+      "p": 761,
+      "point": "gamma",
+      "trace": 1394,
+      "unit_sign": 1,
+      "x": 27,
+      "y": 4,
+      "z_delta": 216,
+      "z_rational": 697
+    },
+    {
+      "M": [
+        -20,
+        3,
+        -54,
+        8
+      ],
+      "base_matrix": [
+        11,
+        -7,
+        30,
+        -19
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 282,
+      "norm": 579121,
+      "p": 761,
+      "point": "beta",
+      "trace": 1394,
+      "unit_sign": -1,
+      "x": 27,
+      "y": 4,
+      "z_delta": -216,
+      "z_rational": 697
+    },
+    {
+      "M": [
+        23,
+        -10,
+        -108,
+        47
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -164,
+      "norm": 591361,
+      "p": 769,
+      "point": "gamma",
+      "trace": -1054,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 18,
+      "z_delta": 396,
+      "z_rational": -527
+    },
+    {
+      "M": [
+        -13,
+        4,
+        -36,
+        11
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 278,
+      "norm": 591361,
+      "p": 769,
+      "point": "beta",
+      "trace": -1054,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 18,
+      "z_delta": 396,
+      "z_rational": -527
+    },
+    {
+      "M": [
+        -5,
+        4,
+        -54,
+        43
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 73,
+      "norm": 619369,
+      "p": 787,
+      "point": "gamma",
+      "trace": 926,
+      "unit_sign": 1,
+      "x": 25,
+      "y": 9,
+      "z_delta": 450,
+      "z_rational": 463
+    },
+    {
+      "M": [
+        -5,
+        7,
+        -18,
+        25
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 220,
+      "norm": 619369,
+      "p": 787,
+      "point": "beta",
+      "trace": 926,
+      "unit_sign": 1,
+      "x": 25,
+      "y": 9,
+      "z_delta": 450,
+      "z_rational": 463
+    },
+    {
+      "M": [
+        -53,
+        19,
+        -120,
+        43
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 357,
+      "norm": 654481,
+      "p": 809,
+      "point": "gamma",
+      "trace": -1582,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 20,
+      "z_delta": 120,
+      "z_rational": -791
+    },
+    {
+      "M": [
+        2,
+        -13,
+        -6,
+        40
+      ],
+      "base_matrix": [
+        37,
+        -12,
+        -114,
+        37
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -263,
+      "norm": 654481,
+      "p": 809,
+      "point": "beta",
+      "trace": -1582,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 20,
+      "z_delta": -120,
+      "z_rational": -791
+    },
+    {
+      "M": [
+        -11,
+        6,
+        -90,
+        49
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 99,
+      "norm": 657721,
+      "p": 811,
+      "point": "gamma",
+      "trace": -178,
+      "unit_sign": 1,
+      "x": 19,
+      "y": 15,
+      "z_delta": 570,
+      "z_rational": -89
+    },
+    {
+      "M": [
+        -11,
+        7,
+        -30,
+        19
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 298,
+      "norm": 657721,
+      "p": 811,
+      "point": "beta",
+      "trace": -178,
+      "unit_sign": 1,
+      "x": 19,
+      "y": 15,
+      "z_delta": 570,
+      "z_rational": -89
+    },
+    {
+      "M": [
+        -1,
+        1,
+        -42,
+        41
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 20,
+      "norm": 683929,
+      "p": 827,
+      "point": "gamma",
+      "trace": 1262,
+      "unit_sign": 1,
+      "x": 27,
+      "y": 7,
+      "z_delta": 378,
+      "z_rational": 631
+    },
+    {
+      "M": [
+        4,
+        -1,
+        -54,
+        14
+      ],
+      "base_matrix": [
+        -1,
+        1,
+        12,
+        -13
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -61,
+      "norm": 683929,
+      "p": 827,
+      "point": "beta",
+      "trace": 1262,
+      "unit_sign": -1,
+      "x": 27,
+      "y": 7,
+      "z_delta": -378,
+      "z_rational": 631
+    },
+    {
+      "M": [
+        19,
+        -17,
+        -48,
+        43
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -339,
+      "norm": 734449,
+      "p": 857,
+      "point": "gamma",
+      "trace": 1202,
+      "unit_sign": 1,
+      "x": 27,
+      "y": 8,
+      "z_delta": 432,
+      "z_rational": 601
+    },
+    {
+      "M": [
+        -10,
+        3,
+        -54,
+        16
+      ],
+      "base_matrix": [
+        1,
+        -2,
+        6,
+        -11
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 159,
+      "norm": 734449,
+      "p": 857,
+      "point": "beta",
+      "trace": 1202,
+      "unit_sign": -1,
+      "x": 27,
+      "y": 8,
+      "z_delta": -432,
+      "z_rational": 601
+    },
+    {
+      "M": [
+        -1,
+        2,
+        -18,
+        35
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 49,
+      "norm": 737881,
+      "p": 859,
+      "point": "gamma",
+      "trace": 1646,
+      "unit_sign": 1,
+      "x": 29,
+      "y": 3,
+      "z_delta": 174,
+      "z_rational": 823
+    },
+    {
+      "M": [
+        -1,
+        5,
+        -6,
+        29
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 148,
+      "norm": 737881,
+      "p": 859,
+      "point": "beta",
+      "trace": 1646,
+      "unit_sign": 1,
+      "x": 29,
+      "y": 3,
+      "z_delta": 174,
+      "z_rational": 823
+    },
+    {
+      "M": [
+        49,
+        -20,
+        -120,
+        49
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -360,
+      "norm": 776161,
+      "p": 881,
+      "point": "gamma",
+      "trace": -1438,
+      "unit_sign": 1,
+      "x": 9,
+      "y": 20,
+      "z_delta": 360,
+      "z_rational": -719
+    },
+    {
+      "M": [
+        -4,
+        9,
+        -18,
+        40
+      ],
+      "base_matrix": [
+        -23,
+        7,
+        -102,
+        31
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 198,
+      "norm": 776161,
+      "p": 881,
+      "point": "beta",
+      "trace": -1438,
+      "unit_sign": -1,
+      "x": 9,
+      "y": 20,
+      "z_delta": -360,
+      "z_rational": -719
+    },
+    {
+      "M": [
+        -41,
+        14,
+        -126,
+        43
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 287,
+      "norm": 779689,
+      "p": 883,
+      "point": "gamma",
+      "trace": -1762,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 21,
+      "z_delta": 42,
+      "z_rational": -881
+    },
+    {
+      "M": [
+        1,
+        0,
+        -42,
+        1
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -21,
+      "norm": 779689,
+      "p": 883,
+      "point": "beta",
+      "trace": -1762,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 21,
+      "z_delta": 42,
+      "z_rational": -881
+    },
+    {
+      "M": [
+        59,
+        -22,
+        -126,
+        47
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -425,
+      "norm": 822649,
+      "p": 907,
+      "point": "gamma",
+      "trace": -1714,
+      "unit_sign": 1,
+      "x": 5,
+      "y": 21,
+      "z_delta": 210,
+      "z_rational": -857
+    },
+    {
+      "M": [
+        17,
+        -2,
+        -42,
+        5
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -367,
+      "norm": 822649,
+      "p": 907,
+      "point": "beta",
+      "trace": -1714,
+      "unit_sign": 1,
+      "x": 5,
+      "y": 21,
+      "z_delta": 210,
+      "z_rational": -857
+    },
+    {
+      "M": [
+        23,
+        -18,
+        -60,
+        47
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -356,
+      "norm": 863041,
+      "p": 929,
+      "point": "gamma",
+      "trace": 1058,
+      "unit_sign": 1,
+      "x": 27,
+      "y": 10,
+      "z_delta": 540,
+      "z_rational": 529
+    },
+    {
+      "M": [
+        -8,
+        3,
+        -54,
+        20
+      ],
+      "base_matrix": [
+        -1,
+        -1,
+        -6,
+        -7
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 138,
+      "norm": 863041,
+      "p": 929,
+      "point": "beta",
+      "trace": 1058,
+      "unit_sign": -1,
+      "x": 27,
+      "y": 10,
+      "z_delta": -540,
+      "z_rational": 529
+    },
+    {
+      "M": [
+        53,
+        -26,
+        -108,
+        53
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -460,
+      "norm": 877969,
+      "p": 937,
+      "point": "gamma",
+      "trace": -718,
+      "unit_sign": 1,
+      "x": 17,
+      "y": 18,
+      "z_delta": 612,
+      "z_rational": -359
+    },
+    {
+      "M": [
+        17,
+        -8,
+        -36,
+        17
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -442,
+      "norm": 877969,
+      "p": 937,
+      "point": "beta",
+      "trace": -718,
+      "unit_sign": 1,
+      "x": 17,
+      "y": 18,
+      "z_delta": 612,
+      "z_rational": -359
+    },
+    {
+      "M": [
+        -43,
+        20,
+        -114,
+        53
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 357,
+      "norm": 896809,
+      "p": 947,
+      "point": "gamma",
+      "trace": -994,
+      "unit_sign": 1,
+      "x": 15,
+      "y": 19,
+      "z_delta": 570,
+      "z_rational": -497
+    },
+    {
+      "M": [
+        4,
+        -5,
+        -30,
+        38
+      ],
+      "base_matrix": [
+        11,
+        -3,
+        -84,
+        23
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -125,
+      "norm": 896809,
+      "p": 947,
+      "point": "beta",
+      "trace": -994,
+      "unit_sign": -1,
+      "x": 15,
+      "y": 19,
+      "z_delta": -570,
+      "z_rational": -497
+    },
+    {
+      "M": [
+        29,
+        -16,
+        -96,
+        53
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -288,
+      "norm": 908209,
+      "p": 953,
+      "point": "gamma",
+      "trace": -142,
+      "unit_sign": 1,
+      "x": 21,
+      "y": 16,
+      "z_delta": 672,
+      "z_rational": -71
+    },
+    {
+      "M": [
+        4,
+        -3,
+        -42,
+        32
+      ],
+      "base_matrix": [
+        5,
+        -1,
+        -54,
+        11
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -90,
+      "norm": 908209,
+      "p": 953,
+      "point": "beta",
+      "trace": -142,
+      "unit_sign": -1,
+      "x": 21,
+      "y": 16,
+      "z_delta": -672,
+      "z_rational": -71
+    },
+    {
+      "M": [
+        31,
+        -23,
+        -66,
+        49
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -456,
+      "norm": 942841,
+      "p": 971,
+      "point": "gamma",
+      "trace": 974,
+      "unit_sign": 1,
+      "x": 27,
+      "y": 11,
+      "z_delta": 594,
+      "z_rational": 487
+    },
+    {
+      "M": [
+        -22,
+        9,
+        -54,
+        22
+      ],
+      "base_matrix": [
+        -5,
+        -2,
+        -12,
+        -5
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 396,
+      "norm": 942841,
+      "p": 971,
+      "point": "beta",
+      "trace": 974,
+      "unit_sign": -1,
+      "x": 27,
+      "y": 11,
+      "z_delta": -594,
+      "z_rational": 487
+    },
+    {
+      "M": [
+        59,
+        -21,
+        -132,
+        47
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -437,
+      "norm": 954529,
+      "p": 977,
+      "point": "gamma",
+      "trace": -1918,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 22,
+      "z_delta": 132,
+      "z_rational": -959
+    },
+    {
+      "M": [
+        -2,
+        15,
+        -6,
+        44
+      ],
+      "base_matrix": [
+        -43,
+        14,
+        -126,
+        41
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 333,
+      "norm": 954529,
+      "p": 977,
+      "point": "beta",
+      "trace": -1918,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 22,
+      "z_delta": -132,
+      "z_rational": -959
+    },
+    {
+      "M": [
+        -53,
+        27,
+        -108,
+        55
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 495,
+      "norm": 1018081,
+      "p": 1009,
+      "point": "gamma",
+      "trace": -574,
+      "unit_sign": 1,
+      "x": 19,
+      "y": 18,
+      "z_delta": 684,
+      "z_rational": -287
+    },
+    {
+      "M": [
+        -17,
+        9,
+        -36,
+        19
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 477,
+      "norm": 1018081,
+      "p": 1009,
+      "point": "beta",
+      "trace": -574,
+      "unit_sign": 1,
+      "x": 19,
+      "y": 18,
+      "z_delta": 684,
+      "z_rational": -287
+    },
+    {
+      "M": [
+        13,
+        -7,
+        -102,
+        55
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -130,
+      "norm": 1038361,
+      "p": 1019,
+      "point": "gamma",
+      "trace": -274,
+      "unit_sign": 1,
+      "x": 21,
+      "y": 17,
+      "z_delta": 714,
+      "z_rational": -137
+    },
+    {
+      "M": [
+        -16,
+        13,
+        -42,
+        34
+      ],
+      "base_matrix": [
+        -23,
+        5,
+        -60,
+        13
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 389,
+      "norm": 1038361,
+      "p": 1019,
+      "point": "beta",
+      "trace": -274,
+      "unit_sign": -1,
+      "x": 21,
+      "y": 17,
+      "z_delta": -714,
+      "z_rational": -137
+    },
+    {
+      "M": [
+        -5,
+        6,
+        -36,
+        43
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 144,
+      "norm": 1067089,
+      "p": 1033,
+      "point": "gamma",
+      "trace": 1778,
+      "unit_sign": 1,
+      "x": 31,
+      "y": 6,
+      "z_delta": 372,
+      "z_rational": 889
+    },
+    {
+      "M": [
+        -5,
+        13,
+        -12,
+        31
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 433,
+      "norm": 1067089,
+      "p": 1033,
+      "point": "beta",
+      "trace": 1778,
+      "unit_sign": 1,
+      "x": 31,
+      "y": 6,
+      "z_delta": 372,
+      "z_rational": 889
+    },
+    {
+      "M": [
+        5,
+        -2,
+        -132,
+        53
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -40,
+      "norm": 1100401,
+      "p": 1049,
+      "point": "gamma",
+      "trace": -1774,
+      "unit_sign": 1,
+      "x": 9,
+      "y": 22,
+      "z_delta": 396,
+      "z_rational": -887
+    },
+    {
+      "M": [
+        -2,
+        5,
+        -18,
+        44
+      ],
+      "base_matrix": [
+        -13,
+        4,
+        -114,
+        35
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 119,
+      "norm": 1100401,
+      "p": 1049,
+      "point": "beta",
+      "trace": -1774,
+      "unit_sign": -1,
+      "x": 9,
+      "y": 22,
+      "z_delta": -396,
+      "z_rational": -887
+    },
+    {
+      "M": [
+        55,
+        -24,
+        -126,
+        55
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -459,
+      "norm": 1104601,
+      "p": 1051,
+      "point": "gamma",
+      "trace": -1426,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 21,
+      "z_delta": 546,
+      "z_rational": -713
+    },
+    {
+      "M": [
+        13,
+        -4,
+        -42,
+        13
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -325,
+      "norm": 1104601,
+      "p": 1051,
+      "point": "beta",
+      "trace": -1426,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 21,
+      "z_delta": 546,
+      "z_rational": -713
+    },
+    {
+      "M": [
+        -1,
+        6,
+        -6,
+        35
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 187,
+      "norm": 1190281,
+      "p": 1091,
+      "point": "gamma",
+      "trace": 2174,
+      "unit_sign": 1,
+      "x": 33,
+      "y": 1,
+      "z_delta": 66,
+      "z_rational": 1087
+    },
+    {
+      "M": [
+        -32,
+        1,
+        -66,
+        2
+      ],
+      "base_matrix": [
+        29,
+        -15,
+        60,
+        -31
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 529,
+      "norm": 1190281,
+      "p": 1091,
+      "point": "beta",
+      "trace": 2174,
+      "unit_sign": -1,
+      "x": 33,
+      "y": 1,
+      "z_delta": -66,
+      "z_rational": 1087
+    },
+    {
+      "M": [
+        1,
+        -3,
+        -12,
+        37
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -89,
+      "norm": 1203409,
+      "p": 1097,
+      "point": "gamma",
+      "trace": 2162,
+      "unit_sign": 1,
+      "x": 33,
+      "y": 2,
+      "z_delta": 132,
+      "z_rational": 1081
+    },
+    {
+      "M": [
+        -16,
+        1,
+        -66,
+        4
+      ],
+      "base_matrix": [
+        13,
+        -7,
+        54,
+        -29
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 266,
+      "norm": 1203409,
+      "p": 1097,
+      "point": "beta",
+      "trace": 2162,
+      "unit_sign": -1,
+      "x": 33,
+      "y": 2,
+      "z_delta": -132,
+      "z_rational": 1081
+    },
+    {
+      "M": [
+        -11,
+        10,
+        -54,
+        49
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 229,
+      "norm": 1261129,
+      "p": 1123,
+      "point": "gamma",
+      "trace": 1598,
+      "unit_sign": 1,
+      "x": 31,
+      "y": 9,
+      "z_delta": 558,
+      "z_rational": 799
+    },
+    {
+      "M": [
+        7,
+        -12,
+        -18,
+        31
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -435,
+      "norm": 1261129,
+      "p": 1123,
+      "point": "beta",
+      "trace": 1598,
+      "unit_sign": 1,
+      "x": 31,
+      "y": 9,
+      "z_delta": 558,
+      "z_rational": 799
+    },
+    {
+      "M": [
+        -19,
+        14,
+        -72,
+        53
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 298,
+      "norm": 1274641,
+      "p": 1129,
+      "point": "gamma",
+      "trace": 1106,
+      "unit_sign": 1,
+      "x": 29,
+      "y": 12,
+      "z_delta": 696,
+      "z_rational": 553
+    },
+    {
+      "M": [
+        5,
+        -6,
+        -24,
+        29
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -234,
+      "norm": 1274641,
+      "p": 1129,
+      "point": "beta",
+      "trace": 1106,
+      "unit_sign": 1,
+      "x": 29,
+      "y": 12,
+      "z_delta": 696,
+      "z_rational": 553
+    },
+    {
+      "M": [
+        -47,
+        16,
+        -144,
+        49
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 376,
+      "norm": 1329409,
+      "p": 1153,
+      "point": "gamma",
+      "trace": -2302,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 24,
+      "z_delta": 48,
+      "z_rational": -1151
+    },
+    {
+      "M": [
+        1,
+        0,
+        -48,
+        1
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -24,
+      "norm": 1329409,
+      "p": 1153,
+      "point": "beta",
+      "trace": -2302,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 24,
+      "z_delta": 48,
+      "z_rational": -1151
+    },
+    {
+      "M": [
+        29,
+        -15,
+        -114,
+        59
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -296,
+      "norm": 1352569,
+      "p": 1163,
+      "point": "gamma",
+      "trace": -562,
+      "unit_sign": 1,
+      "x": 21,
+      "y": 19,
+      "z_delta": 798,
+      "z_rational": -281
+    },
+    {
+      "M": [
+        10,
+        -9,
+        -42,
+        38
+      ],
+      "base_matrix": [
+        17,
+        -4,
+        -72,
+        17
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -276,
+      "norm": 1352569,
+      "p": 1163,
+      "point": "beta",
+      "trace": -562,
+      "unit_sign": -1,
+      "x": 21,
+      "y": 19,
+      "z_delta": -798,
+      "z_rational": -281
+    },
+    {
+      "M": [
+        47,
+        -22,
+        -126,
+        59
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -437,
+      "norm": 1371241,
+      "p": 1171,
+      "point": "gamma",
+      "trace": -1186,
+      "unit_sign": 1,
+      "x": 17,
+      "y": 21,
+      "z_delta": 714,
+      "z_rational": -593
+    },
+    {
+      "M": [
+        5,
+        -2,
+        -42,
+        17
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -139,
+      "norm": 1371241,
+      "p": 1171,
+      "point": "beta",
+      "trace": -1186,
+      "unit_sign": 1,
+      "x": 17,
+      "y": 21,
+      "z_delta": 714,
+      "z_rational": -593
+    },
+    {
+      "M": [
+        17,
+        -19,
+        -42,
+        47
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -480,
+      "norm": 1408969,
+      "p": 1187,
+      "point": "gamma",
+      "trace": 1982,
+      "unit_sign": 1,
+      "x": 33,
+      "y": 7,
+      "z_delta": 462,
+      "z_rational": 991
+    },
+    {
+      "M": [
+        -14,
+        3,
+        -66,
+        14
+      ],
+      "base_matrix": [
+        5,
+        -4,
+        24,
+        -19
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 252,
+      "norm": 1408969,
+      "p": 1187,
+      "point": "beta",
+      "trace": 1982,
+      "unit_sign": -1,
+      "x": 33,
+      "y": 7,
+      "z_delta": -462,
+      "z_rational": 991
+    },
+    {
+      "M": [
+        47,
+        -21,
+        -132,
+        59
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -425,
+      "norm": 1423249,
+      "p": 1193,
+      "point": "gamma",
+      "trace": -1486,
+      "unit_sign": 1,
+      "x": 15,
+      "y": 22,
+      "z_delta": 660,
+      "z_rational": -743
+    },
+    {
+      "M": [
+        -2,
+        3,
+        -30,
+        44
+      ],
+      "base_matrix": [
+        -7,
+        2,
+        -102,
+        29
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 81,
+      "norm": 1423249,
+      "p": 1193,
+      "point": "beta",
+      "trace": -1486,
+      "unit_sign": -1,
+      "x": 15,
+      "y": 22,
+      "z_delta": -660,
+      "z_rational": -743
+    },
+    {
+      "M": [
+        55,
+        -21,
+        -144,
+        55
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -459,
+      "norm": 1442401,
+      "p": 1201,
+      "point": "gamma",
+      "trace": -2206,
+      "unit_sign": 1,
+      "x": 7,
+      "y": 24,
+      "z_delta": 336,
+      "z_rational": -1103
+    },
+    {
+      "M": [
+        7,
+        -1,
+        -48,
+        7
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -175,
+      "norm": 1442401,
+      "p": 1201,
+      "point": "beta",
+      "trace": -2206,
+      "unit_sign": 1,
+      "x": 7,
+      "y": 24,
+      "z_delta": 336,
+      "z_rational": -1103
+    },
+    {
+      "M": [
+        1,
+        -1,
+        -48,
+        49
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -25,
+      "norm": 1481089,
+      "p": 1217,
+      "point": "gamma",
+      "trace": 1922,
+      "unit_sign": 1,
+      "x": 33,
+      "y": 8,
+      "z_delta": 528,
+      "z_rational": 961
+    },
+    {
+      "M": [
+        -4,
+        1,
+        -66,
+        16
+      ],
+      "base_matrix": [
+        1,
+        -1,
+        18,
+        -17
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 74,
+      "norm": 1481089,
+      "p": 1217,
+      "point": "beta",
+      "trace": 1922,
+      "unit_sign": -1,
+      "x": 33,
+      "y": 8,
+      "z_delta": -528,
+      "z_rational": 961
+    },
+    {
+      "M": [
+        -17,
+        13,
+        -72,
+        55
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 295,
+      "norm": 1560001,
+      "p": 1249,
+      "point": "gamma",
+      "trace": 1346,
+      "unit_sign": 1,
+      "x": 31,
+      "y": 12,
+      "z_delta": 744,
+      "z_rational": 673
+    },
+    {
+      "M": [
+        7,
+        -9,
+        -24,
+        31
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -363,
+      "norm": 1560001,
+      "p": 1249,
+      "point": "beta",
+      "trace": 1346,
+      "unit_sign": 1,
+      "x": 31,
+      "y": 12,
+      "z_delta": 744,
+      "z_rational": 673
+    },
+    {
+      "M": [
+        17,
+        -6,
+        -150,
+        53
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -143,
+      "norm": 1585081,
+      "p": 1259,
+      "point": "gamma",
+      "trace": -2482,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 25,
+      "z_delta": 150,
+      "z_rational": -1241
+    },
+    {
+      "M": [
+        -2,
+        17,
+        -6,
+        50
+      ],
+      "base_matrix": [
+        -49,
+        16,
+        -144,
+        47
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 428,
+      "norm": 1585081,
+      "p": 1259,
+      "point": "beta",
+      "trace": -2482,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 25,
+      "z_delta": -150,
+      "z_rational": -1241
+    },
+    {
+      "M": [
+        43,
+        -19,
+        -138,
+        61
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -400,
+      "norm": 1646089,
+      "p": 1283,
+      "point": "gamma",
+      "trace": -1666,
+      "unit_sign": 1,
+      "x": 15,
+      "y": 23,
+      "z_delta": 690,
+      "z_rational": -833
+    },
+    {
+      "M": [
+        2,
+        -3,
+        -30,
+        46
+      ],
+      "base_matrix": [
+        7,
+        -2,
+        -108,
+        31
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -84,
+      "norm": 1646089,
+      "p": 1283,
+      "point": "beta",
+      "trace": -1666,
+      "unit_sign": -1,
+      "x": 15,
+      "y": 23,
+      "z_delta": -690,
+      "z_rational": -833
+    },
+    {
+      "M": [
+        17,
+        -15,
+        -60,
+        53
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -365,
+      "norm": 1661521,
+      "p": 1289,
+      "point": "gamma",
+      "trace": 1778,
+      "unit_sign": 1,
+      "x": 33,
+      "y": 10,
+      "z_delta": 660,
+      "z_rational": 889
+    },
+    {
+      "M": [
+        10,
+        -3,
+        -66,
+        20
+      ],
+      "base_matrix": [
+        -1,
+        2,
+        6,
+        -13
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -195,
+      "norm": 1661521,
+      "p": 1289,
+      "point": "beta",
+      "trace": 1778,
+      "unit_sign": -1,
+      "x": 33,
+      "y": 10,
+      "z_delta": -660,
+      "z_rational": 889
+    },
+    {
+      "M": [
+        29,
+        -19,
+        -90,
+        59
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -416,
+      "norm": 1666681,
+      "p": 1291,
+      "point": "gamma",
+      "trace": 782,
+      "unit_sign": 1,
+      "x": 29,
+      "y": 15,
+      "z_delta": 870,
+      "z_rational": 391
+    },
+    {
+      "M": [
+        -1,
+        1,
+        -30,
+        29
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 44,
+      "norm": 1666681,
+      "p": 1291,
+      "point": "beta",
+      "trace": 782,
+      "unit_sign": 1,
+      "x": 29,
+      "y": 15,
+      "z_delta": 870,
+      "z_rational": 391
+    },
+    {
+      "M": [
+        -13,
+        17,
+        -36,
+        47
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 469,
+      "norm": 1682209,
+      "p": 1297,
+      "point": "gamma",
+      "trace": 2306,
+      "unit_sign": 1,
+      "x": 35,
+      "y": 6,
+      "z_delta": 420,
+      "z_rational": 1153
+    },
+    {
+      "M": [
+        -1,
+        3,
+        -12,
+        35
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 111,
+      "norm": 1682209,
+      "p": 1297,
+      "point": "beta",
+      "trace": 2306,
+      "unit_sign": 1,
+      "x": 35,
+      "y": 6,
+      "z_delta": 420,
+      "z_rational": 1153
+    },
+    {
+      "M": [
+        -5,
+        3,
+        -102,
+        61
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 64,
+      "norm": 1708249,
+      "p": 1307,
+      "point": "gamma",
+      "trace": 302,
+      "unit_sign": 1,
+      "x": 27,
+      "y": 17,
+      "z_delta": 918,
+      "z_rational": 151
+    },
+    {
+      "M": [
+        8,
+        -5,
+        -54,
+        34
+      ],
+      "base_matrix": [
+        7,
+        -1,
+        -48,
+        7
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -193,
+      "norm": 1708249,
+      "p": 1307,
+      "point": "beta",
+      "trace": 302,
+      "unit_sign": -1,
+      "x": 27,
+      "y": 17,
+      "z_delta": -918,
+      "z_rational": 151
+    },
+    {
+      "M": [
+        -59,
+        25,
+        -144,
+        61
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 541,
+      "norm": 1745041,
+      "p": 1321,
+      "point": "gamma",
+      "trace": -1966,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 24,
+      "z_delta": 624,
+      "z_rational": -983
+    },
+    {
+      "M": [
+        -11,
+        3,
+        -48,
+        13
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 303,
+      "norm": 1745041,
+      "p": 1321,
+      "point": "beta",
+      "trace": -1966,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 24,
+      "z_delta": 624,
+      "z_rational": -983
+    },
+    {
+      "M": [
+        -17,
+        6,
+        -156,
+        55
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 148,
+      "norm": 1852321,
+      "p": 1361,
+      "point": "gamma",
+      "trace": -2686,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 26,
+      "z_delta": 156,
+      "z_rational": -1343
+    },
+    {
+      "M": [
+        2,
+        -17,
+        -6,
+        52
+      ],
+      "base_matrix": [
+        49,
+        -16,
+        -150,
+        49
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -445,
+      "norm": 1852321,
+      "p": 1361,
+      "point": "beta",
+      "trace": -2686,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 26,
+      "z_delta": -156,
+      "z_rational": -1343
+    },
+    {
+      "M": [
+        65,
+        -32,
+        -132,
+        65
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -694,
+      "norm": 1985281,
+      "p": 1409,
+      "point": "gamma",
+      "trace": -1054,
+      "unit_sign": 1,
+      "x": 21,
+      "y": 22,
+      "z_delta": 924,
+      "z_rational": -527
+    },
+    {
+      "M": [
+        -20,
+        21,
+        -42,
+        44
+      ],
+      "base_matrix": [
+        -43,
+        11,
+        -90,
+        23
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 672,
+      "norm": 1985281,
+      "p": 1409,
+      "point": "beta",
+      "trace": -1054,
+      "unit_sign": -1,
+      "x": 21,
+      "y": 22,
+      "z_delta": -924,
+      "z_rational": -527
+    },
+    {
+      "M": [
+        -37,
+        28,
+        -78,
+        59
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 677,
+      "norm": 2036329,
+      "p": 1427,
+      "point": "gamma",
+      "trace": 1502,
+      "unit_sign": 1,
+      "x": 33,
+      "y": 13,
+      "z_delta": 858,
+      "z_rational": 751
+    },
+    {
+      "M": [
+        28,
+        -11,
+        -66,
+        26
+      ],
+      "base_matrix": [
+        5,
+        3,
+        -12,
+        -7
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -605,
+      "norm": 2036329,
+      "p": 1427,
+      "point": "beta",
+      "trace": 1502,
+      "unit_sign": -1,
+      "x": 33,
+      "y": 13,
+      "z_delta": -858,
+      "z_rational": 751
+    },
+    {
+      "M": [
+        -23,
+        9,
+        -156,
+        61
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 211,
+      "norm": 2053489,
+      "p": 1433,
+      "point": "gamma",
+      "trace": -2542,
+      "unit_sign": 1,
+      "x": 9,
+      "y": 26,
+      "z_delta": 468,
+      "z_rational": -1271
+    },
+    {
+      "M": [
+        8,
+        -23,
+        -18,
+        52
+      ],
+      "base_matrix": [
+        61,
+        -19,
+        -138,
+        43
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -634,
+      "norm": 2053489,
+      "p": 1433,
+      "point": "beta",
+      "trace": -2542,
+      "unit_sign": -1,
+      "x": 9,
+      "y": 26,
+      "z_delta": -468,
+      "z_rational": -1271
+    },
+    {
+      "M": [
+        -7,
+        4,
+        -114,
+        65
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 89,
+      "norm": 2105401,
+      "p": 1451,
+      "point": "gamma",
+      "trace": 14,
+      "unit_sign": 1,
+      "x": 27,
+      "y": 19,
+      "z_delta": 1026,
+      "z_rational": 7
+    },
+    {
+      "M": [
+        10,
+        -7,
+        -54,
+        38
+      ],
+      "base_matrix": [
+        11,
+        -2,
+        -60,
+        11
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -268,
+      "norm": 2105401,
+      "p": 1451,
+      "point": "beta",
+      "trace": 14,
+      "unit_sign": -1,
+      "x": 27,
+      "y": 19,
+      "z_delta": -1026,
+      "z_rational": 7
+    },
+    {
+      "M": [
+        -53,
+        18,
+        -162,
+        55
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 477,
+      "norm": 2128681,
+      "p": 1459,
+      "point": "gamma",
+      "trace": -2914,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 27,
+      "z_delta": 54,
+      "z_rational": -1457
+    },
+    {
+      "M": [
+        1,
+        0,
+        -54,
+        1
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -27,
+      "norm": 2128681,
+      "p": 1459,
+      "point": "beta",
+      "trace": -2914,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 27,
+      "z_delta": 54,
+      "z_rational": -1457
+    },
+    {
+      "M": [
+        -11,
+        8,
+        -84,
+        61
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 194,
+      "norm": 2193361,
+      "p": 1481,
+      "point": "gamma",
+      "trace": 1394,
+      "unit_sign": 1,
+      "x": 33,
+      "y": 14,
+      "z_delta": 924,
+      "z_rational": 697
+    },
+    {
+      "M": [
+        26,
+        -11,
+        -66,
+        28
+      ],
+      "base_matrix": [
+        7,
+        2,
+        -18,
+        -5
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -583,
+      "norm": 2193361,
+      "p": 1481,
+      "point": "beta",
+      "trace": 1394,
+      "unit_sign": -1,
+      "x": 33,
+      "y": 14,
+      "z_delta": -924,
+      "z_rational": 697
+    },
+    {
+      "M": [
+        11,
+        -4,
+        -162,
+        59
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -101,
+      "norm": 2199289,
+      "p": 1483,
+      "point": "gamma",
+      "trace": -2866,
+      "unit_sign": 1,
+      "x": 5,
+      "y": 27,
+      "z_delta": 270,
+      "z_rational": -1433
+    },
+    {
+      "M": [
+        11,
+        -1,
+        -54,
+        5
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -302,
+      "norm": 2199289,
+      "p": 1483,
+      "point": "beta",
+      "trace": -2866,
+      "unit_sign": 1,
+      "x": 5,
+      "y": 27,
+      "z_delta": 270,
+      "z_rational": -1433
+    },
+    {
+      "M": [
+        5,
+        -3,
+        -108,
+        65
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -69,
+      "norm": 2217121,
+      "p": 1489,
+      "point": "gamma",
+      "trace": 386,
+      "unit_sign": 1,
+      "x": 29,
+      "y": 18,
+      "z_delta": 1044,
+      "z_rational": 193
+    },
+    {
+      "M": [
+        5,
+        -4,
+        -36,
+        29
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -206,
+      "norm": 2217121,
+      "p": 1489,
+      "point": "beta",
+      "trace": 386,
+      "unit_sign": 1,
+      "x": 29,
+      "y": 18,
+      "z_delta": 1044,
+      "z_rational": 193
+    },
+    {
+      "M": [
+        -35,
+        17,
+        -138,
+        67
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 380,
+      "norm": 2247001,
+      "p": 1499,
+      "point": "gamma",
+      "trace": -1234,
+      "unit_sign": 1,
+      "x": 21,
+      "y": 23,
+      "z_delta": 966,
+      "z_rational": -617
+    },
+    {
+      "M": [
+        -10,
+        11,
+        -42,
+        46
+      ],
+      "base_matrix": [
+        -23,
+        6,
+        -96,
+        25
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 358,
+      "norm": 2247001,
+      "p": 1499,
+      "point": "beta",
+      "trace": -1234,
+      "unit_sign": -1,
+      "x": 21,
+      "y": 23,
+      "z_delta": -966,
+      "z_rational": -617
+    },
+    {
+      "M": [
+        -1,
+        7,
+        -6,
+        41
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 260,
+      "norm": 2319529,
+      "p": 1523,
+      "point": "gamma",
+      "trace": 3038,
+      "unit_sign": 1,
+      "x": 39,
+      "y": 1,
+      "z_delta": 78,
+      "z_rational": 1519
+    },
+    {
+      "M": [
+        -38,
+        1,
+        -78,
+        2
+      ],
+      "base_matrix": [
+        35,
+        -18,
+        72,
+        -37
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 742,
+      "norm": 2319529,
+      "p": 1523,
+      "point": "beta",
+      "trace": 3038,
+      "unit_sign": -1,
+      "x": 39,
+      "y": 1,
+      "z_delta": -78,
+      "z_rational": 1519
+    },
+    {
+      "M": [
+        1,
+        -1,
+        -54,
+        55
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -28,
+      "norm": 2343961,
+      "p": 1531,
+      "point": "gamma",
+      "trace": 2414,
+      "unit_sign": 1,
+      "x": 37,
+      "y": 9,
+      "z_delta": 666,
+      "z_rational": 1207
+    },
+    {
+      "M": [
+        1,
+        -2,
+        -18,
+        37
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -83,
+      "norm": 2343961,
+      "p": 1531,
+      "point": "beta",
+      "trace": 2414,
+      "unit_sign": 1,
+      "x": 37,
+      "y": 9,
+      "z_delta": 666,
+      "z_rational": 1207
+    },
+    {
+      "M": [
+        -1,
+        2,
+        -24,
+        47
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 66,
+      "norm": 2411809,
+      "p": 1553,
+      "point": "gamma",
+      "trace": 2978,
+      "unit_sign": 1,
+      "x": 39,
+      "y": 4,
+      "z_delta": 312,
+      "z_rational": 1489
+    },
+    {
+      "M": [
+        10,
+        -1,
+        -78,
+        8
+      ],
+      "base_matrix": [
+        -7,
+        4,
+        54,
+        -31
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -199,
+      "norm": 2411809,
+      "p": 1553,
+      "point": "beta",
+      "trace": 2978,
+      "unit_sign": -1,
+      "x": 39,
+      "y": 4,
+      "z_delta": -312,
+      "z_rational": 1489
+    },
+    {
+      "M": [
+        -11,
+        18,
+        -30,
+        49
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 577,
+      "norm": 2468041,
+      "p": 1571,
+      "point": "gamma",
+      "trace": 2942,
+      "unit_sign": 1,
+      "x": 39,
+      "y": 5,
+      "z_delta": 390,
+      "z_rational": 1471
+    },
+    {
+      "M": [
+        8,
+        -1,
+        -78,
+        10
+      ],
+      "base_matrix": [
+        -5,
+        3,
+        48,
+        -29
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -161,
+      "norm": 2468041,
+      "p": 1571,
+      "point": "beta",
+      "trace": 2942,
+      "unit_sign": -1,
+      "x": 39,
+      "y": 5,
+      "z_delta": -390,
+      "z_rational": 1471
+    },
+    {
+      "M": [
+        5,
+        -2,
+        -162,
+        65
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -49,
+      "norm": 2493241,
+      "p": 1579,
+      "point": "gamma",
+      "trace": -2674,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 27,
+      "z_delta": 594,
+      "z_rational": -1337
+    },
+    {
+      "M": [
+        5,
+        -1,
+        -54,
+        11
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -146,
+      "norm": 2493241,
+      "p": 1579,
+      "point": "beta",
+      "trace": -2674,
+      "unit_sign": 1,
+      "x": 11,
+      "y": 27,
+      "z_delta": 594,
+      "z_rational": -1337
+    },
+    {
+      "M": [
+        -31,
+        21,
+        -96,
+        65
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 517,
+      "norm": 2563201,
+      "p": 1601,
+      "point": "gamma",
+      "trace": 1154,
+      "unit_sign": 1,
+      "x": 33,
+      "y": 16,
+      "z_delta": 1056,
+      "z_rational": 577
+    },
+    {
+      "M": [
+        -2,
+        1,
+        -66,
+        32
+      ],
+      "base_matrix": [
+        -1,
+        0,
+        -30,
+        -1
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 49,
+      "norm": 2563201,
+      "p": 1601,
+      "point": "beta",
+      "trace": 1154,
+      "unit_sign": -1,
+      "x": 33,
+      "y": 16,
+      "z_delta": -1056,
+      "z_rational": 577
+    },
+    {
+      "M": [
+        -29,
+        18,
+        -108,
+        67
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 432,
+      "norm": 2588881,
+      "p": 1609,
+      "point": "gamma",
+      "trace": 626,
+      "unit_sign": 1,
+      "x": 31,
+      "y": 18,
+      "z_delta": 1116,
+      "z_rational": 313
+    },
+    {
+      "M": [
+        7,
+        -6,
+        -36,
+        31
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -312,
+      "norm": 2588881,
+      "p": 1609,
+      "point": "beta",
+      "trace": 626,
+      "unit_sign": 1,
+      "x": 31,
+      "y": 18,
+      "z_delta": 1116,
+      "z_rational": 313
+    },
+    {
+      "M": [
+        -19,
+        24,
+        -42,
+        53
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 733,
+      "norm": 2621161,
+      "p": 1619,
+      "point": "gamma",
+      "trace": 2846,
+      "unit_sign": 1,
+      "x": 39,
+      "y": 7,
+      "z_delta": 546,
+      "z_rational": 1423
+    },
+    {
+      "M": [
+        28,
+        -5,
+        -78,
+        14
+      ],
+      "base_matrix": [
+        -13,
+        9,
+        36,
+        -25
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -581,
+      "norm": 2621161,
+      "p": 1619,
+      "point": "beta",
+      "trace": 2846,
+      "unit_sign": -1,
+      "x": 39,
+      "y": 7,
+      "z_delta": -546,
+      "z_rational": 1423
+    },
+    {
+      "M": [
+        -29,
+        12,
+        -162,
+        67
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 291,
+      "norm": 2647129,
+      "p": 1627,
+      "point": "gamma",
+      "trace": -2578,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 27,
+      "z_delta": 702,
+      "z_rational": -1289
+    },
+    {
+      "M": [
+        25,
+        -6,
+        -54,
+        13
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -753,
+      "norm": 2647129,
+      "p": 1627,
+      "point": "beta",
+      "trace": -2578,
+      "unit_sign": 1,
+      "x": 13,
+      "y": 27,
+      "z_delta": 702,
+      "z_rational": -1289
+    },
+    {
+      "M": [
+        13,
+        -11,
+        -72,
+        61
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -299,
+      "norm": 2745649,
+      "p": 1657,
+      "point": "gamma",
+      "trace": 2162,
+      "unit_sign": 1,
+      "x": 37,
+      "y": 12,
+      "z_delta": 888,
+      "z_rational": 1081
+    },
+    {
+      "M": [
+        -11,
+        17,
+        -24,
+        37
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 761,
+      "norm": 2745649,
+      "p": 1657,
+      "point": "beta",
+      "trace": 2162,
+      "unit_sign": 1,
+      "x": 37,
+      "y": 12,
+      "z_delta": 888,
+      "z_rational": 1081
+    },
+    {
+      "M": [
+        -35,
+        23,
+        -102,
+        67
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 572,
+      "norm": 2778889,
+      "p": 1667,
+      "point": "gamma",
+      "trace": 1022,
+      "unit_sign": 1,
+      "x": 33,
+      "y": 17,
+      "z_delta": 1122,
+      "z_rational": 511
+    },
+    {
+      "M": [
+        2,
+        -1,
+        -66,
+        34
+      ],
+      "base_matrix": [
+        1,
+        0,
+        -36,
+        1
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -50,
+      "norm": 2778889,
+      "p": 1667,
+      "point": "beta",
+      "trace": 1022,
+      "unit_sign": -1,
+      "x": 33,
+      "y": 17,
+      "z_delta": -1122,
+      "z_rational": 511
+    },
+    {
+      "M": [
+        -13,
+        7,
+        -132,
+        71
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 167,
+      "norm": 2879809,
+      "p": 1697,
+      "point": "gamma",
+      "trace": -478,
+      "unit_sign": 1,
+      "x": 27,
+      "y": 22,
+      "z_delta": 1188,
+      "z_rational": -239
+    },
+    {
+      "M": [
+        16,
+        -13,
+        -54,
+        44
+      ],
+      "base_matrix": [
+        23,
+        -5,
+        -78,
+        17
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -502,
+      "norm": 2879809,
+      "p": 1697,
+      "point": "beta",
+      "trace": -478,
+      "unit_sign": -1,
+      "x": 27,
+      "y": 22,
+      "z_delta": -1188,
+      "z_rational": -239
+    },
+    {
+      "M": [
+        5,
+        -13,
+        -18,
+        47
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -470,
+      "norm": 2886601,
+      "p": 1699,
+      "point": "gamma",
+      "trace": 3326,
+      "unit_sign": 1,
+      "x": 41,
+      "y": 3,
+      "z_delta": 246,
+      "z_rational": 1663
+    },
+    {
+      "M": [
+        -1,
+        7,
+        -6,
+        41
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 290,
+      "norm": 2886601,
+      "p": 1699,
+      "point": "beta",
+      "trace": 3326,
+      "unit_sign": 1,
+      "x": 41,
+      "y": 3,
+      "z_delta": 246,
+      "z_rational": 1663
+    },
+    {
+      "M": [
+        -1,
+        1,
+        -60,
+        59
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 29,
+      "norm": 2961841,
+      "p": 1721,
+      "point": "gamma",
+      "trace": 2642,
+      "unit_sign": 1,
+      "x": 39,
+      "y": 10,
+      "z_delta": 780,
+      "z_rational": 1321
+    },
+    {
+      "M": [
+        4,
+        -1,
+        -78,
+        20
+      ],
+      "base_matrix": [
+        -1,
+        1,
+        18,
+        -19
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -88,
+      "norm": 2961841,
+      "p": 1721,
+      "point": "beta",
+      "trace": 2642,
+      "unit_sign": -1,
+      "x": 39,
+      "y": 10,
+      "z_delta": -780,
+      "z_rational": 1321
+    },
+    {
+      "M": [
+        -55,
+        31,
+        -126,
+        71
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 752,
+      "norm": 2968729,
+      "p": 1723,
+      "point": "gamma",
+      "trace": -82,
+      "unit_sign": 1,
+      "x": 29,
+      "y": 21,
+      "z_delta": 1218,
+      "z_rational": -41
+    },
+    {
+      "M": [
+        -13,
+        9,
+        -42,
+        29
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 534,
+      "norm": 2968729,
+      "p": 1723,
+      "point": "beta",
+      "trace": -82,
+      "unit_sign": 1,
+      "x": 29,
+      "y": 21,
+      "z_delta": 1218,
+      "z_rational": -41
+    },
+    {
+      "M": [
+        -73,
+        32,
+        -162,
+        71
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 787,
+      "norm": 3052009,
+      "p": 1747,
+      "point": "gamma",
+      "trace": -2338,
+      "unit_sign": 1,
+      "x": 17,
+      "y": 27,
+      "z_delta": 918,
+      "z_rational": -1169
+    },
+    {
+      "M": [
+        -19,
+        6,
+        -54,
+        17
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 615,
+      "norm": 3052009,
+      "p": 1747,
+      "point": "beta",
+      "trace": -2338,
+      "unit_sign": 1,
+      "x": 17,
+      "y": 27,
+      "z_delta": 918,
+      "z_rational": -1169
+    },
+    {
+      "M": [
+        17,
+        -25,
+        -36,
+        53
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -827,
+      "norm": 3073009,
+      "p": 1753,
+      "point": "gamma",
+      "trace": 3218,
+      "unit_sign": 1,
+      "x": 41,
+      "y": 6,
+      "z_delta": 492,
+      "z_rational": 1609
+    },
+    {
+      "M": [
+        5,
+        -17,
+        -12,
+        41
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -727,
+      "norm": 3073009,
+      "p": 1753,
+      "point": "beta",
+      "trace": 3218,
+      "unit_sign": 1,
+      "x": 41,
+      "y": 6,
+      "z_delta": 492,
+      "z_rational": 1609
+    },
+    {
+      "M": [
+        -71,
+        36,
+        -144,
+        73
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 876,
+      "norm": 3157729,
+      "p": 1777,
+      "point": "gamma",
+      "trace": -1054,
+      "unit_sign": 1,
+      "x": 25,
+      "y": 24,
+      "z_delta": 1200,
+      "z_rational": -527
+    },
+    {
+      "M": [
+        -23,
+        12,
+        -48,
+        25
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 852,
+      "norm": 3157729,
+      "p": 1777,
+      "point": "beta",
+      "trace": -1054,
+      "unit_sign": 1,
+      "x": 25,
+      "y": 24,
+      "z_delta": 1200,
+      "z_rational": -527
+    },
+    {
+      "M": [
+        -17,
+        9,
+        -138,
+        73
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 220,
+      "norm": 3193369,
+      "p": 1787,
+      "point": "gamma",
+      "trace": -658,
+      "unit_sign": 1,
+      "x": 27,
+      "y": 23,
+      "z_delta": 1242,
+      "z_rational": -329
+    },
+    {
+      "M": [
+        20,
+        -17,
+        -54,
+        46
+      ],
+      "base_matrix": [
+        31,
+        -7,
+        -84,
+        19
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -661,
+      "norm": 3193369,
+      "p": 1787,
+      "point": "beta",
+      "trace": -658,
+      "unit_sign": -1,
+      "x": 27,
+      "y": 23,
+      "z_delta": -1242,
+      "z_rational": -329
+    },
+    {
+      "M": [
+        -59,
+        20,
+        -180,
+        61
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 590,
+      "norm": 3243601,
+      "p": 1801,
+      "point": "gamma",
+      "trace": -3598,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 30,
+      "z_delta": 60,
+      "z_rational": -1799
+    },
+    {
+      "M": [
+        1,
+        0,
+        -60,
+        1
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -30,
+      "norm": 3243601,
+      "p": 1801,
+      "point": "beta",
+      "trace": -3598,
+      "unit_sign": 1,
+      "x": 1,
+      "y": 30,
+      "z_delta": 60,
+      "z_rational": -1799
+    },
+    {
+      "M": [
+        53,
+        -33,
+        -114,
+        71
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -842,
+      "norm": 3279721,
+      "p": 1811,
+      "point": "gamma",
+      "trace": 734,
+      "unit_sign": 1,
+      "x": 33,
+      "y": 19,
+      "z_delta": 1254,
+      "z_rational": 367
+    },
+    {
+      "M": [
+        -26,
+        15,
+        -66,
+        38
+      ],
+      "base_matrix": [
+        -19,
+        2,
+        -48,
+        5
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 714,
+      "norm": 3279721,
+      "p": 1811,
+      "point": "beta",
+      "trace": 734,
+      "unit_sign": -1,
+      "x": 33,
+      "y": 19,
+      "z_delta": -1254,
+      "z_rational": 367
+    },
+    {
+      "M": [
+        7,
+        -19,
+        -18,
+        49
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -724,
+      "norm": 3485689,
+      "p": 1867,
+      "point": "gamma",
+      "trace": 3662,
+      "unit_sign": 1,
+      "x": 43,
+      "y": 3,
+      "z_delta": 258,
+      "z_rational": 1831
+    },
+    {
+      "M": [
+        1,
+        -7,
+        -6,
+        43
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -304,
+      "norm": 3485689,
+      "p": 1867,
+      "point": "beta",
+      "trace": 3662,
+      "unit_sign": 1,
+      "x": 43,
+      "y": 3,
+      "z_delta": 258,
+      "z_rational": 1831
+    },
+    {
+      "M": [
+        35,
+        -23,
+        -108,
+        71
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -607,
+      "norm": 3508129,
+      "p": 1873,
+      "point": "gamma",
+      "trace": 1154,
+      "unit_sign": 1,
+      "x": 35,
+      "y": 18,
+      "z_delta": 1260,
+      "z_rational": 577
+    },
+    {
+      "M": [
+        -1,
+        1,
+        -36,
+        35
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 53,
+      "norm": 3508129,
+      "p": 1873,
+      "point": "beta",
+      "trace": 1154,
+      "unit_sign": 1,
+      "x": 35,
+      "y": 18,
+      "z_delta": 1260,
+      "z_rational": 577
+    },
+    {
+      "M": [
+        -23,
+        14,
+        -120,
+        73
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 362,
+      "norm": 3568321,
+      "p": 1889,
+      "point": "gamma",
+      "trace": 578,
+      "unit_sign": 1,
+      "x": 33,
+      "y": 20,
+      "z_delta": 1320,
+      "z_rational": 289
+    },
+    {
+      "M": [
+        -28,
+        17,
+        -66,
+        40
+      ],
+      "base_matrix": [
+        -23,
+        3,
+        -54,
+        7
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 802,
+      "norm": 3568321,
+      "p": 1889,
+      "point": "beta",
+      "trace": 578,
+      "unit_sign": -1,
+      "x": 33,
+      "y": 20,
+      "z_delta": -1320,
+      "z_rational": 289
+    },
+    {
+      "M": [
+        31,
+        -13,
+        -174,
+        73
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -340,
+      "norm": 3636649,
+      "p": 1907,
+      "point": "gamma",
+      "trace": -2914,
+      "unit_sign": 1,
+      "x": 15,
+      "y": 29,
+      "z_delta": 870,
+      "z_rational": -1457
+    },
+    {
+      "M": [
+        14,
+        -27,
+        -30,
+        58
+      ],
+      "base_matrix": [
+        67,
+        -20,
+        -144,
+        43
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -888,
+      "norm": 3636649,
+      "p": 1907,
+      "point": "beta",
+      "trace": -2914,
+      "unit_sign": -1,
+      "x": 15,
+      "y": 29,
+      "z_delta": -870,
+      "z_rational": -1457
+    },
+    {
+      "M": [
+        -5,
+        4,
+        -84,
+        67
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 114,
+      "norm": 3659569,
+      "p": 1913,
+      "point": "gamma",
+      "trace": 2258,
+      "unit_sign": 1,
+      "x": 39,
+      "y": 14,
+      "z_delta": 1092,
+      "z_rational": 1129
+    },
+    {
+      "M": [
+        14,
+        -5,
+        -78,
+        28
+      ],
+      "base_matrix": [
+        1,
+        2,
+        -6,
+        -11
+      ],
+      "character": -1,
+      "e": 2,
+      "k": -343,
+      "norm": 3659569,
+      "p": 1913,
+      "point": "beta",
+      "trace": 2258,
+      "unit_sign": -1,
+      "x": 39,
+      "y": 14,
+      "z_delta": -1092,
+      "z_rational": 1129
+    },
+    {
+      "M": [
+        83,
+        -29,
+        -186,
+        65
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -862,
+      "norm": 3728761,
+      "p": 1931,
+      "point": "gamma",
+      "trace": -3826,
+      "unit_sign": 1,
+      "x": 3,
+      "y": 31,
+      "z_delta": 186,
+      "z_rational": -1913
+    },
+    {
+      "M": [
+        -2,
+        21,
+        -6,
+        62
+      ],
+      "base_matrix": [
+        -61,
+        20,
+        -180,
+        59
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 654,
+      "norm": 3728761,
+      "p": 1931,
+      "point": "beta",
+      "trace": -3826,
+      "unit_sign": -1,
+      "x": 3,
+      "y": 31,
+      "z_delta": -186,
+      "z_rational": -1913
+    },
+    {
+      "M": [
+        -37,
+        19,
+        -150,
+        77
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 488,
+      "norm": 3916441,
+      "p": 1979,
+      "point": "gamma",
+      "trace": -1042,
+      "unit_sign": 1,
+      "x": 27,
+      "y": 25,
+      "z_delta": 1350,
+      "z_rational": -521
+    },
+    {
+      "M": [
+        -14,
+        13,
+        -54,
+        50
+      ],
+      "base_matrix": [
+        -25,
+        6,
+        -96,
+        23
+      ],
+      "character": -1,
+      "e": 2,
+      "k": 514,
+      "norm": 3916441,
+      "p": 1979,
+      "point": "beta",
+      "trace": -1042,
+      "unit_sign": -1,
+      "x": 27,
+      "y": 25,
+      "z_delta": -1350,
+      "z_rational": -521
+    },
+    {
+      "M": [
+        -61,
+        29,
+        -162,
+        77
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 748,
+      "norm": 3948169,
+      "p": 1987,
+      "point": "gamma",
+      "trace": -1858,
+      "unit_sign": 1,
+      "x": 23,
+      "y": 27,
+      "z_delta": 1242,
+      "z_rational": -929
+    },
+    {
+      "M": [
+        -7,
+        3,
+        -54,
+        23
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 258,
+      "norm": 3948169,
+      "p": 1987,
+      "point": "beta",
+      "trace": -1858,
+      "unit_sign": 1,
+      "x": 23,
+      "y": 27,
+      "z_delta": 1242,
+      "z_rational": -929
+    },
+    {
+      "M": [
+        -43,
+        23,
+        -144,
+        77
+      ],
+      "character": 1,
+      "e": 1,
+      "k": 595,
+      "norm": 3972049,
+      "p": 1993,
+      "point": "gamma",
+      "trace": -622,
+      "unit_sign": 1,
+      "x": 29,
+      "y": 24,
+      "z_delta": 1392,
+      "z_rational": -311
+    },
+    {
+      "M": [
+        5,
+        -3,
+        -48,
+        29
+      ],
+      "character": 1,
+      "e": 1,
+      "k": -207,
+      "norm": 3972049,
+      "p": 1993,
+      "point": "beta",
+      "trace": -622,
+      "unit_sign": 1,
+      "x": 29,
+      "y": 24,
+      "z_delta": 1392,
+      "z_rational": -311
+    }
+  ],
+  "endpoint_checks": 604,
+  "exceptional_primes": [
+    {
+      "minus_terms": [
+        1,
+        6,
+        0
+      ],
+      "p": 3,
+      "plus_terms": [
+        1,
+        6,
+        0
+      ],
+      "value": 7
+    },
+    {
+      "minus_terms": [
+        1,
+        16,
+        23,
+        5,
+        5
+      ],
+      "p": 5,
+      "plus_terms": [
+        1,
+        17,
+        12,
+        15,
+        5
+      ],
+      "value": 0
+    }
+  ],
+  "original_definition_values": 199,
+  "original_sum_checks": 88,
+  "prime_count": 302,
+  "residue_counts": {
+    "1": 68,
+    "3": 77,
+    "5": 79,
+    "7": 78
+  },
+  "rows": [
+    {
+      "Qp": 3,
+      "gp": 6,
+      "minus32": 7,
+      "p": 3,
+      "plus64": 7,
+      "residue8": 3,
+      "target": 7,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "Qp": 19,
+      "gp": 13,
+      "minus32": 0,
+      "p": 5,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 43,
+      "gp": 37,
+      "minus32": 0,
+      "p": 7,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 115,
+      "gp": 109,
+      "minus32": 14,
+      "p": 11,
+      "plus64": 14,
+      "residue8": 3,
+      "target": 14,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "Qp": 163,
+      "gp": 157,
+      "minus32": 0,
+      "p": 13,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 283,
+      "gp": 277,
+      "minus32": 2,
+      "p": 17,
+      "plus64": 2,
+      "residue8": 1,
+      "target": 2,
+      "x": 3,
+      "y": 2
+    },
+    {
+      "Qp": 355,
+      "gp": 349,
+      "minus32": 327,
+      "p": 19,
+      "plus64": 327,
+      "residue8": 3,
+      "target": 327,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "Qp": 523,
+      "gp": 517,
+      "minus32": 0,
+      "p": 23,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 835,
+      "gp": 829,
+      "minus32": 0,
+      "p": 29,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 955,
+      "gp": 949,
+      "minus32": 0,
+      "p": 31,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1363,
+      "gp": 1357,
+      "minus32": 0,
+      "p": 37,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1675,
+      "gp": 1669,
+      "minus32": 1635,
+      "p": 41,
+      "plus64": 1635,
+      "residue8": 1,
+      "target": 1635,
+      "x": 3,
+      "y": 4
+    },
+    {
+      "Qp": 1843,
+      "gp": 1837,
+      "minus32": 14,
+      "p": 43,
+      "plus64": 14,
+      "residue8": 3,
+      "target": 14,
+      "x": 5,
+      "y": 3
+    },
+    {
+      "Qp": 2203,
+      "gp": 2197,
+      "minus32": 0,
+      "p": 47,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2803,
+      "gp": 2797,
+      "minus32": 0,
+      "p": 53,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3475,
+      "gp": 3469,
+      "minus32": 3399,
+      "p": 59,
+      "plus64": 3399,
+      "residue8": 3,
+      "target": 3399,
+      "x": 3,
+      "y": 5
+    },
+    {
+      "Qp": 3715,
+      "gp": 3709,
+      "minus32": 0,
+      "p": 61,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 4483,
+      "gp": 4477,
+      "minus32": 62,
+      "p": 67,
+      "plus64": 62,
+      "residue8": 3,
+      "target": 62,
+      "x": 7,
+      "y": 3
+    },
+    {
+      "Qp": 5035,
+      "gp": 5029,
+      "minus32": 0,
+      "p": 71,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 5323,
+      "gp": 5317,
+      "minus32": 5187,
+      "p": 73,
+      "plus64": 5187,
+      "residue8": 1,
+      "target": 5187,
+      "x": 1,
+      "y": 6
+    },
+    {
+      "Qp": 6235,
+      "gp": 6229,
+      "minus32": 0,
+      "p": 79,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 6883,
+      "gp": 6877,
+      "minus32": 158,
+      "p": 83,
+      "plus64": 158,
+      "residue8": 3,
+      "target": 158,
+      "x": 9,
+      "y": 1
+    },
+    {
+      "Qp": 7915,
+      "gp": 7909,
+      "minus32": 146,
+      "p": 89,
+      "plus64": 146,
+      "residue8": 1,
+      "target": 146,
+      "x": 9,
+      "y": 2
+    },
+    {
+      "Qp": 9403,
+      "gp": 9397,
+      "minus32": 9315,
+      "p": 97,
+      "plus64": 9315,
+      "residue8": 1,
+      "target": 9315,
+      "x": 5,
+      "y": 6
+    },
+    {
+      "Qp": 10195,
+      "gp": 10189,
+      "minus32": 0,
+      "p": 101,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 10603,
+      "gp": 10597,
+      "minus32": 0,
+      "p": 103,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 11443,
+      "gp": 11437,
+      "minus32": 11271,
+      "p": 107,
+      "plus64": 11271,
+      "residue8": 3,
+      "target": 11271,
+      "x": 3,
+      "y": 7
+    },
+    {
+      "Qp": 11875,
+      "gp": 11869,
+      "minus32": 0,
+      "p": 109,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 12763,
+      "gp": 12757,
+      "minus32": 98,
+      "p": 113,
+      "plus64": 98,
+      "residue8": 1,
+      "target": 98,
+      "x": 9,
+      "y": 4
+    },
+    {
+      "Qp": 16123,
+      "gp": 16117,
+      "minus32": 0,
+      "p": 127,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 17155,
+      "gp": 17149,
+      "minus32": 62,
+      "p": 131,
+      "plus64": 62,
+      "residue8": 3,
+      "target": 62,
+      "x": 9,
+      "y": 5
+    },
+    {
+      "Qp": 18763,
+      "gp": 18757,
+      "minus32": 18531,
+      "p": 137,
+      "plus64": 18531,
+      "residue8": 1,
+      "target": 18531,
+      "x": 3,
+      "y": 8
+    },
+    {
+      "Qp": 19315,
+      "gp": 19309,
+      "minus32": 206,
+      "p": 139,
+      "plus64": 206,
+      "residue8": 3,
+      "target": 206,
+      "x": 11,
+      "y": 3
+    },
+    {
+      "Qp": 22195,
+      "gp": 22189,
+      "minus32": 0,
+      "p": 149,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 22795,
+      "gp": 22789,
+      "minus32": 0,
+      "p": 151,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 24643,
+      "gp": 24637,
+      "minus32": 0,
+      "p": 157,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 26563,
+      "gp": 26557,
+      "minus32": 26247,
+      "p": 163,
+      "plus64": 26247,
+      "residue8": 3,
+      "target": 26247,
+      "x": 1,
+      "y": 9
+    },
+    {
+      "Qp": 27883,
+      "gp": 27877,
+      "minus32": 0,
+      "p": 167,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 29923,
+      "gp": 29917,
+      "minus32": 0,
+      "p": 173,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 32035,
+      "gp": 32029,
+      "minus32": 32007,
+      "p": 179,
+      "plus64": 32007,
+      "residue8": 3,
+      "target": 32007,
+      "x": 9,
+      "y": 7
+    },
+    {
+      "Qp": 32755,
+      "gp": 32749,
+      "minus32": 0,
+      "p": 181,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 36475,
+      "gp": 36469,
+      "minus32": 0,
+      "p": 191,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 37243,
+      "gp": 37237,
+      "minus32": 98,
+      "p": 193,
+      "plus64": 98,
+      "residue8": 1,
+      "target": 98,
+      "x": 11,
+      "y": 6
+    },
+    {
+      "Qp": 38803,
+      "gp": 38797,
+      "minus32": 0,
+      "p": 197,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 39595,
+      "gp": 39589,
+      "minus32": 0,
+      "p": 199,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 44515,
+      "gp": 44509,
+      "minus32": 44295,
+      "p": 211,
+      "plus64": 44295,
+      "residue8": 3,
+      "target": 44295,
+      "x": 7,
+      "y": 9
+    },
+    {
+      "Qp": 49723,
+      "gp": 49717,
+      "minus32": 0,
+      "p": 223,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 51523,
+      "gp": 51517,
+      "minus32": 446,
+      "p": 227,
+      "plus64": 446,
+      "residue8": 3,
+      "target": 446,
+      "x": 15,
+      "y": 1
+    },
+    {
+      "Qp": 52435,
+      "gp": 52429,
+      "minus32": 0,
+      "p": 229,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 54283,
+      "gp": 54277,
+      "minus32": 434,
+      "p": 233,
+      "plus64": 434,
+      "residue8": 1,
+      "target": 434,
+      "x": 15,
+      "y": 2
+    },
+    {
+      "Qp": 57115,
+      "gp": 57109,
+      "minus32": 0,
+      "p": 239,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 58075,
+      "gp": 58069,
+      "minus32": 194,
+      "p": 241,
+      "plus64": 194,
+      "residue8": 1,
+      "target": 194,
+      "x": 13,
+      "y": 6
+    },
+    {
+      "Qp": 62995,
+      "gp": 62989,
+      "minus32": 62535,
+      "p": 251,
+      "plus64": 62535,
+      "residue8": 3,
+      "target": 62535,
+      "x": 3,
+      "y": 11
+    },
+    {
+      "Qp": 66043,
+      "gp": 66037,
+      "minus32": 386,
+      "p": 257,
+      "plus64": 386,
+      "residue8": 1,
+      "target": 386,
+      "x": 15,
+      "y": 4
+    },
+    {
+      "Qp": 69163,
+      "gp": 69157,
+      "minus32": 0,
+      "p": 263,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 72355,
+      "gp": 72349,
+      "minus32": 0,
+      "p": 269,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 73435,
+      "gp": 73429,
+      "minus32": 0,
+      "p": 271,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 76723,
+      "gp": 76717,
+      "minus32": 0,
+      "p": 277,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 78955,
+      "gp": 78949,
+      "minus32": 78723,
+      "p": 281,
+      "plus64": 78723,
+      "residue8": 1,
+      "target": 78723,
+      "x": 9,
+      "y": 10
+    },
+    {
+      "Qp": 80083,
+      "gp": 80077,
+      "minus32": 80007,
+      "p": 283,
+      "plus64": 80007,
+      "residue8": 3,
+      "target": 80007,
+      "x": 11,
+      "y": 9
+    },
+    {
+      "Qp": 85843,
+      "gp": 85837,
+      "minus32": 0,
+      "p": 293,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 94243,
+      "gp": 94237,
+      "minus32": 542,
+      "p": 307,
+      "plus64": 542,
+      "residue8": 3,
+      "target": 542,
+      "x": 17,
+      "y": 3
+    },
+    {
+      "Qp": 96715,
+      "gp": 96709,
+      "minus32": 0,
+      "p": 311,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 97963,
+      "gp": 97957,
+      "minus32": 97443,
+      "p": 313,
+      "plus64": 97443,
+      "residue8": 1,
+      "target": 97443,
+      "x": 5,
+      "y": 12
+    },
+    {
+      "Qp": 100483,
+      "gp": 100477,
+      "minus32": 0,
+      "p": 317,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 109555,
+      "gp": 109549,
+      "minus32": 14,
+      "p": 331,
+      "plus64": 14,
+      "residue8": 3,
+      "target": 14,
+      "x": 13,
+      "y": 9
+    },
+    {
+      "Qp": 113563,
+      "gp": 113557,
+      "minus32": 113091,
+      "p": 337,
+      "plus64": 113091,
+      "residue8": 1,
+      "target": 113091,
+      "x": 7,
+      "y": 12
+    },
+    {
+      "Qp": 120403,
+      "gp": 120397,
+      "minus32": 119751,
+      "p": 347,
+      "plus64": 119751,
+      "residue8": 3,
+      "target": 119751,
+      "x": 3,
+      "y": 13
+    },
+    {
+      "Qp": 121795,
+      "gp": 121789,
+      "minus32": 0,
+      "p": 349,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 124603,
+      "gp": 124597,
+      "minus32": 194,
+      "p": 353,
+      "plus64": 194,
+      "residue8": 1,
+      "target": 194,
+      "x": 15,
+      "y": 8
+    },
+    {
+      "Qp": 128875,
+      "gp": 128869,
+      "minus32": 0,
+      "p": 359,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 134683,
+      "gp": 134677,
+      "minus32": 0,
+      "p": 367,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 139123,
+      "gp": 139117,
+      "minus32": 0,
+      "p": 373,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 143635,
+      "gp": 143629,
+      "minus32": 686,
+      "p": 379,
+      "plus64": 686,
+      "residue8": 3,
+      "target": 686,
+      "x": 19,
+      "y": 3
+    },
+    {
+      "Qp": 146683,
+      "gp": 146677,
+      "minus32": 0,
+      "p": 383,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 151315,
+      "gp": 151309,
+      "minus32": 0,
+      "p": 389,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 157603,
+      "gp": 157597,
+      "minus32": 0,
+      "p": 397,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 160795,
+      "gp": 160789,
+      "minus32": 160035,
+      "p": 401,
+      "plus64": 160035,
+      "residue8": 1,
+      "target": 160035,
+      "x": 3,
+      "y": 14
+    },
+    {
+      "Qp": 167275,
+      "gp": 167269,
+      "minus32": 166947,
+      "p": 409,
+      "plus64": 166947,
+      "residue8": 1,
+      "target": 166947,
+      "x": 11,
+      "y": 12
+    },
+    {
+      "Qp": 175555,
+      "gp": 175549,
+      "minus32": 175047,
+      "p": 419,
+      "plus64": 175047,
+      "residue8": 3,
+      "target": 175047,
+      "x": 9,
+      "y": 13
+    },
+    {
+      "Qp": 177235,
+      "gp": 177229,
+      "minus32": 0,
+      "p": 421,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 185755,
+      "gp": 185749,
+      "minus32": 0,
+      "p": 431,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 187483,
+      "gp": 187477,
+      "minus32": 578,
+      "p": 433,
+      "plus64": 578,
+      "residue8": 1,
+      "target": 578,
+      "x": 19,
+      "y": 6
+    },
+    {
+      "Qp": 192715,
+      "gp": 192709,
+      "minus32": 0,
+      "p": 439,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 196243,
+      "gp": 196237,
+      "minus32": 878,
+      "p": 443,
+      "plus64": 878,
+      "residue8": 3,
+      "target": 878,
+      "x": 21,
+      "y": 1
+    },
+    {
+      "Qp": 201595,
+      "gp": 201589,
+      "minus32": 866,
+      "p": 449,
+      "plus64": 866,
+      "residue8": 1,
+      "target": 866,
+      "x": 21,
+      "y": 2
+    },
+    {
+      "Qp": 208843,
+      "gp": 208837,
+      "minus32": 208611,
+      "p": 457,
+      "plus64": 208611,
+      "residue8": 1,
+      "target": 208611,
+      "x": 13,
+      "y": 12
+    },
+    {
+      "Qp": 212515,
+      "gp": 212509,
+      "minus32": 0,
+      "p": 461,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 214363,
+      "gp": 214357,
+      "minus32": 0,
+      "p": 463,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 218083,
+      "gp": 218077,
+      "minus32": 218055,
+      "p": 467,
+      "plus64": 218055,
+      "residue8": 3,
+      "target": 218055,
+      "x": 15,
+      "y": 11
+    },
+    {
+      "Qp": 229435,
+      "gp": 229429,
+      "minus32": 0,
+      "p": 479,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 237163,
+      "gp": 237157,
+      "minus32": 0,
+      "p": 487,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 241075,
+      "gp": 241069,
+      "minus32": 782,
+      "p": 491,
+      "plus64": 782,
+      "residue8": 3,
+      "target": 782,
+      "x": 21,
+      "y": 5
+    },
+    {
+      "Qp": 248995,
+      "gp": 248989,
+      "minus32": 248199,
+      "p": 499,
+      "plus64": 248199,
+      "residue8": 3,
+      "target": 248199,
+      "x": 7,
+      "y": 15
+    },
+    {
+      "Qp": 253003,
+      "gp": 252997,
+      "minus32": 0,
+      "p": 503,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 259075,
+      "gp": 259069,
+      "minus32": 0,
+      "p": 509,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 271435,
+      "gp": 271429,
+      "minus32": 270435,
+      "p": 521,
+      "plus64": 270435,
+      "residue8": 1,
+      "target": 270435,
+      "x": 3,
+      "y": 16
+    },
+    {
+      "Qp": 273523,
+      "gp": 273517,
+      "minus32": 398,
+      "p": 523,
+      "plus64": 398,
+      "residue8": 3,
+      "target": 398,
+      "x": 19,
+      "y": 9
+    },
+    {
+      "Qp": 292675,
+      "gp": 292669,
+      "minus32": 0,
+      "p": 541,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 299203,
+      "gp": 299197,
+      "minus32": 1022,
+      "p": 547,
+      "plus64": 1022,
+      "residue8": 3,
+      "target": 1022,
+      "x": 23,
+      "y": 3
+    },
+    {
+      "Qp": 310243,
+      "gp": 310237,
+      "minus32": 0,
+      "p": 557,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 316963,
+      "gp": 316957,
+      "minus32": 316743,
+      "p": 563,
+      "plus64": 316743,
+      "residue8": 3,
+      "target": 316743,
+      "x": 15,
+      "y": 13
+    },
+    {
+      "Qp": 323755,
+      "gp": 323749,
+      "minus32": 626,
+      "p": 569,
+      "plus64": 626,
+      "residue8": 1,
+      "target": 626,
+      "x": 21,
+      "y": 8
+    },
+    {
+      "Qp": 326035,
+      "gp": 326029,
+      "minus32": 325383,
+      "p": 571,
+      "plus64": 325383,
+      "residue8": 3,
+      "target": 325383,
+      "x": 11,
+      "y": 15
+    },
+    {
+      "Qp": 332923,
+      "gp": 332917,
+      "minus32": 2,
+      "p": 577,
+      "plus64": 2,
+      "residue8": 1,
+      "target": 2,
+      "x": 17,
+      "y": 12
+    },
+    {
+      "Qp": 344563,
+      "gp": 344557,
+      "minus32": 343431,
+      "p": 587,
+      "plus64": 343431,
+      "residue8": 3,
+      "target": 343431,
+      "x": 3,
+      "y": 17
+    },
+    {
+      "Qp": 351643,
+      "gp": 351637,
+      "minus32": 350787,
+      "p": 593,
+      "plus64": 350787,
+      "residue8": 1,
+      "target": 350787,
+      "x": 9,
+      "y": 16
+    },
+    {
+      "Qp": 358795,
+      "gp": 358789,
+      "minus32": 0,
+      "p": 599,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 361195,
+      "gp": 361189,
+      "minus32": 914,
+      "p": 601,
+      "plus64": 914,
+      "residue8": 1,
+      "target": 914,
+      "x": 23,
+      "y": 6
+    },
+    {
+      "Qp": 368443,
+      "gp": 368437,
+      "minus32": 0,
+      "p": 607,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 375763,
+      "gp": 375757,
+      "minus32": 0,
+      "p": 613,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 380683,
+      "gp": 380677,
+      "minus32": 380355,
+      "p": 617,
+      "plus64": 380355,
+      "residue8": 1,
+      "target": 380355,
+      "x": 15,
+      "y": 14
+    },
+    {
+      "Qp": 383155,
+      "gp": 383149,
+      "minus32": 382599,
+      "p": 619,
+      "plus64": 382599,
+      "residue8": 3,
+      "target": 382599,
+      "x": 13,
+      "y": 15
+    },
+    {
+      "Qp": 398155,
+      "gp": 398149,
+      "minus32": 0,
+      "p": 631,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 410875,
+      "gp": 410869,
+      "minus32": 482,
+      "p": 641,
+      "plus64": 482,
+      "residue8": 1,
+      "target": 482,
+      "x": 21,
+      "y": 10
+    },
+    {
+      "Qp": 413443,
+      "gp": 413437,
+      "minus32": 1214,
+      "p": 643,
+      "plus64": 1214,
+      "residue8": 3,
+      "target": 1214,
+      "x": 25,
+      "y": 3
+    },
+    {
+      "Qp": 418603,
+      "gp": 418597,
+      "minus32": 0,
+      "p": 647,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 426403,
+      "gp": 426397,
+      "minus32": 0,
+      "p": 653,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 434275,
+      "gp": 434269,
+      "minus32": 433287,
+      "p": 659,
+      "plus64": 433287,
+      "residue8": 3,
+      "target": 433287,
+      "x": 9,
+      "y": 17
+    },
+    {
+      "Qp": 436915,
+      "gp": 436909,
+      "minus32": 0,
+      "p": 661,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 452923,
+      "gp": 452917,
+      "minus32": 451683,
+      "p": 673,
+      "plus64": 451683,
+      "residue8": 1,
+      "target": 451683,
+      "x": 5,
+      "y": 18
+    },
+    {
+      "Qp": 458323,
+      "gp": 458317,
+      "minus32": 0,
+      "p": 677,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 466483,
+      "gp": 466477,
+      "minus32": 398,
+      "p": 683,
+      "plus64": 398,
+      "residue8": 3,
+      "target": 398,
+      "x": 21,
+      "y": 11
+    },
+    {
+      "Qp": 477475,
+      "gp": 477469,
+      "minus32": 734,
+      "p": 691,
+      "plus64": 734,
+      "residue8": 3,
+      "target": 734,
+      "x": 23,
+      "y": 9
+    },
+    {
+      "Qp": 491395,
+      "gp": 491389,
+      "minus32": 0,
+      "p": 701,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 502675,
+      "gp": 502669,
+      "minus32": 0,
+      "p": 709,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 516955,
+      "gp": 516949,
+      "minus32": 0,
+      "p": 719,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 528523,
+      "gp": 528517,
+      "minus32": 0,
+      "p": 727,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 537283,
+      "gp": 537277,
+      "minus32": 0,
+      "p": 733,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 546115,
+      "gp": 546109,
+      "minus32": 545799,
+      "p": 739,
+      "plus64": 545799,
+      "residue8": 3,
+      "target": 545799,
+      "x": 17,
+      "y": 15
+    },
+    {
+      "Qp": 552043,
+      "gp": 552037,
+      "minus32": 0,
+      "p": 743,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 563995,
+      "gp": 563989,
+      "minus32": 0,
+      "p": 751,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 573043,
+      "gp": 573037,
+      "minus32": 0,
+      "p": 757,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 579115,
+      "gp": 579109,
+      "minus32": 1394,
+      "p": 761,
+      "plus64": 1394,
+      "residue8": 1,
+      "target": 1394,
+      "x": 27,
+      "y": 4
+    },
+    {
+      "Qp": 591355,
+      "gp": 591349,
+      "minus32": 590307,
+      "p": 769,
+      "plus64": 590307,
+      "residue8": 1,
+      "target": 590307,
+      "x": 11,
+      "y": 18
+    },
+    {
+      "Qp": 597523,
+      "gp": 597517,
+      "minus32": 0,
+      "p": 773,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 619363,
+      "gp": 619357,
+      "minus32": 926,
+      "p": 787,
+      "plus64": 926,
+      "residue8": 3,
+      "target": 926,
+      "x": 25,
+      "y": 9
+    },
+    {
+      "Qp": 635203,
+      "gp": 635197,
+      "minus32": 0,
+      "p": 797,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 654475,
+      "gp": 654469,
+      "minus32": 652899,
+      "p": 809,
+      "plus64": 652899,
+      "residue8": 1,
+      "target": 652899,
+      "x": 3,
+      "y": 20
+    },
+    {
+      "Qp": 657715,
+      "gp": 657709,
+      "minus32": 657543,
+      "p": 811,
+      "plus64": 657543,
+      "residue8": 3,
+      "target": 657543,
+      "x": 19,
+      "y": 15
+    },
+    {
+      "Qp": 674035,
+      "gp": 674029,
+      "minus32": 0,
+      "p": 821,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 677323,
+      "gp": 677317,
+      "minus32": 0,
+      "p": 823,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 683923,
+      "gp": 683917,
+      "minus32": 1262,
+      "p": 827,
+      "plus64": 1262,
+      "residue8": 3,
+      "target": 1262,
+      "x": 27,
+      "y": 7
+    },
+    {
+      "Qp": 687235,
+      "gp": 687229,
+      "minus32": 0,
+      "p": 829,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 703915,
+      "gp": 703909,
+      "minus32": 0,
+      "p": 839,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 727603,
+      "gp": 727597,
+      "minus32": 0,
+      "p": 853,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 734443,
+      "gp": 734437,
+      "minus32": 1202,
+      "p": 857,
+      "plus64": 1202,
+      "residue8": 1,
+      "target": 1202,
+      "x": 27,
+      "y": 8
+    },
+    {
+      "Qp": 737875,
+      "gp": 737869,
+      "minus32": 1646,
+      "p": 859,
+      "plus64": 1646,
+      "residue8": 3,
+      "target": 1646,
+      "x": 29,
+      "y": 3
+    },
+    {
+      "Qp": 744763,
+      "gp": 744757,
+      "minus32": 0,
+      "p": 863,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 769123,
+      "gp": 769117,
+      "minus32": 0,
+      "p": 877,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 776155,
+      "gp": 776149,
+      "minus32": 774723,
+      "p": 881,
+      "plus64": 774723,
+      "residue8": 1,
+      "target": 774723,
+      "x": 9,
+      "y": 20
+    },
+    {
+      "Qp": 779683,
+      "gp": 779677,
+      "minus32": 777927,
+      "p": 883,
+      "plus64": 777927,
+      "residue8": 3,
+      "target": 777927,
+      "x": 1,
+      "y": 21
+    },
+    {
+      "Qp": 786763,
+      "gp": 786757,
+      "minus32": 0,
+      "p": 887,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 822643,
+      "gp": 822637,
+      "minus32": 820935,
+      "p": 907,
+      "plus64": 820935,
+      "residue8": 3,
+      "target": 820935,
+      "x": 5,
+      "y": 21
+    },
+    {
+      "Qp": 829915,
+      "gp": 829909,
+      "minus32": 0,
+      "p": 911,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 844555,
+      "gp": 844549,
+      "minus32": 0,
+      "p": 919,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 863035,
+      "gp": 863029,
+      "minus32": 1058,
+      "p": 929,
+      "plus64": 1058,
+      "residue8": 1,
+      "target": 1058,
+      "x": 27,
+      "y": 10
+    },
+    {
+      "Qp": 877963,
+      "gp": 877957,
+      "minus32": 877251,
+      "p": 937,
+      "plus64": 877251,
+      "residue8": 1,
+      "target": 877251,
+      "x": 17,
+      "y": 18
+    },
+    {
+      "Qp": 885475,
+      "gp": 885469,
+      "minus32": 0,
+      "p": 941,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 896803,
+      "gp": 896797,
+      "minus32": 895815,
+      "p": 947,
+      "plus64": 895815,
+      "residue8": 3,
+      "target": 895815,
+      "x": 15,
+      "y": 19
+    },
+    {
+      "Qp": 908203,
+      "gp": 908197,
+      "minus32": 908067,
+      "p": 953,
+      "plus64": 908067,
+      "residue8": 1,
+      "target": 908067,
+      "x": 21,
+      "y": 16
+    },
+    {
+      "Qp": 935083,
+      "gp": 935077,
+      "minus32": 0,
+      "p": 967,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 942835,
+      "gp": 942829,
+      "minus32": 974,
+      "p": 971,
+      "plus64": 974,
+      "residue8": 3,
+      "target": 974,
+      "x": 27,
+      "y": 11
+    },
+    {
+      "Qp": 954523,
+      "gp": 954517,
+      "minus32": 952611,
+      "p": 977,
+      "plus64": 952611,
+      "residue8": 1,
+      "target": 952611,
+      "x": 3,
+      "y": 22
+    },
+    {
+      "Qp": 966283,
+      "gp": 966277,
+      "minus32": 0,
+      "p": 983,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 982075,
+      "gp": 982069,
+      "minus32": 0,
+      "p": 991,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 994003,
+      "gp": 993997,
+      "minus32": 0,
+      "p": 997,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1018075,
+      "gp": 1018069,
+      "minus32": 1017507,
+      "p": 1009,
+      "plus64": 1017507,
+      "residue8": 1,
+      "target": 1017507,
+      "x": 19,
+      "y": 18
+    },
+    {
+      "Qp": 1026163,
+      "gp": 1026157,
+      "minus32": 0,
+      "p": 1013,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1038355,
+      "gp": 1038349,
+      "minus32": 1038087,
+      "p": 1019,
+      "plus64": 1038087,
+      "residue8": 3,
+      "target": 1038087,
+      "x": 21,
+      "y": 17
+    },
+    {
+      "Qp": 1042435,
+      "gp": 1042429,
+      "minus32": 0,
+      "p": 1021,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1062955,
+      "gp": 1062949,
+      "minus32": 0,
+      "p": 1031,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1067083,
+      "gp": 1067077,
+      "minus32": 1778,
+      "p": 1033,
+      "plus64": 1778,
+      "residue8": 1,
+      "target": 1778,
+      "x": 31,
+      "y": 6
+    },
+    {
+      "Qp": 1079515,
+      "gp": 1079509,
+      "minus32": 0,
+      "p": 1039,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1100395,
+      "gp": 1100389,
+      "minus32": 1098627,
+      "p": 1049,
+      "plus64": 1098627,
+      "residue8": 1,
+      "target": 1098627,
+      "x": 9,
+      "y": 22
+    },
+    {
+      "Qp": 1104595,
+      "gp": 1104589,
+      "minus32": 1103175,
+      "p": 1051,
+      "plus64": 1103175,
+      "residue8": 3,
+      "target": 1103175,
+      "x": 13,
+      "y": 21
+    },
+    {
+      "Qp": 1125715,
+      "gp": 1125709,
+      "minus32": 0,
+      "p": 1061,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1129963,
+      "gp": 1129957,
+      "minus32": 0,
+      "p": 1063,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1142755,
+      "gp": 1142749,
+      "minus32": 0,
+      "p": 1069,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1181563,
+      "gp": 1181557,
+      "minus32": 0,
+      "p": 1087,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1190275,
+      "gp": 1190269,
+      "minus32": 2174,
+      "p": 1091,
+      "plus64": 2174,
+      "residue8": 3,
+      "target": 2174,
+      "x": 33,
+      "y": 1
+    },
+    {
+      "Qp": 1194643,
+      "gp": 1194637,
+      "minus32": 0,
+      "p": 1093,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1203403,
+      "gp": 1203397,
+      "minus32": 2162,
+      "p": 1097,
+      "plus64": 2162,
+      "residue8": 1,
+      "target": 2162,
+      "x": 33,
+      "y": 2
+    },
+    {
+      "Qp": 1216603,
+      "gp": 1216597,
+      "minus32": 0,
+      "p": 1103,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1229875,
+      "gp": 1229869,
+      "minus32": 0,
+      "p": 1109,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1247683,
+      "gp": 1247677,
+      "minus32": 0,
+      "p": 1117,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1261123,
+      "gp": 1261117,
+      "minus32": 1598,
+      "p": 1123,
+      "plus64": 1598,
+      "residue8": 3,
+      "target": 1598,
+      "x": 31,
+      "y": 9
+    },
+    {
+      "Qp": 1274635,
+      "gp": 1274629,
+      "minus32": 1106,
+      "p": 1129,
+      "plus64": 1106,
+      "residue8": 1,
+      "target": 1106,
+      "x": 29,
+      "y": 12
+    },
+    {
+      "Qp": 1324795,
+      "gp": 1324789,
+      "minus32": 0,
+      "p": 1151,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1329403,
+      "gp": 1329397,
+      "minus32": 1327107,
+      "p": 1153,
+      "plus64": 1327107,
+      "residue8": 1,
+      "target": 1327107,
+      "x": 1,
+      "y": 24
+    },
+    {
+      "Qp": 1352563,
+      "gp": 1352557,
+      "minus32": 1352007,
+      "p": 1163,
+      "plus64": 1352007,
+      "residue8": 3,
+      "target": 1352007,
+      "x": 21,
+      "y": 19
+    },
+    {
+      "Qp": 1371235,
+      "gp": 1371229,
+      "minus32": 1370055,
+      "p": 1171,
+      "plus64": 1370055,
+      "residue8": 3,
+      "target": 1370055,
+      "x": 17,
+      "y": 21
+    },
+    {
+      "Qp": 1394755,
+      "gp": 1394749,
+      "minus32": 0,
+      "p": 1181,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1408963,
+      "gp": 1408957,
+      "minus32": 1982,
+      "p": 1187,
+      "plus64": 1982,
+      "residue8": 3,
+      "target": 1982,
+      "x": 33,
+      "y": 7
+    },
+    {
+      "Qp": 1423243,
+      "gp": 1423237,
+      "minus32": 1421763,
+      "p": 1193,
+      "plus64": 1421763,
+      "residue8": 1,
+      "target": 1421763,
+      "x": 15,
+      "y": 22
+    },
+    {
+      "Qp": 1442395,
+      "gp": 1442389,
+      "minus32": 1440195,
+      "p": 1201,
+      "plus64": 1440195,
+      "residue8": 1,
+      "target": 1440195,
+      "x": 7,
+      "y": 24
+    },
+    {
+      "Qp": 1471363,
+      "gp": 1471357,
+      "minus32": 0,
+      "p": 1213,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1481083,
+      "gp": 1481077,
+      "minus32": 1922,
+      "p": 1217,
+      "plus64": 1922,
+      "residue8": 1,
+      "target": 1922,
+      "x": 33,
+      "y": 8
+    },
+    {
+      "Qp": 1495723,
+      "gp": 1495717,
+      "minus32": 0,
+      "p": 1223,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1510435,
+      "gp": 1510429,
+      "minus32": 0,
+      "p": 1229,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1515355,
+      "gp": 1515349,
+      "minus32": 0,
+      "p": 1231,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1530163,
+      "gp": 1530157,
+      "minus32": 0,
+      "p": 1237,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1559995,
+      "gp": 1559989,
+      "minus32": 1346,
+      "p": 1249,
+      "plus64": 1346,
+      "residue8": 1,
+      "target": 1346,
+      "x": 31,
+      "y": 12
+    },
+    {
+      "Qp": 1585075,
+      "gp": 1585069,
+      "minus32": 1582599,
+      "p": 1259,
+      "plus64": 1582599,
+      "residue8": 3,
+      "target": 1582599,
+      "x": 3,
+      "y": 25
+    },
+    {
+      "Qp": 1630723,
+      "gp": 1630717,
+      "minus32": 0,
+      "p": 1277,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1635835,
+      "gp": 1635829,
+      "minus32": 0,
+      "p": 1279,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1646083,
+      "gp": 1646077,
+      "minus32": 1644423,
+      "p": 1283,
+      "plus64": 1644423,
+      "residue8": 3,
+      "target": 1644423,
+      "x": 15,
+      "y": 23
+    },
+    {
+      "Qp": 1661515,
+      "gp": 1661509,
+      "minus32": 1778,
+      "p": 1289,
+      "plus64": 1778,
+      "residue8": 1,
+      "target": 1778,
+      "x": 33,
+      "y": 10
+    },
+    {
+      "Qp": 1666675,
+      "gp": 1666669,
+      "minus32": 782,
+      "p": 1291,
+      "plus64": 782,
+      "residue8": 3,
+      "target": 782,
+      "x": 29,
+      "y": 15
+    },
+    {
+      "Qp": 1682203,
+      "gp": 1682197,
+      "minus32": 2306,
+      "p": 1297,
+      "plus64": 2306,
+      "residue8": 1,
+      "target": 2306,
+      "x": 35,
+      "y": 6
+    },
+    {
+      "Qp": 1692595,
+      "gp": 1692589,
+      "minus32": 0,
+      "p": 1301,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1697803,
+      "gp": 1697797,
+      "minus32": 0,
+      "p": 1303,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1708243,
+      "gp": 1708237,
+      "minus32": 302,
+      "p": 1307,
+      "plus64": 302,
+      "residue8": 3,
+      "target": 302,
+      "x": 27,
+      "y": 17
+    },
+    {
+      "Qp": 1739755,
+      "gp": 1739749,
+      "minus32": 0,
+      "p": 1319,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1745035,
+      "gp": 1745029,
+      "minus32": 1743075,
+      "p": 1321,
+      "plus64": 1743075,
+      "residue8": 1,
+      "target": 1743075,
+      "x": 13,
+      "y": 24
+    },
+    {
+      "Qp": 1760923,
+      "gp": 1760917,
+      "minus32": 0,
+      "p": 1327,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1852315,
+      "gp": 1852309,
+      "minus32": 1849635,
+      "p": 1361,
+      "plus64": 1849635,
+      "residue8": 1,
+      "target": 1849635,
+      "x": 3,
+      "y": 26
+    },
+    {
+      "Qp": 1868683,
+      "gp": 1868677,
+      "minus32": 0,
+      "p": 1367,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1885123,
+      "gp": 1885117,
+      "minus32": 0,
+      "p": 1373,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1907155,
+      "gp": 1907149,
+      "minus32": 0,
+      "p": 1381,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1957195,
+      "gp": 1957189,
+      "minus32": 0,
+      "p": 1399,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 1985275,
+      "gp": 1985269,
+      "minus32": 1984227,
+      "p": 1409,
+      "plus64": 1984227,
+      "residue8": 1,
+      "target": 1984227,
+      "x": 21,
+      "y": 22
+    },
+    {
+      "Qp": 2024923,
+      "gp": 2024917,
+      "minus32": 0,
+      "p": 1423,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2036323,
+      "gp": 2036317,
+      "minus32": 1502,
+      "p": 1427,
+      "plus64": 1502,
+      "residue8": 3,
+      "target": 1502,
+      "x": 33,
+      "y": 13
+    },
+    {
+      "Qp": 2042035,
+      "gp": 2042029,
+      "minus32": 0,
+      "p": 1429,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2053483,
+      "gp": 2053477,
+      "minus32": 2050947,
+      "p": 1433,
+      "plus64": 2050947,
+      "residue8": 1,
+      "target": 2050947,
+      "x": 9,
+      "y": 26
+    },
+    {
+      "Qp": 2070715,
+      "gp": 2070709,
+      "minus32": 0,
+      "p": 1439,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2093803,
+      "gp": 2093797,
+      "minus32": 0,
+      "p": 1447,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2105395,
+      "gp": 2105389,
+      "minus32": 14,
+      "p": 1451,
+      "plus64": 14,
+      "residue8": 3,
+      "target": 14,
+      "x": 27,
+      "y": 19
+    },
+    {
+      "Qp": 2111203,
+      "gp": 2111197,
+      "minus32": 0,
+      "p": 1453,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2128675,
+      "gp": 2128669,
+      "minus32": 2125767,
+      "p": 1459,
+      "plus64": 2125767,
+      "residue8": 3,
+      "target": 2125767,
+      "x": 1,
+      "y": 27
+    },
+    {
+      "Qp": 2163835,
+      "gp": 2163829,
+      "minus32": 0,
+      "p": 1471,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2193355,
+      "gp": 2193349,
+      "minus32": 1394,
+      "p": 1481,
+      "plus64": 1394,
+      "residue8": 1,
+      "target": 1394,
+      "x": 33,
+      "y": 14
+    },
+    {
+      "Qp": 2199283,
+      "gp": 2199277,
+      "minus32": 2196423,
+      "p": 1483,
+      "plus64": 2196423,
+      "residue8": 3,
+      "target": 2196423,
+      "x": 5,
+      "y": 27
+    },
+    {
+      "Qp": 2211163,
+      "gp": 2211157,
+      "minus32": 0,
+      "p": 1487,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2217115,
+      "gp": 2217109,
+      "minus32": 386,
+      "p": 1489,
+      "plus64": 386,
+      "residue8": 1,
+      "target": 386,
+      "x": 29,
+      "y": 18
+    },
+    {
+      "Qp": 2229043,
+      "gp": 2229037,
+      "minus32": 0,
+      "p": 1493,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2246995,
+      "gp": 2246989,
+      "minus32": 2245767,
+      "p": 1499,
+      "plus64": 2245767,
+      "residue8": 3,
+      "target": 2245767,
+      "x": 21,
+      "y": 23
+    },
+    {
+      "Qp": 2283115,
+      "gp": 2283109,
+      "minus32": 0,
+      "p": 1511,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2319523,
+      "gp": 2319517,
+      "minus32": 3038,
+      "p": 1523,
+      "plus64": 3038,
+      "residue8": 3,
+      "target": 3038,
+      "x": 39,
+      "y": 1
+    },
+    {
+      "Qp": 2343955,
+      "gp": 2343949,
+      "minus32": 2414,
+      "p": 1531,
+      "plus64": 2414,
+      "residue8": 3,
+      "target": 2414,
+      "x": 37,
+      "y": 9
+    },
+    {
+      "Qp": 2380843,
+      "gp": 2380837,
+      "minus32": 0,
+      "p": 1543,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2399395,
+      "gp": 2399389,
+      "minus32": 0,
+      "p": 1549,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2411803,
+      "gp": 2411797,
+      "minus32": 2978,
+      "p": 1553,
+      "plus64": 2978,
+      "residue8": 1,
+      "target": 2978,
+      "x": 39,
+      "y": 4
+    },
+    {
+      "Qp": 2430475,
+      "gp": 2430469,
+      "minus32": 0,
+      "p": 1559,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2455483,
+      "gp": 2455477,
+      "minus32": 0,
+      "p": 1567,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2468035,
+      "gp": 2468029,
+      "minus32": 2942,
+      "p": 1571,
+      "plus64": 2942,
+      "residue8": 3,
+      "target": 2942,
+      "x": 39,
+      "y": 5
+    },
+    {
+      "Qp": 2493235,
+      "gp": 2493229,
+      "minus32": 2490567,
+      "p": 1579,
+      "plus64": 2490567,
+      "residue8": 3,
+      "target": 2490567,
+      "x": 11,
+      "y": 27
+    },
+    {
+      "Qp": 2505883,
+      "gp": 2505877,
+      "minus32": 0,
+      "p": 1583,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2550403,
+      "gp": 2550397,
+      "minus32": 0,
+      "p": 1597,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2563195,
+      "gp": 2563189,
+      "minus32": 1154,
+      "p": 1601,
+      "plus64": 1154,
+      "residue8": 1,
+      "target": 1154,
+      "x": 33,
+      "y": 16
+    },
+    {
+      "Qp": 2582443,
+      "gp": 2582437,
+      "minus32": 0,
+      "p": 1607,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2588875,
+      "gp": 2588869,
+      "minus32": 626,
+      "p": 1609,
+      "plus64": 626,
+      "residue8": 1,
+      "target": 626,
+      "x": 31,
+      "y": 18
+    },
+    {
+      "Qp": 2601763,
+      "gp": 2601757,
+      "minus32": 0,
+      "p": 1613,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2621155,
+      "gp": 2621149,
+      "minus32": 2846,
+      "p": 1619,
+      "plus64": 2846,
+      "residue8": 3,
+      "target": 2846,
+      "x": 39,
+      "y": 7
+    },
+    {
+      "Qp": 2627635,
+      "gp": 2627629,
+      "minus32": 0,
+      "p": 1621,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2647123,
+      "gp": 2647117,
+      "minus32": 2644551,
+      "p": 1627,
+      "plus64": 2644551,
+      "residue8": 3,
+      "target": 2644551,
+      "x": 13,
+      "y": 27
+    },
+    {
+      "Qp": 2679763,
+      "gp": 2679757,
+      "minus32": 0,
+      "p": 1637,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2745643,
+      "gp": 2745637,
+      "minus32": 2162,
+      "p": 1657,
+      "plus64": 2162,
+      "residue8": 1,
+      "target": 2162,
+      "x": 37,
+      "y": 12
+    },
+    {
+      "Qp": 2765563,
+      "gp": 2765557,
+      "minus32": 0,
+      "p": 1663,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2778883,
+      "gp": 2778877,
+      "minus32": 1022,
+      "p": 1667,
+      "plus64": 1022,
+      "residue8": 3,
+      "target": 1022,
+      "x": 33,
+      "y": 17
+    },
+    {
+      "Qp": 2785555,
+      "gp": 2785549,
+      "minus32": 0,
+      "p": 1669,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2866243,
+      "gp": 2866237,
+      "minus32": 0,
+      "p": 1693,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2879803,
+      "gp": 2879797,
+      "minus32": 2879331,
+      "p": 1697,
+      "plus64": 2879331,
+      "residue8": 1,
+      "target": 2879331,
+      "x": 27,
+      "y": 22
+    },
+    {
+      "Qp": 2886595,
+      "gp": 2886589,
+      "minus32": 3326,
+      "p": 1699,
+      "plus64": 3326,
+      "residue8": 3,
+      "target": 3326,
+      "x": 41,
+      "y": 3
+    },
+    {
+      "Qp": 2920675,
+      "gp": 2920669,
+      "minus32": 0,
+      "p": 1709,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 2961835,
+      "gp": 2961829,
+      "minus32": 2642,
+      "p": 1721,
+      "plus64": 2642,
+      "residue8": 1,
+      "target": 2642,
+      "x": 39,
+      "y": 10
+    },
+    {
+      "Qp": 2968723,
+      "gp": 2968717,
+      "minus32": 2968647,
+      "p": 1723,
+      "plus64": 2968647,
+      "residue8": 3,
+      "target": 2968647,
+      "x": 29,
+      "y": 21
+    },
+    {
+      "Qp": 3003283,
+      "gp": 3003277,
+      "minus32": 0,
+      "p": 1733,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3031075,
+      "gp": 3031069,
+      "minus32": 0,
+      "p": 1741,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3052003,
+      "gp": 3051997,
+      "minus32": 3049671,
+      "p": 1747,
+      "plus64": 3049671,
+      "residue8": 3,
+      "target": 3049671,
+      "x": 17,
+      "y": 27
+    },
+    {
+      "Qp": 3073003,
+      "gp": 3072997,
+      "minus32": 3218,
+      "p": 1753,
+      "plus64": 3218,
+      "residue8": 1,
+      "target": 3218,
+      "x": 41,
+      "y": 6
+    },
+    {
+      "Qp": 3094075,
+      "gp": 3094069,
+      "minus32": 0,
+      "p": 1759,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3157723,
+      "gp": 3157717,
+      "minus32": 3156675,
+      "p": 1777,
+      "plus64": 3156675,
+      "residue8": 1,
+      "target": 3156675,
+      "x": 25,
+      "y": 24
+    },
+    {
+      "Qp": 3179083,
+      "gp": 3179077,
+      "minus32": 0,
+      "p": 1783,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3193363,
+      "gp": 3193357,
+      "minus32": 3192711,
+      "p": 1787,
+      "plus64": 3192711,
+      "residue8": 3,
+      "target": 3192711,
+      "x": 27,
+      "y": 23
+    },
+    {
+      "Qp": 3200515,
+      "gp": 3200509,
+      "minus32": 0,
+      "p": 1789,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3243595,
+      "gp": 3243589,
+      "minus32": 3240003,
+      "p": 1801,
+      "plus64": 3240003,
+      "residue8": 1,
+      "target": 3240003,
+      "x": 1,
+      "y": 30
+    },
+    {
+      "Qp": 3279715,
+      "gp": 3279709,
+      "minus32": 734,
+      "p": 1811,
+      "plus64": 734,
+      "residue8": 3,
+      "target": 734,
+      "x": 33,
+      "y": 19
+    },
+    {
+      "Qp": 3323323,
+      "gp": 3323317,
+      "minus32": 0,
+      "p": 1823,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3352555,
+      "gp": 3352549,
+      "minus32": 0,
+      "p": 1831,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3411403,
+      "gp": 3411397,
+      "minus32": 0,
+      "p": 1847,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3463315,
+      "gp": 3463309,
+      "minus32": 0,
+      "p": 1861,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3485683,
+      "gp": 3485677,
+      "minus32": 3662,
+      "p": 1867,
+      "plus64": 3662,
+      "residue8": 3,
+      "target": 3662,
+      "x": 43,
+      "y": 3
+    },
+    {
+      "Qp": 3500635,
+      "gp": 3500629,
+      "minus32": 0,
+      "p": 1871,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3508123,
+      "gp": 3508117,
+      "minus32": 1154,
+      "p": 1873,
+      "plus64": 1154,
+      "residue8": 1,
+      "target": 1154,
+      "x": 35,
+      "y": 18
+    },
+    {
+      "Qp": 3523123,
+      "gp": 3523117,
+      "minus32": 0,
+      "p": 1877,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3530635,
+      "gp": 3530629,
+      "minus32": 0,
+      "p": 1879,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3568315,
+      "gp": 3568309,
+      "minus32": 578,
+      "p": 1889,
+      "plus64": 578,
+      "residue8": 1,
+      "target": 578,
+      "x": 33,
+      "y": 20
+    },
+    {
+      "Qp": 3613795,
+      "gp": 3613789,
+      "minus32": 0,
+      "p": 1901,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3636643,
+      "gp": 3636637,
+      "minus32": 3633735,
+      "p": 1907,
+      "plus64": 3633735,
+      "residue8": 3,
+      "target": 3633735,
+      "x": 15,
+      "y": 29
+    },
+    {
+      "Qp": 3659563,
+      "gp": 3659557,
+      "minus32": 2258,
+      "p": 1913,
+      "plus64": 2258,
+      "residue8": 1,
+      "target": 2258,
+      "x": 39,
+      "y": 14
+    },
+    {
+      "Qp": 3728755,
+      "gp": 3728749,
+      "minus32": 3724935,
+      "p": 1931,
+      "plus64": 3724935,
+      "residue8": 3,
+      "target": 3724935,
+      "x": 3,
+      "y": 31
+    },
+    {
+      "Qp": 3736483,
+      "gp": 3736477,
+      "minus32": 0,
+      "p": 1933,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3798595,
+      "gp": 3798589,
+      "minus32": 0,
+      "p": 1949,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3806395,
+      "gp": 3806389,
+      "minus32": 0,
+      "p": 1951,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3892723,
+      "gp": 3892717,
+      "minus32": 0,
+      "p": 1973,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3916435,
+      "gp": 3916429,
+      "minus32": 3915399,
+      "p": 1979,
+      "plus64": 3915399,
+      "residue8": 3,
+      "target": 3915399,
+      "x": 27,
+      "y": 25
+    },
+    {
+      "Qp": 3948163,
+      "gp": 3948157,
+      "minus32": 3946311,
+      "p": 1987,
+      "plus64": 3946311,
+      "residue8": 3,
+      "target": 3946311,
+      "x": 23,
+      "y": 27
+    },
+    {
+      "Qp": 3972043,
+      "gp": 3972037,
+      "minus32": 3971427,
+      "p": 1993,
+      "plus64": 3971427,
+      "residue8": 1,
+      "target": 3971427,
+      "x": 29,
+      "y": 24
+    },
+    {
+      "Qp": 3988003,
+      "gp": 3987997,
+      "minus32": 0,
+      "p": 1997,
+      "plus64": 0,
+      "residue8": 5,
+      "target": 0,
+      "x": "",
+      "y": ""
+    },
+    {
+      "Qp": 3995995,
+      "gp": 3995989,
+      "minus32": 0,
+      "p": 1999,
+      "plus64": 0,
+      "residue8": 7,
+      "target": 0,
+      "x": "",
+      "y": ""
+    }
+  ],
+  "schema_version": 1,
+  "scope": "bounded exact regression",
+  "status": "PASS"
+}

@@ -1,0 +1,37 @@
+{
+  "bound_inclusive": 1999,
+  "cm_matrices": 288,
+  "endpoint_CT_checks": 26,
+  "endpoint_checks": 604,
+  "eta_series_through": 30,
+  "exact_CM_factors": 6,
+  "hecke_primes": [
+    5,
+    7,
+    11,
+    17,
+    19
+  ],
+  "integer_hecke_coefficients": 311,
+  "invariant_bound_inclusive": 199,
+  "invariant_polynomials": 44,
+  "local_counts": {
+    "branch_evaluations": 88,
+    "defect_equalities": 4634,
+    "definition_values": 199,
+    "ordinary_lifts": 39608,
+    "ordinary_roots": 314,
+    "primes": 44,
+    "singular_lifts": 4634,
+    "singular_roots": 48
+  },
+  "original_definition_values": 199,
+  "original_sum_checks": 88,
+  "prime_count": 302,
+  "resonant_integer_equalities": 88,
+  "schema_version": 1,
+  "scope": "exact finite certificates and bounded regressions",
+  "status": "PASS",
+  "symbolic_counts": null,
+  "symbolic_requested": false
+}

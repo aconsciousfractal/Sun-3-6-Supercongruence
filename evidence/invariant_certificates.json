@@ -1,0 +1,2673 @@
+{
+  "bound_inclusive": 199,
+  "counts": {
+    "branch_evaluations": 88,
+    "defect_equalities": 4634,
+    "definition_values": 199,
+    "ordinary_lifts": 39608,
+    "ordinary_roots": 314,
+    "primes": 44,
+    "singular_lifts": 4634,
+    "singular_roots": 48
+  },
+  "exceptional_p5": {
+    "discriminant_at_plus64": "75/32",
+    "polynomial_mod5": [
+      1,
+      3,
+      2,
+      0,
+      0
+    ],
+    "rational_difference": "25/576"
+  },
+  "invariant_polynomials": 44,
+  "negative_mod_p3": {
+    "difference": 245,
+    "modulus": 343,
+    "p": 7,
+    "values": [
+      294,
+      49
+    ]
+  },
+  "resonances": [
+    {
+      "coefficient_count": 11,
+      "degree_mod_p": 2,
+      "p": 5
+    },
+    {
+      "coefficient_count": 15,
+      "degree_mod_p": 3,
+      "p": 7
+    },
+    {
+      "coefficient_count": 23,
+      "degree_mod_p": 5,
+      "p": 11
+    },
+    {
+      "coefficient_count": 27,
+      "degree_mod_p": 5,
+      "p": 13
+    },
+    {
+      "coefficient_count": 35,
+      "degree_mod_p": 7,
+      "p": 17
+    },
+    {
+      "coefficient_count": 39,
+      "degree_mod_p": 8,
+      "p": 19
+    },
+    {
+      "coefficient_count": 47,
+      "degree_mod_p": 10,
+      "p": 23
+    },
+    {
+      "coefficient_count": 59,
+      "degree_mod_p": 14,
+      "p": 29
+    },
+    {
+      "coefficient_count": 63,
+      "degree_mod_p": 15,
+      "p": 31
+    },
+    {
+      "coefficient_count": 75,
+      "degree_mod_p": 17,
+      "p": 37
+    },
+    {
+      "coefficient_count": 83,
+      "degree_mod_p": 19,
+      "p": 41
+    },
+    {
+      "coefficient_count": 87,
+      "degree_mod_p": 20,
+      "p": 43
+    },
+    {
+      "coefficient_count": 95,
+      "degree_mod_p": 22,
+      "p": 47
+    },
+    {
+      "coefficient_count": 107,
+      "degree_mod_p": 26,
+      "p": 53
+    },
+    {
+      "coefficient_count": 119,
+      "degree_mod_p": 29,
+      "p": 59
+    },
+    {
+      "coefficient_count": 123,
+      "degree_mod_p": 29,
+      "p": 61
+    },
+    {
+      "coefficient_count": 135,
+      "degree_mod_p": 32,
+      "p": 67
+    },
+    {
+      "coefficient_count": 143,
+      "degree_mod_p": 34,
+      "p": 71
+    },
+    {
+      "coefficient_count": 147,
+      "degree_mod_p": 36,
+      "p": 73
+    },
+    {
+      "coefficient_count": 159,
+      "degree_mod_p": 39,
+      "p": 79
+    },
+    {
+      "coefficient_count": 167,
+      "degree_mod_p": 41,
+      "p": 83
+    },
+    {
+      "coefficient_count": 179,
+      "degree_mod_p": 43,
+      "p": 89
+    },
+    {
+      "coefficient_count": 195,
+      "degree_mod_p": 48,
+      "p": 97
+    },
+    {
+      "coefficient_count": 203,
+      "degree_mod_p": 50,
+      "p": 101
+    },
+    {
+      "coefficient_count": 207,
+      "degree_mod_p": 51,
+      "p": 103
+    },
+    {
+      "coefficient_count": 215,
+      "degree_mod_p": 53,
+      "p": 107
+    },
+    {
+      "coefficient_count": 219,
+      "degree_mod_p": 53,
+      "p": 109
+    },
+    {
+      "coefficient_count": 227,
+      "degree_mod_p": 55,
+      "p": 113
+    },
+    {
+      "coefficient_count": 255,
+      "degree_mod_p": 63,
+      "p": 127
+    },
+    {
+      "coefficient_count": 263,
+      "degree_mod_p": 65,
+      "p": 131
+    },
+    {
+      "coefficient_count": 275,
+      "degree_mod_p": 67,
+      "p": 137
+    },
+    {
+      "coefficient_count": 279,
+      "degree_mod_p": 68,
+      "p": 139
+    },
+    {
+      "coefficient_count": 299,
+      "degree_mod_p": 74,
+      "p": 149
+    },
+    {
+      "coefficient_count": 303,
+      "degree_mod_p": 75,
+      "p": 151
+    },
+    {
+      "coefficient_count": 315,
+      "degree_mod_p": 77,
+      "p": 157
+    },
+    {
+      "coefficient_count": 327,
+      "degree_mod_p": 80,
+      "p": 163
+    },
+    {
+      "coefficient_count": 335,
+      "degree_mod_p": 82,
+      "p": 167
+    },
+    {
+      "coefficient_count": 347,
+      "degree_mod_p": 86,
+      "p": 173
+    },
+    {
+      "coefficient_count": 359,
+      "degree_mod_p": 89,
+      "p": 179
+    },
+    {
+      "coefficient_count": 363,
+      "degree_mod_p": 89,
+      "p": 181
+    },
+    {
+      "coefficient_count": 383,
+      "degree_mod_p": 94,
+      "p": 191
+    },
+    {
+      "coefficient_count": 387,
+      "degree_mod_p": 96,
+      "p": 193
+    },
+    {
+      "coefficient_count": 395,
+      "degree_mod_p": 98,
+      "p": 197
+    },
+    {
+      "coefficient_count": 399,
+      "degree_mod_p": 99,
+      "p": 199
+    }
+  ],
+  "resonant_integer_equalities": 88,
+  "rows": [
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 5,
+      "roots": [
+        {
+          "kind": "singular_simple",
+          "lift": 7,
+          "lift_count": 1,
+          "residue": 2,
+          "slope_mod_p": 1
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 9,
+          "lift_count": 1,
+          "residue": 4,
+          "slope_mod_p": 4
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 7,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 7,
+          "residue": 1
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 26,
+          "lift_count": 1,
+          "residue": 5,
+          "slope_mod_p": 1
+        }
+      ]
+    },
+    {
+      "original_values": [
+        14,
+        14
+      ],
+      "p": 11,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 11,
+          "residue": 2
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 84,
+          "lift_count": 1,
+          "residue": 7,
+          "slope_mod_p": 3
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 11,
+          "residue": 8
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 13,
+      "roots": [
+        {
+          "kind": "singular_simple",
+          "lift": 132,
+          "lift_count": 1,
+          "residue": 2,
+          "slope_mod_p": 7
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 13,
+          "residue": 4
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 13,
+          "residue": 12
+        }
+      ]
+    },
+    {
+      "original_values": [
+        2,
+        2
+      ],
+      "p": 17,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 17,
+          "residue": 1
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 8,
+          "lift_count": 1,
+          "residue": 8,
+          "slope_mod_p": 16
+        }
+      ]
+    },
+    {
+      "original_values": [
+        327,
+        327
+      ],
+      "p": 19,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 19,
+          "residue": 13
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 19,
+          "residue": 17
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 23,
+      "roots": [
+        {
+          "kind": "singular_simple",
+          "lift": 281,
+          "lift_count": 1,
+          "residue": 5,
+          "slope_mod_p": 7
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 191,
+          "lift_count": 1,
+          "residue": 7,
+          "slope_mod_p": 4
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 23,
+          "residue": 9
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 23,
+          "residue": 11
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 29,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 29,
+          "residue": 1
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 584,
+          "lift_count": 1,
+          "residue": 4,
+          "slope_mod_p": 7
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 29,
+          "residue": 5
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 29,
+          "residue": 15
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 657,
+          "lift_count": 1,
+          "residue": 19,
+          "slope_mod_p": 4
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 29,
+          "residue": 21
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 31,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 31,
+          "residue": 16
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 31,
+          "residue": 20
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 31,
+          "residue": 29
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 30,
+          "lift_count": 1,
+          "residue": 30,
+          "slope_mod_p": 7
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 37,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 37,
+          "residue": 11
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 385,
+          "lift_count": 1,
+          "residue": 15,
+          "slope_mod_p": 19
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 37,
+          "residue": 19
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 37,
+          "residue": 20
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 37,
+          "residue": 21
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 37,
+          "residue": 26
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 37,
+          "residue": 30
+        }
+      ]
+    },
+    {
+      "original_values": [
+        1635,
+        1635
+      ],
+      "p": 41,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 41,
+          "residue": 1
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 41,
+          "residue": 3
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 41,
+          "residue": 16
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 607,
+          "lift_count": 1,
+          "residue": 33,
+          "slope_mod_p": 10
+        }
+      ]
+    },
+    {
+      "original_values": [
+        14,
+        14
+      ],
+      "p": 43,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 43,
+          "residue": 17
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 43,
+          "residue": 20
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 43,
+          "residue": 26
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 43,
+          "residue": 35
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 47,
+      "roots": [
+        {
+          "kind": "singular_simple",
+          "lift": 69,
+          "lift_count": 1,
+          "residue": 22,
+          "slope_mod_p": 30
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 1534,
+          "lift_count": 1,
+          "residue": 30,
+          "slope_mod_p": 28
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 47,
+          "residue": 31
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 47,
+          "residue": 34
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 47,
+          "residue": 36
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 47,
+          "residue": 46
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 53,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 53,
+          "residue": 3
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 78,
+          "lift_count": 1,
+          "residue": 25,
+          "slope_mod_p": 43
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 53,
+          "residue": 29
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 53,
+          "residue": 30
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 53,
+          "residue": 33
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 53,
+          "residue": 43
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 53,
+          "residue": 46
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 790,
+          "lift_count": 1,
+          "residue": 48,
+          "slope_mod_p": 10
+        }
+      ]
+    },
+    {
+      "original_values": [
+        3399,
+        3399
+      ],
+      "p": 59,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 59,
+          "residue": 8
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 59,
+          "residue": 11
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 1257,
+          "lift_count": 1,
+          "residue": 18,
+          "slope_mod_p": 41
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 59,
+          "residue": 23
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 59,
+          "residue": 24
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 59,
+          "residue": 34
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 59,
+          "residue": 43
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 61,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 61,
+          "residue": 5
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 61,
+          "residue": 12
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 61,
+          "residue": 30
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 61,
+          "residue": 36
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 2907,
+          "lift_count": 1,
+          "residue": 40,
+          "slope_mod_p": 54
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 61,
+          "residue": 41
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 61,
+          "residue": 43
+        }
+      ]
+    },
+    {
+      "original_values": [
+        62,
+        62
+      ],
+      "p": 67,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 67,
+          "residue": 20
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 67,
+          "residue": 29
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 67,
+          "residue": 43
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 67,
+          "residue": 58
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 67,
+          "residue": 60
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 67,
+          "residue": 62
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 71,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 71,
+          "residue": 4
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 71,
+          "residue": 7
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 71,
+          "residue": 10
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 71,
+          "residue": 18
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 71,
+          "residue": 21
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 71,
+          "residue": 28
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 71,
+          "residue": 31
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 71,
+          "residue": 34
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 2678,
+          "lift_count": 1,
+          "residue": 51,
+          "slope_mod_p": 69
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 140,
+          "lift_count": 1,
+          "residue": 69,
+          "slope_mod_p": 20
+        }
+      ]
+    },
+    {
+      "original_values": [
+        5187,
+        5187
+      ],
+      "p": 73,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 73,
+          "residue": 6
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 73,
+          "residue": 9
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 73,
+          "residue": 18
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 73,
+          "residue": 27
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 73,
+          "residue": 37
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 73,
+          "residue": 41
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 73,
+          "residue": 42
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 73,
+          "residue": 61
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 79,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 79,
+          "residue": 17
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 79,
+          "residue": 21
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 195,
+          "lift_count": 1,
+          "residue": 37,
+          "slope_mod_p": 5
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 79,
+          "residue": 51
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 79,
+          "residue": 63
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 79,
+          "residue": 74
+        }
+      ]
+    },
+    {
+      "original_values": [
+        158,
+        158
+      ],
+      "p": 83,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 83,
+          "residue": 19
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 83,
+          "residue": 34
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 83,
+          "residue": 39
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 4784,
+          "lift_count": 1,
+          "residue": 53,
+          "slope_mod_p": 23
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 83,
+          "residue": 60
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 83,
+          "residue": 66
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 83,
+          "residue": 71
+        }
+      ]
+    },
+    {
+      "original_values": [
+        146,
+        146
+      ],
+      "p": 89,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 89,
+          "residue": 5
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 89,
+          "residue": 17
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 220,
+          "lift_count": 1,
+          "residue": 42,
+          "slope_mod_p": 22
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 89,
+          "residue": 48
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 89,
+          "residue": 56
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 89,
+          "residue": 78
+        }
+      ]
+    },
+    {
+      "original_values": [
+        9315,
+        9315
+      ],
+      "p": 97,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 97,
+          "residue": 6
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 97,
+          "residue": 25
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 97,
+          "residue": 32
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 97,
+          "residue": 33
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 97,
+          "residue": 43
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 97,
+          "residue": 44
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 97,
+          "residue": 63
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 97,
+          "residue": 77
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 97,
+          "residue": 79
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 97,
+          "residue": 91
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 101,
+      "roots": [
+        {
+          "kind": "singular_simple",
+          "lift": 7084,
+          "lift_count": 1,
+          "residue": 14,
+          "slope_mod_p": 21
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 101,
+          "residue": 30
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 2869,
+          "lift_count": 1,
+          "residue": 41,
+          "slope_mod_p": 97
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 101,
+          "residue": 56
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 101,
+          "residue": 73
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 101,
+          "residue": 81
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 101,
+          "residue": 83
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 101,
+          "residue": 86
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 101,
+          "residue": 92
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 101,
+          "residue": 96
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 103,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 103,
+          "residue": 11
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 103,
+          "residue": 15
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 103,
+          "residue": 36
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 103,
+          "residue": 49
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 103,
+          "residue": 61
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 103,
+          "residue": 66
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 5636,
+          "lift_count": 1,
+          "residue": 74,
+          "slope_mod_p": 4
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 103,
+          "residue": 89
+        }
+      ]
+    },
+    {
+      "original_values": [
+        11271,
+        11271
+      ],
+      "p": 107,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 107,
+          "residue": 6
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 107,
+          "residue": 7
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 107,
+          "residue": 18
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 107,
+          "residue": 43
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 107,
+          "residue": 67
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 107,
+          "residue": 78
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 107,
+          "residue": 80
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 107,
+          "residue": 94
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 318,
+          "lift_count": 1,
+          "residue": 104,
+          "slope_mod_p": 90
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 109,
+      "roots": [
+        {
+          "kind": "singular_simple",
+          "lift": 9282,
+          "lift_count": 1,
+          "residue": 17,
+          "slope_mod_p": 85
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 109,
+          "residue": 44
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 109,
+          "residue": 46
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 109,
+          "residue": 50
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 109,
+          "residue": 61
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 109,
+          "residue": 68
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 109,
+          "residue": 78
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 109,
+          "residue": 82
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 109,
+          "residue": 89
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 109,
+          "residue": 95
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 109,
+          "residue": 99
+        }
+      ]
+    },
+    {
+      "original_values": [
+        98,
+        98
+      ],
+      "p": 113,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 113,
+          "residue": 4
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 113,
+          "residue": 7
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 113,
+          "residue": 11
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 113,
+          "residue": 17
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 113,
+          "residue": 44
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 113,
+          "residue": 48
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 113,
+          "residue": 51
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 4611,
+          "lift_count": 1,
+          "residue": 91,
+          "slope_mod_p": 50
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 127,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 127,
+          "residue": 2
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 127,
+          "residue": 47
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 127,
+          "residue": 58
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 127,
+          "residue": 66
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 127,
+          "residue": 71
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 127,
+          "residue": 82
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 127,
+          "residue": 112
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 504,
+          "lift_count": 1,
+          "residue": 123,
+          "slope_mod_p": 18
+        }
+      ]
+    },
+    {
+      "original_values": [
+        62,
+        62
+      ],
+      "p": 131,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 131,
+          "residue": 10
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 131,
+          "residue": 30
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 131,
+          "residue": 32
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 6197,
+          "lift_count": 1,
+          "residue": 40,
+          "slope_mod_p": 105
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 131,
+          "residue": 47
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 131,
+          "residue": 51
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 131,
+          "residue": 76
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 131,
+          "residue": 90
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 131,
+          "residue": 95
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 131,
+          "residue": 97
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 131,
+          "residue": 130
+        }
+      ]
+    },
+    {
+      "original_values": [
+        18531,
+        18531
+      ],
+      "p": 137,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 137,
+          "residue": 13
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 13034,
+          "lift_count": 1,
+          "residue": 19,
+          "slope_mod_p": 98
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 137,
+          "residue": 39
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 137,
+          "residue": 62
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 137,
+          "residue": 77
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 137,
+          "residue": 88
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 137,
+          "residue": 99
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 137,
+          "residue": 103
+        }
+      ]
+    },
+    {
+      "original_values": [
+        206,
+        206
+      ],
+      "p": 139,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 139,
+          "residue": 14
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 139,
+          "residue": 26
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 139,
+          "residue": 39
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 139,
+          "residue": 51
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 139,
+          "residue": 55
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 139,
+          "residue": 79
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 149,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 149,
+          "residue": 7
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 149,
+          "residue": 11
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 149,
+          "residue": 12
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 149,
+          "residue": 23
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 149,
+          "residue": 30
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 149,
+          "residue": 41
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 149,
+          "residue": 58
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 149,
+          "residue": 76
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 149,
+          "residue": 80
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 149,
+          "residue": 85
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 149,
+          "residue": 103
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 149,
+          "residue": 117
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 8017,
+          "lift_count": 1,
+          "residue": 120,
+          "slope_mod_p": 145
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 6244,
+          "lift_count": 1,
+          "residue": 135,
+          "slope_mod_p": 68
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 151,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 151,
+          "residue": 22
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 12113,
+          "lift_count": 1,
+          "residue": 33,
+          "slope_mod_p": 11
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 151,
+          "residue": 59
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 151,
+          "residue": 66
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 151,
+          "residue": 74
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 151,
+          "residue": 108
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 151,
+          "residue": 126
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 151,
+          "residue": 133
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 157,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 7
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 25
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 27
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 31
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 37
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 49
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 52
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 54
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 67
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 76
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 88
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 93
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 19257,
+          "lift_count": 1,
+          "residue": 103,
+          "slope_mod_p": 139
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 131
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 157,
+          "residue": 145
+        }
+      ]
+    },
+    {
+      "original_values": [
+        26247,
+        26247
+      ],
+      "p": 163,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 163,
+          "residue": 2
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 163,
+          "residue": 6
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 163,
+          "residue": 14
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 163,
+          "residue": 52
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 163,
+          "residue": 96
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 163,
+          "residue": 99
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 163,
+          "residue": 103
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 163,
+          "residue": 143
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 163,
+          "residue": 146
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 163,
+          "residue": 153
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 167,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 167,
+          "residue": 16
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 167,
+          "residue": 20
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 167,
+          "residue": 37
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 167,
+          "residue": 46
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 10071,
+          "lift_count": 1,
+          "residue": 51,
+          "slope_mod_p": 127
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 167,
+          "residue": 60
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 167,
+          "residue": 65
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 167,
+          "residue": 69
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 167,
+          "residue": 80
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 167,
+          "residue": 107
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 14816,
+          "lift_count": 1,
+          "residue": 120,
+          "slope_mod_p": 135
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 167,
+          "residue": 132
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 167,
+          "residue": 138
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 167,
+          "residue": 144
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 173,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 173,
+          "residue": 16
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 20784,
+          "lift_count": 1,
+          "residue": 24,
+          "slope_mod_p": 121
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 23382,
+          "lift_count": 1,
+          "residue": 27,
+          "slope_mod_p": 57
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 173,
+          "residue": 54
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 173,
+          "residue": 73
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 173,
+          "residue": 85
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 173,
+          "residue": 95
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 173,
+          "residue": 125
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 173,
+          "residue": 130
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 173,
+          "residue": 131
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 173,
+          "residue": 155
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 173,
+          "residue": 170
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 173,
+          "residue": 171
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 173,
+          "residue": 172
+        }
+      ]
+    },
+    {
+      "original_values": [
+        32007,
+        32007
+      ],
+      "p": 179,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 179,
+          "residue": 6
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 179,
+          "residue": 7
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 179,
+          "residue": 10
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 179,
+          "residue": 41
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 179,
+          "residue": 44
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 179,
+          "residue": 53
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 179,
+          "residue": 84
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 179,
+          "residue": 112
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 179,
+          "residue": 123
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 179,
+          "residue": 127
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 179,
+          "residue": 137
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 179,
+          "residue": 152
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 890,
+          "lift_count": 1,
+          "residue": 174,
+          "slope_mod_p": 107
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 181,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 181,
+          "residue": 7
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 181,
+          "residue": 22
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 181,
+          "residue": 31
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 181,
+          "residue": 64
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 181,
+          "residue": 71
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 181,
+          "residue": 73
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 181,
+          "residue": 99
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 181,
+          "residue": 112
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 181,
+          "residue": 117
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 181,
+          "residue": 137
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 181,
+          "residue": 144
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 181,
+          "residue": 154
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 9214,
+          "lift_count": 1,
+          "residue": 164,
+          "slope_mod_p": 118
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 191,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 3
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 33
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 46
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 48
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 82
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 91
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 99
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 25334,
+          "lift_count": 1,
+          "residue": 122,
+          "slope_mod_p": 54
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 123
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 124
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 128
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 138
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 143
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 147
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 179
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 1140,
+          "lift_count": 1,
+          "residue": 185,
+          "slope_mod_p": 116
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 187
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 191,
+          "residue": 189
+        }
+      ]
+    },
+    {
+      "original_values": [
+        98,
+        98
+      ],
+      "p": 193,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 9
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 12
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 17
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 18
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 25
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 35
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 44
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 50
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 81
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 128
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 131
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 172
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 177
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 193,
+          "residue": 185
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 197,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 9
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 11
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 13
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 45
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 60
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 10915,
+          "lift_count": 1,
+          "residue": 80,
+          "slope_mod_p": 134
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 1078,
+          "lift_count": 1,
+          "residue": 93,
+          "slope_mod_p": 172
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 95
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 125
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 157
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 160
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 162
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 170
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 171
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 182
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 197,
+          "residue": 191
+        }
+      ]
+    },
+    {
+      "original_values": [
+        0,
+        0
+      ],
+      "p": 199,
+      "roots": [
+        {
+          "kind": "ordinary_double",
+          "lift_count": 199,
+          "residue": 4
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 199,
+          "residue": 28
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 199,
+          "residue": 29
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 199,
+          "residue": 87
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 199,
+          "residue": 108
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 199,
+          "residue": 125
+        },
+        {
+          "kind": "singular_simple",
+          "lift": 21038,
+          "lift_count": 1,
+          "residue": 143,
+          "slope_mod_p": 10
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 199,
+          "residue": 158
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 199,
+          "residue": 190
+        },
+        {
+          "kind": "ordinary_double",
+          "lift_count": 199,
+          "residue": 198
+        }
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "specials": [
+    {
+      "D": 0,
+      "U": 0,
+      "Uprime_mod_p": 1,
+      "p": 5,
+      "shifted_value": 5,
+      "t": "-1/32",
+      "t_residue": 7
+    },
+    {
+      "D": 0,
+      "U": 0,
+      "Uprime_mod_p": 4,
+      "p": 5,
+      "shifted_value": 20,
+      "t": "-1/36",
+      "t_residue": 9
+    },
+    {
+      "D": 0,
+      "U": 0,
+      "Uprime_mod_p": 4,
+      "p": 5,
+      "shifted_value": 20,
+      "t": "1/64",
+      "t_residue": 9
+    },
+    {
+      "D": 0,
+      "U": 0,
+      "Uprime_mod_p": 1,
+      "p": 7,
+      "shifted_value": 7,
+      "t": "-1/32",
+      "t_residue": 26
+    },
+    {
+      "D": 0,
+      "U": 2,
+      "Uprime_mod_p": 0,
+      "p": 7,
+      "shifted_value": 2,
+      "t": "-1/36",
+      "t_residue": 34
+    },
+    {
+      "D": 10,
+      "U": 0,
+      "Uprime_mod_p": 0,
+      "p": 7,
+      "shifted_value": 0,
+      "t": "1/64",
+      "t_residue": 36
+    },
+    {
+      "D": 0,
+      "U": 14,
+      "Uprime_mod_p": 6,
+      "p": 11,
+      "shifted_value": 80,
+      "t": "-1/32",
+      "t_residue": 34
+    },
+    {
+      "D": 0,
+      "U": 0,
+      "Uprime_mod_p": 3,
+      "p": 11,
+      "shifted_value": 33,
+      "t": "-1/36",
+      "t_residue": 84
+    },
+    {
+      "D": 112,
+      "U": 14,
+      "Uprime_mod_p": 4,
+      "p": 11,
+      "shifted_value": 58,
+      "t": "1/64",
+      "t_residue": 104
+    },
+    {
+      "D": 0,
+      "U": 327,
+      "Uprime_mod_p": 1,
+      "p": 19,
+      "shifted_value": 346,
+      "t": "-1/32",
+      "t_residue": 282
+    },
+    {
+      "D": 0,
+      "U": 26,
+      "Uprime_mod_p": 0,
+      "p": 19,
+      "shifted_value": 26,
+      "t": "-1/36",
+      "t_residue": 10
+    },
+    {
+      "D": 149,
+      "U": 327,
+      "Uprime_mod_p": 3,
+      "p": 19,
+      "shifted_value": 23,
+      "t": "1/64",
+      "t_residue": 220
+    }
+  ],
+  "status": "PASS"
+}

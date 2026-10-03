@@ -1,0 +1,2 @@
+# Core verification uses only the Python 3.10+ standard library.
+# Optional symbolic verification is declared in requirements-symbolic.txt.
