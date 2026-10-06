@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the manuscript, companion version and evidence identity."
 type: software
 title: "Sun's supercongruence for two Apéry-like binomial sums"
-version: "0.1.0"
+version: "0.1.1"
 repository-code: "https://github.com/aconsciousfractal/Sun-3-6-Supercongruence"
 authors:
   - family-names: "Babanskyy"
@@ -17,7 +17,7 @@ preferred-citation:
       given-names: "Oleksiy"
       orcid: "https://orcid.org/0009-0001-6176-6208"
   year: 2026
-  notes: "Manuscript and companion version 0.1.0. See EVIDENCE_SHA256.txt for the computational evidence identity."
+  notes: "Manuscript and companion version 0.1.1. See EVIDENCE_SHA256.txt for the computational evidence identity."
 references:
   - type: article
     title: "Supercongruences involving Apéry-like numbers and binomial coefficients"

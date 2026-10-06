@@ -55,14 +55,12 @@ $5$ are treated explicitly.
 For $n\ge0$ define
 \begin{equation}\label{eq:sequences}
  f_n=\sum_{j=0}^n\binom nj^3,\qquad
- Q_n=\sum_{k=0}^n\binom nk(-8)^{n-k}f_k,\qquad
- g_n=\binom{2n}n Q_n.
+ Q_n=\sum_{k=0}^n\binom nk(-8)^{n-k}f_k.
 \end{equation}
 The numbers $f_n$ are the Franel numbers. Write
 \begin{equation}\label{eq:series-sums}
- G(t)=\sum_{n\ge0}g_nt^n,\qquad
- G_p(t)=\sum_{n=0}^{p-1}g_nt^n,\qquad
- S_-(p)=G_p(-1/32),\quad S_+(p)=G_p(1/64).
+ G(t)=\sum_{n\ge0}\binom{2n}n Q_nt^n,\qquad
+ G_p(t)=\sum_{n=0}^{p-1}\binom{2n}n Q_nt^n.
 \end{equation}
 The denominators are units for every odd prime. Congruences between
 $p$-integral rational numbers are interpreted in $\Z_p$.
@@ -71,7 +69,7 @@ The subscript $p$ always denotes truncation at $p-1$.
 \begin{theorem}\label{thm:main}
 For every odd prime $p$,
 \begin{equation}\label{eq:main}
- S_-(p)\equiv S_+(p)\equiv
+ G_p(-1/32)\equiv G_p(1/64)\equiv
  \begin{cases}
  4x^2-2p,&p=x^2+2y^2\equiv1,3\pmod8,\\
  0,&p\equiv5,7\pmod8
@@ -98,7 +96,7 @@ The sequence in \eqref{eq:sequences} satisfies the integral recurrence
 as recorded in \cite[pp.~2729--2730]{sun}.
 Sun's Theorem~3.7 on p.~2740 supplies the input
 \begin{equation}\label{eq:Sun-input}
- S_-(p)\equiv S_+(p)\equiv0\pmod p
+ G_p(-1/32)\equiv G_p(1/64)\equiv0\pmod p
  \qquad(p>5,\ p\equiv5,7\pmod8).
 \end{equation}
 Although its printed statement includes $p>3$, the proof uses a sum
@@ -343,7 +341,7 @@ At $t_+=1/64$,
 For $p>5$ this is an ordinary point, so
 Theorem~\ref{thm:ordinary-lift} applies.
 The input \eqref{eq:Sun-input} therefore gives
-$S_-(p)\equiv S_+(p)\equiv0\pmod{p^2}$ for all inert $p>5$.
+$G_p(-1/32)\equiv G_p(1/64)\equiv0\pmod{p^2}$ for all inert $p>5$.
 
 For $p=5$, the first three original coefficients are
 $Q_0=1,Q_1=-6,Q_2=42$. The half-degree bound gives, directly,
@@ -376,14 +374,20 @@ The defect formula \eqref{eq:defect} describes the dependence on the lift.
 
 \section{The coefficient at degree \texorpdfstring{$p$}{p}}
 \label{sec:endpoint}
-The modular truncation will require $g_p\equiv g_1\pmod{p^2}$.
-This is a congruence for individual coefficients, separate from
-Theorem~\ref{thm:main}.
+The modular truncation will require
+$\binom{2p}p Q_p\equiv-12\pmod{p^2}$.
+This known coefficient congruence is separate from Theorem~\ref{thm:main}.
+For $p>3$, the congruence for $Q_p$ below follows by setting $n=1$
+and reducing modulo $p^2$ in Mao's formula for $Q_{np}$ modulo $p^3$
+\cite[p.~3, Theorem~1.4]{mao}. We retain the proof via Straub's theorem,
+which also covers $p=3$, and the direct derivation from Gorodetsky's
+representation.
 
 \begin{lemma}\label{lem:endpoint}
 For every odd prime $p$,
 \begin{equation}\label{eq:endpoint}
- Q_p\equiv-6\pmod{p^2},\qquad g_p\equiv-12=g_1\pmod{p^2}.
+ Q_p\equiv-6\pmod{p^2},\qquad
+ \binom{2p}p Q_p\equiv-12\pmod{p^2}.
 \end{equation}
 \end{lemma}
 \begin{proof}
@@ -430,7 +434,7 @@ are preserved since $p$ is odd. Their sum is $A_F(1)=6$.
 Thus \eqref{eq:Gorodetsky} proves the necessary endpoint as well.
 Straub's proof uses this representation; these are two presentations
 of the arithmetic step, with the representation itself attributed
-to Gorodetsky. Neither presentation uses a value of $S_-(p)$ or $S_+(p)$.
+to Gorodetsky. Neither presentation uses a value of $G_p(-1/32)$ or $G_p(1/64)$.
 
 \section{An exact modular period}\label{sec:period}
 \subsection{Eta products, divisors and the cusp constants}
@@ -942,8 +946,8 @@ Then
  \deg\bigl((1-pE)C_p\bigr)
  \le\frac{p+1}{2}+\frac{p-1}{2}=p.
 \end{equation}
-The comparison polynomial can have degree $p$, as in Beukers'
-boundary argument \cite[Theorem~6.1]{beukers} for ratio $1/3$
+The comparison polynomial can have degree $p$. We use the coefficient
+comparison from the proof of Beukers' Theorem~6.1 \cite{beukers}, for ratio $1/3$
 modulo $p^3$; here the ratio is $1/2$ modulo $p^2$.
 
 Set $t^\sigma=t(q(t)^p)$.
@@ -952,9 +956,9 @@ $t^\sigma=t^p+O(t^{p+1})$.
 The exact period identity \eqref{eq:parameter} gives
 \begin{equation}\label{eq:boundary-series}
  \mathcal Q=\frac{G(t)}{G(t^\sigma)}
- =G_p(t)+(g_p-g_1)t^p+O(t^{p+1}).
+ =G_p(t)+\left(\binom{2p}p Q_p+12\right)t^p+O(t^{p+1}).
 \end{equation}
-Lemma~\ref{lem:endpoint} eliminates $g_p-g_1$ modulo $p^2$.
+Lemma~\ref{lem:endpoint} eliminates the degree-$p$ coefficient modulo $p^2$.
 The polynomial in \eqref{eq:comparison-polynomial} and $G_p$
 therefore have congruent coefficients at every degree from $0$
 through $p$. Both have degree at most $p$, so they are congruent
@@ -1079,15 +1083,15 @@ shows that the unit root is congruent to $4x^2-2p\pmod{p^2}$.
 
 When $3\mid x$, the roots constructed at $\gamma$ and $\beta$
 are conjugates. They are not both units in a single embedding.
-For $S_-(p)$ choose the embedding making \eqref{eq:root-gamma}
-a unit; for $S_+(p)$ choose the other embedding making
+For $G_p(-1/32)$ choose the embedding making \eqref{eq:root-gamma}
+a unit; for $G_p(1/64)$ choose the other embedding making
 \eqref{eq:root-beta-x} a unit.
 The sums are rational $p$-integral numbers, and both embeddings
 give the same rational trace in \eqref{eq:CM-trace}.
 Theorem~\ref{thm:finite-specialization}, applied separately to the
 two polynomial equations, proves
 \[
- S_-(p)\equiv S_+(p)\equiv4x^2-2p\pmod{p^2}
+ G_p(-1/32)\equiv G_p(1/64)\equiv4x^2-2p\pmod{p^2}
  \qquad(p>3,\ p\equiv1,3\pmod8).
 \]
 Unit roots have therefore been obtained from the matrices and the
@@ -1103,8 +1107,8 @@ As an additional direct check at five, the original addends are
 \toprule
 sum & addends modulo $25$ & total\\
 \midrule
-$S_-(5)$ & $1,16,23,5,5$ & $0$\\
-$S_+(5)$ & $1,17,12,15,5$ & $0$\\
+$G_5(-1/32)$ & $1,16,23,5,5$ & $0$\\
+$G_5(1/64)$ & $1,17,12,15,5$ & $0$\\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -1372,7 +1376,7 @@ In each case the total phase is $e^{\pi i}=-1$.
 Therefore $h(1/2)=-1/9$ and $h(1/3)=-1/8$, including their signs.
 
 \section{Companion computations}\label{app:companion}
-The companion software, version~0.1.0, implements the original
+The companion software, version~0.1.1, implements the original
 binomial definitions, finite invariants, local lift checks, eta
 products and modular residual calculations, and exact Hecke
 polynomial reconstruction. It also provides bounded regression
@@ -1389,10 +1393,15 @@ the proof. Tests over bounded sets of primes serve as regression
 checks; the all-prime conclusion follows from the arguments above.
 The evidence inventory is \texttt{EVIDENCE\_SHA256.txt}; its SHA-256 is
 \begin{center}\footnotesize\ttfamily
-\detokenize{47f214dfbf8133220e57c1a67ade26d09c0343fe17df719e38ad98c26a86f1c8}
+\detokenize{72ee87724109900a536869bf5f5d61f8ccdaedf5c0f91ca2f0e1a014351d6c51}
 \end{center}
 The inventory identifies companion code, tests, configuration and
 exact evidence, excluding the manuscript and prose that quote the digest.
+
+\paragraph{Acknowledgment.}
+The author thanks Zhi-Hong Sun for helpful comments on the manuscript,
+including suggestions to simplify the notation and the reference to Mao's
+stronger coefficient congruence.
 
 \paragraph{AI assistance and responsibility.}
 AI assistance under the author's direction was used for mathematical
@@ -1406,6 +1415,7 @@ verification or a determination of priority. Individual proof steps are not
 attributed to particular systems. The author retains responsibility for
 the manuscript, attributions and decision to publish.
 
+\begingroup\small\raggedright
 \begin{thebibliography}{9}
 \bibitem{sun}
 Zhi-Hong Sun,
@@ -1423,6 +1433,13 @@ arXiv:2403.03301v3, 16 June 2025.
 \url{https://arxiv.org/abs/2403.03301v3}.
 Section~3, pp.~16--18, especially Lemma~3.7;
 Section~5, pp.~20--22; Theorem~6.1, p.~24; Section~8.10, p.~28.
+
+\bibitem{mao}
+Guo-Shuai Mao,
+\emph{Congruences involving Franel numbers and Ap\'ery-like numbers},
+preprint, 2023, ResearchGate.
+\href{https://doi.org/10.13140/RG.2.2.23378.73922}{doi:10.13140/RG.2.2.23378.73922}.
+Theorem~1.4, p.~3, in the author-uploaded text of 8 January 2025.
 
 \bibitem{straub}
 Armin Straub,
@@ -1481,4 +1498,5 @@ Mathematical Proceedings of the Cambridge Philosophical Society
 The level-$6$ parametrization is cited for comparison; it is not
 needed for the direct period certification.
 \end{thebibliography}
+\endgroup
 \end{document}

@@ -82,7 +82,7 @@ Normal verification never rewrites inventories. After deliberate edits,
 update the paper's evidence digest before rebuilding when the core changes.
 
 ```text
-python -B scripts/make_archive.py --output <existing-output-directory>/Sun-3-6-Supercongruence-0.1.0.zip
+python -B scripts/make_archive.py --output <existing-output-directory>/Sun-3-6-Supercongruence-0.1.1.zip
 ```
 
 Replace the placeholder with an existing writable directory outside the

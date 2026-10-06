@@ -25,7 +25,7 @@ Their equality is not assumed to transfer a known value from one to the other.
 | Full truncation | All coefficients through p−1 remain present modulo p² |
 | Modular certificates | Holomorphy at every cusp before using the valence bound |
 | Hecke coefficients | Integral descent and a geometric degree bound for arbitrary p |
-| Degree p | The endpoint g_p ≡ g_1; a prefix only through p−1 is insufficient |
+| Degree p | The endpoint binom(2p,p) Q_p ≡ -12; a prefix only through p−1 is insufficient |
 | CM matrices | Both 3\|x and 3\|y, including determinant 2 and character −1 |
 | Embeddings | Separate unit embeddings when the two exhibited roots are conjugate |
 | Exceptional primes | Autonomous calculations at 3 and 5 |

@@ -40,6 +40,8 @@ matrix cases are treated explicitly.
   and [source notes](docs/SOURCES.md).
 - [Reproduction instructions](REPRODUCE.md), [companion](companion/README.md)
   and [evidence guide](docs/EVIDENCE.md).
+- [Revision notes](docs/REVISION_NOTES.md), including the notation changes
+  and the coefficient congruence attributed to Mao.
 
 From the repository root, with Python 3.10 or later:
 
@@ -63,7 +65,7 @@ modulo p³ already fails at p=7.
 The work has not undergone independent specialist human review. No claim of
 bibliographic priority is made. See [AI assistance](AI_USE.md).
 
-Version: **0.1.0**. EVIDENCE_SHA256.txt identifies the computational core;
+Version: **0.1.1**. EVIDENCE_SHA256.txt identifies the computational core;
 its digest is also printed in the manuscript. MANIFEST_SHA256.txt identifies
 the complete distribution. These inventories are not signed authenticity
 claims. A package version does not denote a journal version of record.

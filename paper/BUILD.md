@@ -24,9 +24,9 @@ the trailer identifier.
 
 | Artifact | SHA-256 |
 |---|---|
-| `Sun_3_6_Supercongruence.tex` | `479cc6c0164ee13b4422d2256e6f44d7ace0e1c0c5bf93f9069a08383c9117d8` |
-| `Sun_3_6_Supercongruence.pdf` | `1ff111e26cefb5053f66ef5195f28a91ec9e9ecc824754287c469b1219327b5a` |
-| `../EVIDENCE_SHA256.txt` | `47f214dfbf8133220e57c1a67ade26d09c0343fe17df719e38ad98c26a86f1c8` |
+| `Sun_3_6_Supercongruence.tex` | `07377aeba89be2234efd3a3b3aed93b3687cc9228ab3bebd6452185bb14cfe38` |
+| `Sun_3_6_Supercongruence.pdf` | `1c0cfb14a164fae16852f90cde78d62097b12cfb72e115c7a4d9070efd9880d6` |
+| `../EVIDENCE_SHA256.txt` | `72ee87724109900a536869bf5f5d61f8ccdaedf5c0f91ca2f0e1a014351d6c51` |
 
 The manuscript uses plain page numbers: no table of contents, running title,
 running author name, or author identifier beneath the name. Fonts are embedded.
